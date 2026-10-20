@@ -34,7 +34,10 @@ Schedule: Mondays 07:00 UTC, after the daily monitor (05:23 UTC) has opened the 
 ### 0. Set up
 
 ```bash
-pip install -r requirements.txt
+# the cloud image has a Debian-installed `packaging` that pip cannot uninstall; without this flag
+# the install fails quietly and numpy is missing when build_catalog.py runs
+python -m pip install -q --ignore-installed packaging -r requirements.txt
+python -c "import numpy, astropy, scipy, yaml"   # if this fails, stop and report
 python scripts/validate.py          # must pass on main; if it does not, stop and report
 ```
 
