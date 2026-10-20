@@ -231,6 +231,8 @@ table.data td.title-cell { min-width: 18rem; max-width: 34rem; }
 .pill-warn { background: var(--warn-soft); color: var(--warn-ink); }
 .pill-plain { background: var(--surface-2); color: var(--ink-2); }
 .pill-new { background: transparent; color: var(--ink-2); border-color: var(--line); border-style: dashed; }
+.pill-table { background: var(--surface-2); color: var(--accent); border-color: color-mix(in srgb, var(--accent) 30%, transparent); text-decoration: none; }
+.pill-table:hover { text-decoration: underline; }
 .ztype { display: inline-flex; align-items: center; gap: 5px; color: var(--muted); font-size: 0.75rem; }
 .swatch { width: 8px; height: 8px; border-radius: 50%; display: inline-block; flex: none; }
 .sw-spec { background: var(--s-spec); }

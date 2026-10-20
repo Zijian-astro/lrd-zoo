@@ -723,6 +723,16 @@ function renderPapers() {
 
 /* ---------- arXiv inbox ---------- */
 const INBOX_STATUS = { todo: "To review", in_zoo: "In the zoo", ignored: "Ignored" };
+const vizierUrl = (name) => `https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=${encodeURIComponent(name)}`;
+// fulltext_only papers (ADS full-text matches) have their own filter, so "To review" stays focused
+const INBOX_FILTERS = [
+  ["todo", "To review", (p) => p.status === "todo" && !p.fulltext_only],
+  ["table", "VizieR table", (p) => (p.vizier || []).length > 0],
+  ["body", "Body mentions", (p) => p.status === "todo" && p.fulltext_only],
+  ["in_zoo", "In the zoo", (p) => p.status === "in_zoo"],
+  ["ignored", "Ignored", (p) => p.status === "ignored"],
+  ["all", "All", () => true],
+];
 function renderInbox() {
   const box = $("#inbox-list");
   if (!state.inbox) {
@@ -730,27 +740,33 @@ function renderInbox() {
     return;
   }
   const papers = state.inbox.papers;
-  const counts = { todo: 0, in_zoo: 0, ignored: 0 };
-  papers.forEach((p) => (counts[p.status] = (counts[p.status] || 0) + 1));
+  const catalogues = state.inbox.vizier || {};
+  const counts = Object.fromEntries(INBOX_FILTERS.map(([k, , f]) => [k, papers.filter(f).length]));
   if (!state.inboxFilter) state.inboxFilter = counts.todo ? "todo" : "all";
-  $("#inbox-note").textContent = `Papers that mention little red dots in their title or abstract, checked daily on arXiv (last check ${state.inbox.updated}). "To review" papers are not in the zoo yet; many are theory papers without an object list.`;
-  $("#inbox-filter").innerHTML = [["todo", "To review"], ["in_zoo", "In the zoo"], ["ignored", "Ignored"], ["all", "All"]]
-    .map(([k, l]) => `<button type="button" class="chip-btn" data-inbox="${k}" aria-pressed="${state.inboxFilter === k}">${l} <span class="muted">${k === "all" ? papers.length : counts[k] || 0}</span></button>`).join("");
+  const unmatched = Object.entries(catalogues).filter(([, c]) => !c.arxiv && !c.zoo);
+  $("#inbox-note").innerHTML = `Papers that mention little red dots in their title or abstract, checked daily on arXiv (last check ${esc(state.inbox.updated)}). "To review" papers are not in the zoo yet; many are theory papers without an object list. "VizieR table" marks papers whose tables are on <a href="https://vizier.cds.unistra.fr/" target="_blank" rel="noopener">VizieR</a>, ready to download.`
+    + (state.inbox.ads || counts.body ? ` "Body mentions" are papers that mention little red dots only in the full text (ADS full-text search).` : "")
+    + (unmatched.length ? `<br>LRD catalogues on VizieR that match no paper here: ${unmatched.map(([n, c]) => `<a href="${vizierUrl(n)}" target="_blank" rel="noopener">${esc(n)}</a> (${esc(c.title || "")})`).join(", ")}.` : "");
+  $("#inbox-filter").innerHTML = INBOX_FILTERS.filter(([k]) => k !== "body" || counts.body)
+    .map(([k, l]) => `<button type="button" class="chip-btn" data-inbox="${k}" aria-pressed="${state.inboxFilter === k}">${l} <span class="muted">${counts[k]}</span></button>`).join("");
   const since = new Date(Date.now() - 30 * 864e5).toISOString().slice(0, 10);
-  const recent = papers.filter((p) => p.status === "todo" && p.published >= since).length;
+  const recent = papers.filter((p) => p.status === "todo" && !p.fulltext_only && p.published >= since).length;
   const badge = $("#inbox-badge");
   badge.textContent = recent; badge.hidden = !recent;
   badge.title = `${recent} papers from the last 30 days still to review`;
-  const shown = papers.filter((p) => state.inboxFilter === "all" || p.status === state.inboxFilter);
+  const show = (INBOX_FILTERS.find(([k]) => k === state.inboxFilter) || INBOX_FILTERS[5])[2];
+  const shown = papers.filter(show);
   box.innerHTML = shown.map((p) => {
     const authors = p.authors.slice(0, 3).join(", ") + (p.authors.length > 3 ? " et al." : "");
     const status = p.status === "in_zoo"
       ? `<span class="pill pill-lrd">In the zoo</span>`
       : p.status === "ignored" ? `<span class="pill pill-plain" title="${esc(p.ignore_reason || "")}">Ignored</span>` : `<span class="pill pill-new">To review</span>`;
     const hint = p.status === "todo" && p.sample_hint ? `<span class="pill pill-warn">May list a sample</span>` : "";
+    const tables = (p.vizier || []).map((n) => `<a class="pill pill-table" href="${vizierUrl(n)}" target="_blank" rel="noopener" title="${esc((catalogues[n] || {}).title || n)}">VizieR table ${esc(n)}</a>`).join("");
+    const body = p.fulltext_only ? `<span class="pill pill-plain" title="Found by the ADS full-text search: the abstract does not mention little red dots">Body only</span>` : "";
     return `<li><span class="date">${esc(p.published)}</span>
       <div><div class="title"><a href="https://arxiv.org/abs/${esc(p.arxiv)}" target="_blank" rel="noopener">${esc(p.title)}</a></div>
-      <div class="meta">${status}${hint}<span>${esc(authors)}</span><span class="muted">arXiv:${esc(p.arxiv)} · ${esc(p.primary)}</span></div></div>
+      <div class="meta">${status}${tables}${hint}${body}<span>${esc(authors)}</span><span class="muted">arXiv:${esc(p.arxiv)} · ${esc(p.primary)}</span></div></div>
       <details><summary>Abstract</summary><p>${esc(p.abstract)}</p></details></li>`;
   }).join("") || `<li class="muted">Nothing here.</li>`;
 }
