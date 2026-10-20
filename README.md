@@ -36,7 +36,7 @@ scripts/arxiv_monitor.py     updates data/arxiv_inbox.json
 ## Run it locally
 
 ```bash
-pip install astropy pyyaml numpy
+pip install -r requirements.txt
 python scripts/validate.py
 python scripts/build_catalog.py
 python -m http.server 8000      # then open http://localhost:8000

@@ -1,0 +1,4 @@
+astropy
+scipy        # astropy's coordinate matching (search_around_sky) needs scipy.spatial
+numpy
+pyyaml
