@@ -1,0 +1,35 @@
+id,ra,dec,z,z_type,field,lrd,spec,broad_line,notes
+capers-cos19-4771,150.161029,2.465804,5.9280,spec,COSMOS,1,NIRSpec/PRISM,1,DJA capers-cos19 srcid 4771; PID 6368
+rubies-egs53-42046,214.795368,52.788847,5.2864,spec,EGS,1,NIRSpec/PRISM,1,DJA rubies-egs53 srcid 42046; PID 4233
+gto-wide-uds11-4994,34.471129,-5.190433,5.5137,spec,UDS,1,NIRSpec/PRISM,1,DJA gto-wide-uds11 srcid 4994; PID 1215
+rubies-egs61-55604,214.983026,52.956001,6.9898,spec,EGS,1,NIRSpec/PRISM,1,DJA rubies-egs61 srcid 55604; PID 4233
+jades-gds06-159717,53.097528,-27.901260,5.0772,spec,GOODS-S,1,NIRSpec/PRISM,1,DJA jades-gds06 srcid 159717; PID 1286
+rubies-egs63-49140,214.892248,52.877410,6.6885,spec,EGS,1,NIRSpec/PRISM,1,DJA rubies-egs63 srcid 49140; PID 4233
+cosmos-transients-61234,150.106900,2.360046,7.0016,spec,COSMOS,1,NIRSpec/PRISM,1,DJA cosmos-transients srcid 61234; PID 6585
+jades-gdn198-68797,189.229137,62.146190,5.0475,spec,GOODS-N,1,NIRSpec/PRISM,1,DJA jades-gdn198 srcid 68797; PID 1181
+gds-barrufet-s67-12577,53.048455,-27.815141,5.2402,spec,GOODS-S,1,NIRSpec/PRISM,1,DJA gds-barrufet-s67 srcid 12577; PID 2198
+rubies-uds23-172350,34.368951,-5.103941,5.5870,spec,UDS,1,NIRSpec/PRISM,1,DJA rubies-uds23 srcid 172350; PID 4233
+uncover-61-24968,3.620607,-30.399951,6.3457,spec,Abell 2744,1,NIRSpec/PRISM,1,DJA uncover-61 srcid 24968; PID 2561
+macs1149-5105197,177.405317,22.377898,5.6844,spec,MACS J1149,1,NIRSpec/PRISM,1,DJA macs1149 srcid 5105197; PID 1208
+rubies-egs51-925921,215.075054,52.943828,6.9494,spec,EGS,1,NIRSpec/PRISM,1,DJA rubies-egs51 srcid 925921; PID 4233
+nexus-obs3-12143,268.428339,65.173502,5.8693,spec,NEP,1,NIRSpec/PRISM,1,DJA nexus-obs3 srcid 12143; PID 5105
+ceers-ddt-1768,214.925759,52.945661,5.0885,spec,EGS,1,NIRSpec/PRISM,1,DJA ceers-ddt srcid 1768; PID 2750
+rubies-egs51-926125,215.137081,52.988554,5.2888,spec,EGS,1,NIRSpec/PRISM,1,DJA rubies-egs51 srcid 926125; PID 4233
+jades-gds05-204851,53.138593,-27.790253,5.4870,spec,GOODS-S,1,NIRSpec/PRISM,1,DJA jades-gds05 srcid 204851; PID 1286
+nexus-obs5-7712,268.568557,65.174343,5.8748,spec,NEP,1,NIRSpec/PRISM,1,DJA nexus-obs5 srcid 7712; PID 5105
+rubies-egs62-948917,214.892479,52.856890,6.7328,spec,EGS,1,NIRSpec/PRISM,1,DJA rubies-egs62 srcid 948917; PID 4233
+rubies-egs61-61496,214.972441,52.962192,5.0847,spec,EGS,1,NIRSpec/PRISM,1,DJA rubies-egs61 srcid 61496; PID 4233
+rubies-uds3-47509,34.264602,-5.232586,5.6746,spec,UDS,1,NIRSpec/PRISM,1,DJA rubies-uds3 srcid 47509; PID 4233
+jades-gdn2-954,189.151966,62.259635,6.7650,spec,GOODS-N,1,NIRSpec/PRISM,1,DJA jades-gdn2 srcid 954; PID 1181
+ceers-746,214.809142,52.868484,5.6311,spec,EGS,1,NIRSpec/PRISM,1,DJA ceers srcid 746; PID 1345
+macs1423-4103248,215.961216,24.058024,5.7755,spec,MACS J1423,1,NIRSpec/PRISM,1,DJA macs1423 srcid 4103248; PID 1208
+uncover-61-21547,3.550838,-30.406598,5.0574,spec,Abell 2744,1,NIRSpec/PRISM,1,DJA uncover-61 srcid 21547; PID 2561
+uncover-41225,3.533996,-30.353308,6.7723,spec,Abell 2744,1,NIRSpec/PRISM,1,DJA uncover srcid 41225; PID 2561
+capers-egs61-23961,214.899699,52.812840,5.0019,spec,EGS,1,NIRSpec/PRISM,1,DJA capers-egs61 srcid 23961; PID 6368
+abell370-2112807,39.983828,-1.573664,5.9712,spec,Abell 370,0,NIRSpec/PRISM,1,"DJA abell370 srcid 2112807; PID 1208; LBD (control sample, not V-shaped)"
+uncover-8943,3.614087,-30.410448,6.3259,spec,Abell 2744,0,NIRSpec/PRISM,1,"DJA uncover srcid 8943; PID 2561; LBD (control sample, not V-shaped)"
+uncover-23608,3.542813,-30.380646,5.7949,spec,Abell 2744,0,NIRSpec/PRISM,1,"DJA uncover srcid 23608; PID 2561; LBD (control sample, not V-shaped)"
+rubies-egs53-50052,214.823454,52.830277,5.2395,spec,EGS,0,NIRSpec/PRISM,1,"DJA rubies-egs53 srcid 50052; PID 4233; LBD (control sample, not V-shaped)"
+capers-egs65-24425,214.987487,52.873114,5.2335,spec,EGS,0,NIRSpec/PRISM,1,"DJA capers-egs65 srcid 24425; PID 6368; LBD (control sample, not V-shaped)"
+uncover-11254,3.580446,-30.405023,6.8759,spec,Abell 2744,0,NIRSpec/PRISM,1,"DJA uncover srcid 11254; PID 2561; LBD (control sample, not V-shaped)"
+macsj0647-1944,101.986107,70.214346,5.9175,spec,MACS J0647,0,NIRSpec/PRISM,1,"DJA macsj0647 srcid 1944; PID 1433; LBD (control sample, not V-shaped)"

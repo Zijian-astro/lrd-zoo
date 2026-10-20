@@ -1,0 +1,22 @@
+key: asada2026
+first_author: Asada
+authors: "Asada, Y., Inayoshi, K., Fei, Q., Fujimoto, S., Willott, C."
+year: 2026
+title: "Origins of the UV continuum and Balmer emission lines in Little Red Dots: observational validation of dense gas envelope models enshrouding the AGN"
+arxiv: "2601.10573"
+selection: spectroscopic
+sample_is_lrd: false      # 27 LRDs (lrd=1) plus a control sample of 7 "little blue dots" (lrd=0)
+tags: [nirspec]
+fields: [EGS, UDS, COSMOS, GOODS-S, GOODS-N, Abell 2744, NEP, MACS J1149, MACS J1423, MACS J0647, Abell 370]
+n_objects: 34
+source_url: "https://arxiv.org/e-print/2601.10573"
+source_note: >-
+  Appendix table "LRDs and LBDs used in this work" (tab:sample_lrds) parsed from the arXiv v4
+  (accepted, ApJL) LaTeX source; RA/Dec in degrees as published (6 decimals), z = z_spec.
+  All 34 are broad-Halpha emitters in DJA v4.4 NIRSpec/PRISM spectra (Section 2), hence
+  spec=NIRSpec/PRISM, broad_line=1. lrd=1 for the 27 V-shaped LRDs, lrd=0 for the 7 LBDs.
+  field is derived from the DJA root name (e.g. rubies-egs53 -> EGS, uncover -> Abell 2744).
+  Converted with ingest.py.
+notes: >-
+  ids are <DJA root>-<DJA source id>, since the paper gives no object names. Accepted in ApJL;
+  no journal reference yet at ingestion.
