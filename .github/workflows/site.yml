@@ -27,10 +27,11 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
 
-      - name: Check arXiv for new LRD papers
+      - name: Check arXiv, VizieR (and ADS if ADS_API_TOKEN is set) for new LRD papers
         if: github.event_name != 'push'
         env:
           GH_TOKEN: ${{ github.token }}
+          ADS_API_TOKEN: ${{ secrets.ADS_API_TOKEN }}   # optional repository secret; empty = skip ADS
         run: python scripts/arxiv_monitor.py --days 7 --open-issues
 
       - name: Commit the updated inbox
