@@ -1,0 +1,14 @@
+key: weibel2026
+first_author: Weibel
+authors: "Weibel, A., Naidu, R. P., Oesch, P. A., de Graaff, A., Hviding, R. E., Liu, Z., Matthee, J., Williams, C. C., et al."
+year: 2026
+title: "Black Hole Stars Across the Universe: Identifying Central Engine Dominated Little Red Dots at z~1.5-9.5"
+arxiv: "2606.17271"
+selection: photometric
+sample_is_lrd: true
+tags: [photometry]
+fields: [UDS, COSMOS, EGS, GOODS-N, GOODS-S, Abell 2744, NEP-TDF, PANORAMIC]
+n_objects: 241
+source_url: "https://doi.org/10.5281/zenodo.20611335"
+source_note: "Zenodo W26_bhstar_dominated_sample_phot_catalog.fits (all 241 BH*-dominated candidates; concept DOI 10.5281/zenodo.20611334). z = z_spec where available (DJA NIRSpec, NIRCam grism or other), else eazy z_phot; F444W AB mag converted from total flux in nJy. Converted with ingest.py."
+notes: "Photometric selection of compact sources whose rest-optical SED is >80% BH* template (eazy with BH* templates) over ~1000 arcmin^2 of legacy and PANORAMIC pure-parallel imaging; candidates, mostly photo-z (177/241). Field names as in the catalogue (COS-WEST/COS-EAST = COSMOS; GDN/GDS = GOODS-N/S; PANO-* = PANORAMIC parallel pointings). Not all are V-shaped by Kokorev+24 colours (flagged in notes). arXiv comment: to be submitted to OJAp (no journal yet)."

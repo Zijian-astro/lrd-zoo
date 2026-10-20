@@ -1,0 +1,24 @@
+key: perezgonzalez2024
+first_author: Pérez-González
+authors: "Pérez-González, P. G., Barro, G., Rieke, G. H., Lyu, J., Rieke, M., Alberts, S., Williams, C., Hainline, K., et al."
+year: 2024
+title: "What Is the Nature of Little Red Dots and what Is Not, MIRI SMILES Edition"
+journal: "ApJ, 968, 4"
+arxiv: "2401.08782"
+doi: "10.3847/1538-4357/ad38bb"
+selection: infrared
+sample_is_lrd: true
+tags: [miri, photometry]
+fields: [GOODS-S]
+n_objects: 31
+source_url: "https://arxiv.org/e-print/2401.08782"
+source_note: >-
+  Table 1 "Sample of LRDs" (table_sample_v1.4.tex, 31 rows) from the arXiv v2 LaTeX source. The table
+  has no coordinate columns: RA/Dec are read from the IAU-format names (decimal degrees, 5 decimals,
+  ~0.04" precision). f444w from Table 1. z only for the 4 objects whose redshift is printed in
+  Table 2 (the full table is online-only; commented-out rows in the source are not used).
+  Converted with ingest.py.
+notes: >-
+  Not on VizieR. ids are the IAU-format names as printed; the JADES DR2 ID and the MIRI subsample
+  (Golden Five / F1000W / F770W / no MIRI) are in notes. The paper states 18 of the 31 have spectroscopic
+  redshifts, but they are not tabulated in the printed paper.

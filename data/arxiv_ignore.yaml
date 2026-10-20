@@ -1,0 +1,3 @@
+# arXiv IDs that mention little red dots but have no object table to add.
+# The monitor marks them "Ignored" instead of "To review".
+# Format:  "2610.12577": "theory, no objects"

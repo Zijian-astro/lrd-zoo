@@ -1,0 +1,27 @@
+key: yue2024
+first_author: Yue
+authors: "Yue, M., Eilers, A.-C., Ananna, T. T., Panagiotou, C., Kara, E., Miyaji, T."
+year: 2024
+title: "Stacking X-Ray Observations of \"Little Red Dots\": Implications for Their Active Galactic Nucleus Properties"
+journal: "ApJL, 974, L26"
+arxiv: "2404.13290"
+doi: "10.3847/2041-8213/ad7eba"
+selection: xray
+sample_is_lrd: true
+tags: [xray]
+fields: [AEGIS, CDF-N, CDF-S, X-UDS]
+n_objects: 34
+source_url: "https://arxiv.org/e-print/2404.13290"
+source_note: >-
+  Table 1 (tbl:sample, 34 spectroscopically confirmed broad-Halpha LRDs, RA/Dec in decimal degrees)
+  and Table 2 (tbl:stack, Chandra field) parsed from the arXiv v3 LaTeX source. xray=nondet for all
+  (no individual detection above 2.6 sigma; only the stack is tentatively detected). The authors'
+  repo github.com/cosmicdawn-mit/xray_lrd (data/all_lrds_final.fits) holds only the first 19 objects.
+  Converted with ingest.py.
+notes: >-
+  CAVEAT: for six Kocevski+24 CEERS objects (CEERS-7902, -10444, -13135, -13318, -14949, -20777) the
+  printed positions do not match their IDs: each position is that of another object in the same set
+  (e.g. the row 'CEERS-7902, z=6.986' sits at the position of Kocevski+24 CEERS 13135, z=4.95),
+  verified against the Kocevski+24 positions in the Zhang+25 compilation, kocevski2025 and the RUBIES
+  spec-z in hviding2025. Values are kept as printed and the affected rows carry a WARNING in notes.
+  Broad Halpha lines and redshifts come from the cited discovery papers (broad_line left empty).

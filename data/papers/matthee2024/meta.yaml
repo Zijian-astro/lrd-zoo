@@ -1,0 +1,25 @@
+key: matthee2024
+first_author: Matthee
+authors: "Matthee, J., Naidu, R. P., Brammer, G., Chisholm, J., Eilers, A.-C., Goulding, A., Greene, J., et al."
+year: 2024
+title: "Little Red Dots: An Abundant Population of Faint Active Galactic Nuclei at z ~ 5 Revealed by the EIGER and FRESCO JWST Surveys"
+journal: "ApJ, 963, 129"
+arxiv: "2306.05448"
+doi: "10.3847/1538-4357/ad2345"
+ads_bibcode: "2024ApJ...963..129M"
+selection: grism
+tags: [grism, photometry]
+fields: [GOODS-N, GOODS-S, J0100+2802, J1148+5251, J1120+0641, J0148+0600]
+n_objects: 20
+source_url: "https://arxiv.org/e-print/2306.05448"
+source_note: >-
+  arXiv LaTeX source (v3, accepted version); Table 'Coordinates and redshifts of the 20 BL Halpha emitters'
+  (tab:LRDsample, sexagesimal J2000, converted with astropy SkyCoord) joined with Table 'Properties of the broad
+  Halpha line emitters' (tab:linefits) for the F444W magnitude, which that table gives only for the FRESCO (GOODS)
+  objects (EIGER objects have F356W instead, left empty). Not on VizieR. Converted with ingest.py.
+notes: >-
+  The title calls the whole sample of 20 broad-Halpha emitters "Little Red Dots"; the text says the majority (not
+  necessarily all) are red and point-like and gives no per-object LRD flag, so the default sample_is_lrd (true) is
+  used. Redshifts are from NIRCam/WFSS grism Halpha. EIGER objects lie in four z~6-7 quasar fields (field = quasar
+  name); the quasars themselves are background objects, not part of the sample. Published positions are rounded to
+  0.01 s in RA and 0.01 arcsec in Dec.

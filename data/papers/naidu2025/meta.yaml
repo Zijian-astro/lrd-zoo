@@ -1,0 +1,14 @@
+key: naidu2025
+first_author: Naidu
+authors: "Naidu, R. P., Matthee, J., Katz, H., de Graaff, A., Oesch, P., Smith, A., et al."
+year: 2025
+title: "A \"Black Hole Star\" Reveals the Remarkable Gas-Enshrouded Hearts of the Little Red Dots"
+arxiv: "2503.16596"
+selection: individual
+sample_is_lrd: true
+tags: [nirspec, photometry]
+fields: [UDS]
+n_objects: 1
+source_url: "https://arxiv.org/e-print/2503.16596"
+source_note: "arXiv v1 LaTeX source, ms.tex: R.A./Dec. (deg) and redshift from Extended Data Table 1 'Summary of key properties'; F444W=25.4 from main text. Converted with ingest.py."
+notes: "MoM-BH*-1 at z=7.7569 (Mirage or Miracle, GO-5224; also EXCELS G395M). No journal reference found (arXiv v1 'Submitted'). Paper reports only a hint of variability, so 'variable' is left empty."

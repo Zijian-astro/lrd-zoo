@@ -1,0 +1,38 @@
+id,ra,dec,z,z_type,field,spec,notes
+nc5-5815,214.975531,52.925267,5.5,phot,EGS,,Table 1 (MIRI/NIRSpec subsample)
+nc5-9553,214.990983,52.916521,5.6,phot,EGS,,Table 1 (MIRI/NIRSpec subsample); published RA/Dec identical to nc5-6746 (likely a typo in the paper's table)
+nc6-7042,214.840543,52.817942,6.4,phot,EGS,,Table 1 (MIRI/NIRSpec subsample)
+nc5-6746,214.990983,52.916521,7.5,phot,EGS,,Table 1 (MIRI/NIRSpec subsample); also in Akins et al. 2023; published RA/Dec identical to nc5-9553 (likely a typo in the paper's table)
+nc1-9410,215.008490,52.977971,6.132,spec,EGS,NIRSpec,Table 1 (MIRI/NIRSpec subsample); z_phot=6.3
+nc3-3210,214.809145,52.868482,5.614,spec,EGS,NIRSpec,Table 1 (MIRI/NIRSpec subsample); also in Kocevski et al. 2023 as MPTID-746; z_phot=5.7
+nc1-2441,215.002842,53.007588,7.092,spec,EGS,NIRSpec,Table 1 (MIRI/NIRSpec subsample); z_phot=7.6
+nc3-2232,214.830687,52.887769,7.769,spec,EGS,NIRSpec,Table 1 (MIRI/NIRSpec subsample); also in Fujimoto et al. 2023 as MPTID-20; z_phot=8.6
+nircam1-1507,214.9372049,52.9653511,9.01,phot,EGS,,Table 2 (remaining EROs)
+nircam1-2385,214.9984072,53.0046186,6.49,phot,EGS,,Table 2 (remaining EROs); also in Pérez-González et al. 2023
+nircam1-2821,214.9568340,52.9731536,5.86,phot,EGS,,Table 2 (remaining EROs); also in Labbé et al. 2023; also in Pérez-González et al. 2023
+nircam1-10084,214.9830364,52.9560063,7.51,phot,EGS,,Table 2 (remaining EROs); also in Labbé et al. 2023; also in Pérez-González et al. 2023
+nircam2-1604,214.9022374,52.9393697,8.62,phot,EGS,,Table 2 (remaining EROs); also in Labbé et al. 2023
+nircam2-3729,214.9257607,52.9456616,5.26,phot,EGS,,Table 2 (remaining EROs); also in Pérez-González et al. 2023
+nircam2-6335,214.9272433,52.9338926,5.89,phot,EGS,,Table 2 (remaining EROs); also in Pérez-González et al. 2023
+nircam2-9558,214.8761458,52.8808258,8.95,phot,EGS,,Table 2 (remaining EROs); also in Labbé et al. 2023
+nircam3-9524,214.8066661,52.8378071,6.49,phot,EGS,,Table 2 (remaining EROs); also in Labbé et al. 2023
+nircam4-2690,214.6951501,52.7485639,8.62,phot,EGS,,Table 2 (remaining EROs)
+nircam4-6348,214.7953672,52.7888465,5.20,phot,EGS,,Table 2 (remaining EROs)
+nircam5-3637,214.8922437,52.8774066,7.24,phot,EGS,,Table 2 (remaining EROs)
+nircam5-4552,214.8967641,52.8757973,6.10,phot,EGS,,Table 2 (remaining EROs)
+nircam5-9370,214.9102805,52.8600731,7.21,phot,EGS,,Table 2 (remaining EROs)
+nircam7-4742,215.1314689,52.9849141,7.48,phot,EGS,,Table 2 (remaining EROs)
+nircam7-4801,215.1370670,52.9885588,5.20,phot,EGS,,Table 2 (remaining EROs)
+nircam7-5787,215.0617802,52.9311768,7.39,phot,EGS,,Table 2 (remaining EROs)
+nircam7-5797,215.1437160,52.9888945,8.32,phot,EGS,,Table 2 (remaining EROs)
+nircam7-10403,215.1072079,52.9428524,6.34,phot,EGS,,Table 2 (remaining EROs)
+nircam7-12337,215.1370160,52.9556504,6.52,phot,EGS,,Table 2 (remaining EROs)
+nircam7-13272,215.0817101,52.9122515,5.68,phot,EGS,,Table 2 (remaining EROs)
+nircam8-8565,214.9799601,52.8610789,6.40,phot,EGS,,Table 2 (remaining EROs)
+nircam8-13596,215.0802967,52.9079028,7.48,phot,EGS,,Table 2 (remaining EROs)
+nircam9-3184,214.8864225,52.8233786,6.55,phot,EGS,,Table 2 (remaining EROs)
+nircam9-5291,214.8760316,52.8061093,5.77,phot,EGS,,Table 2 (remaining EROs)
+nircam9-6909,214.8945555,52.8121629,5.71,phot,EGS,,Table 2 (remaining EROs)
+nircam9-9665,214.8998043,52.8015414,5.17,phot,EGS,,Table 2 (remaining EROs)
+nircam9-12002,214.8964700,52.7876884,7.30,phot,EGS,,Table 2 (remaining EROs)
+nircam10-1157,214.8513502,52.7992928,7.21,phot,EGS,,Table 2 (remaining EROs)

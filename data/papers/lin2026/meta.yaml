@@ -1,0 +1,17 @@
+key: lin2026
+first_author: Lin
+facility: SDSS
+authors: "Lin, X., Fan, X., Cai, Z., Bian, F., Liu, H., Sun, F., et al."
+year: 2026
+title: "The Discovery of Little Red Dots in the Local Universe: Signatures of Cool Gas Envelopes"
+journal: "ApJ, 997, 364"
+arxiv: "2507.10659"
+doi: "10.3847/1538-4357/ae2bdf"
+selection: local
+sample_is_lrd: true
+tags: [ground-spec, photometry, xray, variability]
+fields: [SDSS]
+n_objects: 3
+source_url: "https://arxiv.org/e-print/2507.10659"
+source_note: "arXiv v2 LaTeX source, 04_OverviewProperties.tex Table 1 (tab:basic_properties): SDSS names, RA/DEC (deg, 5 decimals) and systemic z; X-ray/variability from the text. Converted with ingest.py."
+notes: "Three local (z=0.10-0.22) LRDs selected from SDSS, with LBT/MODS, Magellan/FIRE and Binospec follow-up. J1025+1402 is 'The Egg'. Coordinates are given to 5 decimals (~0.04 arcsec). CAVEAT: the Table 1 DEC of J1025+1402 (14.03586) is 1.8 arcsec from its SDSS designation and from SDSS DR18 (156.376211, 14.035378); the published value is kept and flagged in the row notes."

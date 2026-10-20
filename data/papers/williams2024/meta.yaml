@@ -1,0 +1,22 @@
+key: williams2024
+first_author: Williams
+authors: "Williams, C. C., Alberts, S., Ji, Z., Hainline, K. N., Lyu, J., Rieke, G., Endsley, R., Suess, K. A., et al."
+year: 2024
+title: "The Galaxies Missed by Hubble and ALMA: The Contribution of Extremely Red Galaxies to the Cosmic Census at 3 < z < 8"
+journal: "ApJ, 968, 34"
+arxiv: "2311.07483"
+doi: "10.3847/1538-4357/ad3f17"
+selection: infrared
+sample_is_lrd: false      # H-dropout (extremely red) galaxies; 13 meet the LRD colour selection (lrd=1)
+tags: [miri, alma, photometry]
+fields: [GOODS-S]
+n_objects: 66
+source_url: "https://arxiv.org/e-print/2311.07483"
+source_note: >-
+  Tables tab:MIRI (30 H-dropouts in the MIRI SMILES footprint) and tab:NIRCAM (37 without MIRI data)
+  parsed from the arXiv v1 LaTeX source (the only arXiv version). 67 printed rows; JADES DR1 ID 189494
+  appears in both tables with identical values and is kept once -> 66 objects. z = spec-z where given
+  (JADES NIRSpec or FRESCO), else the prospector photo-z. lrd = the paper's LRD flag. Converted with ingest.py.
+notes: >-
+  The arXiv version is the submitted one; the published ApJ tables may differ slightly. ids are
+  JADES DR1 IDs prefixed with JADES-. The spec-z of JADES-132229 (7.25) is described as tentative.

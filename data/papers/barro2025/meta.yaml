@@ -1,0 +1,14 @@
+key: barro2025
+first_author: Barro
+authors: "Barro, G., Pérez-González, P. G., Kocevski, D., Trump, J. R., Dickinson, M., Arrabal Haro, P., et al."
+year: 2025
+title: "From \"The Cliff\" to \"Virgil\": Mapping the Spectral Diversity of Little Red Dots with JWST/NIRSpec"
+arxiv: "2512.15853"
+selection: spectroscopic
+sample_is_lrd: true
+tags: [nirspec, photometry]
+fields: [EGS, UDS, COSMOS, GOODS-N, GOODS-S, Abell 2744]
+n_objects: 118
+source_url: "https://github.com/guillermobc/Barro25"
+source_note: "GitHub repo linked from Table 2 ('available in its entirety'), commit e70d8ac577: Barro25_LRD_NIRSpec_bestfit_properties.fits (all 118 LRDs with high-S/N PRISM spectra: DJA_ID, ra, dec, zspec). The 8-row LaTeX excerpt of Table 2 (arXiv v2) matches the FITS file. Field derived from the DJA root. Converted with ingest.py."
+notes: "Photometrically selected LRDs (inclusive colour selection) with public DJA NIRSpec/PRISM spectra in six fields; 157 LRDs have PRISM spectra, the 118 with continuum S/N>2 are tabulated. IDs are DJA '<root>-<MSA id>'. CAVEAT: for a few strong-break LRDs the tabulated zspec differs from other papers (RUBIES-UDS-154183 'The Cliff' 3.6048 vs 3.548 in de Graaff+25/26; MoM-BH*-1 (mom-uds01 150135) 7.9132 vs 7.7569 in Naidu+25; A2744-45924 4.5195 vs 4.47 in Labbe+24). Values kept as published. Submitted to ApJ."

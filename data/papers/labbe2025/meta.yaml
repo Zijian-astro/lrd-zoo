@@ -1,0 +1,31 @@
+key: labbe2025
+first_author: Labbé
+authors: "Labbé, I., Greene, J. E., Bezanson, R., Fujimoto, S., Furtak, L. J., Goulding, A. D., Matthee, J., Naidu, R. P., et al."
+year: 2025
+title: "UNCOVER: Candidate Red Active Galactic Nuclei at 3 < z < 7 with JWST and ALMA"
+journal: "ApJ, 978, 92"
+arxiv: "2306.07320"
+doi: "10.3847/1538-4357/ad3551"
+ads_bibcode: "2025ApJ...978...92L"
+selection: photometric
+sample_is_lrd: false      # 35 colour+compact Parent-sample rows; the 26 point-source-dominated "Main" sample have lrd=1
+tags: [photometry, alma]
+fields: [Abell 2744]
+n_objects: 35
+source_url: "https://arxiv.org/e-print/2306.07320"
+source_note: >-
+  Table "Sample" (label table:thesample) parsed from the arXiv v1 LaTeX source (main.tex); no VizieR catalogue,
+  journal MRT or other machine-readable release was found. All 35 table rows kept; lrd = the table's Main flag
+  (26 rows, the point-source-dominated LRD sample of the abstract), lrd=0 for the 9 Parent-only rows. z = z_phot from
+  the AGN-only SED fit; f444w = column (8) F444W mag; RA/Dec copied as published (decimal degrees). Main/SED
+  flags and magnification mu are kept in notes. id = 'UNCOVER-' + the table's UNCOVER (DR1 photometric catalogue) ID.
+  Converted with ingest.py.
+notes: >-
+  All redshifts are photometric (the paper predates its UNCOVER NIRSpec follow-up). Lensing field: positions
+  are image-plane; mu is the magnification from the table.
+  The table footnote says three rows are images of the triply-lensed source of Furtak et al. (2023), but the
+  arXiv table does not mark which rows; the duplicates are kept as published and not flagged
+  (inferred from the table values only: UNCOVER-8296, -9992 and -10712, all z_phot 6.77-6.80 with mu 4-9).
+  The text quotes a Parent sample of 40, but the table lists 35 rows; the Main (26) and SED (17) counts match.
+  Published (ApJ 2025) version could not be checked against this arXiv v1 table (journal site not machine-accessible);
+  the published abstract quotes the same 26 sources.

@@ -1,0 +1,6 @@
+id,ra,dec,z,z_type,field,lrd,spec,broad_line,xray,notes
+UID-8219,215.078259,52.948497,6.785,spec,EGS,1,NIRSpec/grating,0,nondet,DJA UID 8219 (j142018.78p525654.59); DJA spectrum rubies-egs51-nod-v3 srcid 927271
+UID-12329,214.797537,52.818746,6.620,spec,EGS,1,NIRSpec/grating,0,nondet,DJA UID 12329 (j141911.41p524907.49); DJA spectrum rubies-egs53-nod-v3 srcid 53254
+UID-16321,34.324122,-5.252789,4.985,spec,UDS,1,NIRSpec/grating,0,nondet,DJA UID 16321 (j021717.79m051510.04); DJA spectrum rubies-uds43-nod-v3 srcid 40800
+UID-20547,34.455376,-5.231814,5.278,spec,UDS,1,NIRSpec/grating,0,nondet,DJA UID 20547 (j021749.29m051354.53); DJA spectrum rubies-uds33-v3 srcid 53692
+UID-22015,34.374854,-5.275528,5.127,spec,UDS,1,NIRSpec/grating,0,nondet,DJA UID 22015 (j021729.96m051631.90); DJA spectrum rubies-uds41-nod-v3 srcid 26611

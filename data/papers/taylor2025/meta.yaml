@@ -1,0 +1,24 @@
+key: taylor2025
+first_author: Taylor
+authors: "Taylor, A. J., Finkelstein, S. L., Kocevski, D. D., Jeon, J., Bromm, V., Amorin, R. O., Arrabal Haro, P., et al."
+year: 2025
+title: "Broad-line AGNs at 3.5 < z < 6: The Black Hole Mass Function and a Connection with Little Red Dots"
+journal: "ApJ, 986, 165"
+arxiv: "2409.06772"
+doi: "10.3847/1538-4357/add15b"
+ads_bibcode: "2025ApJ...986..165T"
+selection: spectroscopic
+sample_is_lrd: false      # 62 broad-line AGN (63 spectra); the 21 LRDs (Kocevski+24 criteria) have lrd=1
+tags: [nirspec]
+fields: [EGS, UDS]
+n_objects: 63
+source_url: "https://arxiv.org/e-print/2409.06772"
+source_note: >-
+  arXiv LaTeX source (v2, accepted version); Table 'Sample of BLAGN' (tab:sample, 63 rows, RA/Dec in decimal
+  degrees). lrd=1 for rows marked with a dagger ("LRD sources", Kocevski+24 criteria; 21, matching the text), lrd=0
+  for the other 42. Not on VizieR. Converted with ingest.py.
+notes: >-
+  Broad Halpha selected from NIRSpec G395M/F290LP spectra from CEERS and RUBIES (EGS and PRIMER-UDS). The table has
+  63 rows for 62 objects: RUBIES-EGS-50052 and CEERS-2782 are the same source observed independently by both surveys
+  (both rows kept as in the paper; positions agree to <0.02 arcsec). Field 'EGS' covers both CEERS-* and RUBIES-EGS-*
+  objects.

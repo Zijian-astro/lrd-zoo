@@ -1,0 +1,15 @@
+key: lin2026c
+first_author: Lin
+facility: ground   # DESI DR1 spectroscopic survey
+authors: "Lin, X., Fan, X., Cai, Z., Liu, Y., Sun, F., Bian, F., Li, M., Mao, J., Greene, J. E., et al."
+year: 2026
+title: "(LRDs)^2: The Low-ReDshift Little Red Dots Survey. II. DESI DR1 Sample"
+arxiv: "2605.21574"
+selection: local
+sample_is_lrd: true
+tags: [ground-spec, photometry, variability]
+fields: [DESI]
+n_objects: 27
+source_url: "https://doi.org/10.5281/zenodo.20309303"
+source_note: "Zenodo master_table.ecsv (all 27 LRDs, Gold 19 + Silver 8). RA/Dec converted from the catalogue's full IAU names (the ra_deg/dec_deg columns are rounded to ~1 arcsec); asserted to agree with ra_deg/dec_deg to <2 arcsec; 3 positions spot-checked against SDSS DR18 (<0.11 arcsec). The 3 SDSS comparison LRDs in the same record belong to Lin+26 (lin2026) and are not included. Converted with ingest.py."
+notes: "Low-z (z=0.2-0.9) LRDs selected from DESI DR1 spectra (compact, V-shaped, broad Balmer lines); NIR follow-up for 18. Gold/Silver tier in the row notes. Only J1717+3807 is reported as variable; other rows leave 'variable' empty. Submitted to ApJ."

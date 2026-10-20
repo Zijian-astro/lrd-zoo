@@ -1,0 +1,16 @@
+key: hviding2025
+first_author: Hviding
+authors: "Hviding, R. E., de Graaff, A., Miller, T. B., Setton, D. J., Greene, J. E., Labbé, I., Brammer, G., et al."
+year: 2025
+title: "RUBIES: A Spectroscopic Census of Little Red Dots; All V-Shaped Point Sources Have Broad Lines"
+journal: "A&A, 702, A57"
+arxiv: "2506.05459"
+ads_bibcode: "2025A&A...702A..57H"
+selection: spectroscopic
+sample_is_lrd: false      # 80 broad-line sources; the 36 spectroscopic LRDs have lrd=1
+tags: [nirspec]
+fields: [UDS, EGS]
+n_objects: 80
+z_type: spec
+source_url: "https://doi.org/10.5281/zenodo.15528783"
+source_note: "Zenodo tables B1 (80 broad-line sources) and A1 (36 LRDs); also on VizieR as J/A+A/702/A57. Converted with ingest.py."

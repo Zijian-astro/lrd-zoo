@@ -1,0 +1,29 @@
+key: setton2025
+first_author: Setton
+authors: "Setton, D. J., Greene, J. E., de Graaff, A., Ma, Y., Leja, J., Matthee, J., Bezanson, R., et al."
+year: 2025
+title: "Little Red Dots at an Inflection Point: Ubiquitous V-shaped Turnover Consistently Occurs at the Balmer Limit"
+journal: "ApJ, 995, 118"
+arxiv: "2411.03424"
+doi: "10.3847/1538-4357/ae1500"
+ads_bibcode: "2025ApJ...995..118S"
+selection: spectroscopic
+sample_is_lrd: false      # 44 extremely red Halpha emitters; the 20 with a 2-sigma V-shaped inflection have lrd=1
+tags: [nirspec, photometry]
+fields: [UDS, EGS, GOODS-S, GOODS-N, Abell 2744, COSMOS]
+n_objects: 44
+source_url: "https://arxiv.org/e-print/2411.03424"
+source_note: >-
+  arXiv LaTeX source (v1, the only arXiv version, Nov 2024); Table 1 (tab:LRD_sample) 'all extremely red (B-R>0.95)
+  Halpha emitters (rest-frame EW>400 A) from the RUBIES survey or public PRISM data', 44 rows, RA/Dec as published
+  (decimal degrees, 4 decimals). lrd=1 for the 20 rows with Delta k - 2*sigma_lower > 0 (sigma from the table's
+  16th/84th-percentile errors), i.e. the paper's 'V-shaped Little Red Dots' with k_red-k_blue>0 at 2 sigma; this
+  reproduces the 20/44 of the abstract. Other rows lrd empty. field from the RUBIES ID or from the position (empty
+  for the GO-1433 source). Not on VizieR. Converted with ingest.py.
+notes: >-
+  NIRSpec/PRISM spectra from the DAWN JWST Archive (RUBIES + public programs); m_F444W measured by the paper in a 0.3"
+  aperture. IDs follow the paper's <Program>-<ID> convention (RUBIES-uds-40579, UNCOVER-45924, 6585-58018); JADES
+  numbers are spectroscopic IDs (JADES-13704 lies within 0.2" of Maiolino+2024's 10013704). The lrd flag is derived from
+  rounded table values: 2198-12577 and JADES-27830 pass the 2-sigma cut by only 0.1, while
+  RUBIES-uds-156165 and JADES-38147 miss it by 0.2-0.3. The table's program '6585' appears as 'JWST-DDT #6858' in the
+  text. The published ApJ version (Dec 2025) could not be checked against arXiv v1. Positions rounded to 1e-4 deg.

@@ -1,0 +1,19 @@
+key: euclidq12026
+first_author: "Euclid Collaboration (Bisigello et al.)"
+label: "Bisigello+26"
+facility: Euclid
+authors: "Euclid Collaboration, Bisigello, L., Rodighiero, G., Fotopoulou, S., Ricci, F., Jahnke, K., et al."
+year: 2026
+title: "Euclid Quick Data Release (Q1). Extending the quest for little red dots to z<4"
+journal: "A&A, 711, A24"
+arxiv: "2503.15323"
+doi: "10.1051/0004-6361/202554537"
+ads_bibcode: "2026A&A...711A..24E"
+selection: photometric
+sample_is_lrd: true
+tags: [photometry]
+fields: [EDF-N, EDF-F, EDF-S]
+n_objects: 3341
+source_url: "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/711/A24"
+source_note: "VizieR J/A+A/711/A24 tabled1.dat (Table D.1, all 3341 LRD candidates; ID, RA, Dec, z, M_UV, UV/optical slopes). No cuts. Field assigned from declination (counts match the paper's selection table). Converted with ingest.py."
+notes: "Euclid Q1 wide-field LRD candidates (Euclid VIS/NISP + ground griz + Spitzer/IRAC photometry), not JWST. z is the paper's photometric redshift from its double power-law fit (z=0.33-3.66). IDs are Euclid Q1 OBJECT_IDs prefixed with 'EuclidQ1_'. 29 candidates are IRAC-detected (the more robust subsample), but the public table does not flag which ones. VizieR ReadMe titles the paper 'Euclid Quick Data Release (Q1). XXIV. Extending the quest for little red dots to z<4'."

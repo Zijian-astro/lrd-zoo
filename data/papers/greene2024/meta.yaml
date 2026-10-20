@@ -1,0 +1,28 @@
+key: greene2024
+first_author: Greene
+authors: "Greene, J. E., Labbe, I., Goulding, A. D., Furtak, L. J., Chemerynska, I., Kokorev, V., Dayal, P., et al."
+year: 2024
+title: "UNCOVER Spectroscopy Confirms the Surprising Ubiquity of Active Galactic Nuclei in Red Sources at z > 5"
+journal: "ApJ, 964, 39"
+arxiv: "2309.05714"
+doi: "10.3847/1538-4357/ad1e5f"
+ads_bibcode: "2024ApJ...964...39G"
+selection: spectroscopic
+sample_is_lrd: false      # 17 compact-red (LRD-selected) PRISM targets; 3 turned out to be brown dwarfs (lrd=0)
+tags: [nirspec]
+fields: [Abell 2744]
+n_objects: 17
+source_url: "https://arxiv.org/e-print/2309.05714"
+source_note: >-
+  arXiv LaTeX source (v1, the only arXiv version); Table 'Sample' (table:thesample, 17 rows, RA/Dec already in
+  decimal degrees) joined with Table 'Halpha fits' (table:thefits). Not on VizieR. broad_line=1 where the Halpha-fits
+  table lists L_Halpha ("only definite broad-line objects"), 0 for the three listed without it ("unconfirmed"),
+  empty for brown dwarfs. The three QSO1 images inherit the coadded 13123 result. lrd=1 for the 14 extragalactic
+  compact-red targets, 0 for the three brown dwarfs (z_spec=0.00). Converted with ingest.py.
+notes: >-
+  Abell 2744 lensing field (UNCOVER). UNCOVER-13123, -15383 and -16594 are three images of the same lensed AGN
+  (A2744-QSO1), kept as three rows as in the paper. f444w is the observed (not demagnified) F444W magnitude.
+  Values are from arXiv v1; the published ApJ version could not be checked (journal site behind a captcha). In v1 the
+  text says MSAID2008 and MSAID35488 fail the chi^2 cut, whereas the Halpha table gives 35488 an L_Halpha and BH mass
+  and gives 28876 (not 35488) no improvement in chi^2; the table is followed here (9 unique confirmed BL AGN,
+  11 rows incl. QSO1 images, matching the text's counts).

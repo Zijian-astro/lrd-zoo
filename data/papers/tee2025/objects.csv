@@ -1,0 +1,22 @@
+id,ra,dec,z,z_type,field,lrd,variable,notes
+JADES_8083,53.1328333,-27.8018611,4.65,,GOODS-S,1,0,dm(F125W)=-0.14 +/- 0.28 mag; dm(F160W)=-0.02 +/- 0.3 mag; Table 2 'BL detected'=Y (BL/MBH ref Maiolino2023arXiv230801230M)
+JADES_4454,53.1661250,-27.7720417,6.34,,GOODS-S,1,0,dm(F125W)=0.02 +/- 0.13 mag; dm(F160W)=-0.17 +/- 0.12 mag
+JADES_11125,53.0676667,-27.8123306,4.63,,GOODS-S,1,0,dm(F125W)=-0.14 +/- 0.08 mag; dm(F160W)=-0.19 +/- 0.12 mag
+JADES_20532,53.1247500,-27.8663000,4.51,,GOODS-S,1,0,dm(F125W)=0.06 +/- 0.09 mag; dm(F160W)=-0.16 +/- 0.12 mag
+JADES_21925,53.0868333,-27.8730556,3.1,,GOODS-S,1,0,dm(F125W)=0.02 +/- 0.23 mag; dm(F160W)=0.02 +/- 0.23 mag
+JADES_24052,53.0741250,-27.8837028,5.23,,GOODS-S,1,0,dm(F125W)=-0.16 +/- 0.4 mag; dm(F160W)=0.01 +/- 0.34 mag
+JADES_26901,53.0975417,-27.9012556,5.26,,GOODS-S,1,0,dm(F125W)=0.18 +/- 0.15 mag; dm(F160W)=-0.01 +/- 0.27 mag
+CEERS_397,214.8362083,52.8826944,6.0,,EGS,1,0,dm(F125W)=0.12 +/- 0.1 mag; dm(F160W)=-0.08 +/- 0.11 mag; Table 2 'BL detected'=Y (BL/MBH ref Harikane2023ApJ...959...39H)
+CEERS_1236,215.1452917,52.9672778,4.484,,EGS,1,0,dm(F125W)=-0.01 +/- 0.21 mag; dm(F160W)=0.02 +/- 0.18 mag; Table 2 'BL detected'=Y (BL/MBH ref Harikane2023ApJ...959...39H)
+CEERS_1465,214.8880000,52.8882500,5.274,,EGS,1,0,dm(F125W)=0.03 +/- 0.24 mag; dm(F160W)=-0.05 +/- 0.29 mag
+CEERS_1670,214.8234583,52.8302806,5.242,,EGS,1,0,dm(F125W)=-0.22 +/- 0.27 mag; dm(F160W)=-0.17 +/- 0.19 mag; Table 2 'BL detected'=Y (BL/MBH ref Harikane2023ApJ...959...39H)
+CEERS_1669,214.8177083,52.8778556,5.47,,EGS,1,0,dm(F125W)=-0.23 +/- 0.32 mag; dm(F160W)=0.08 +/- 0.2 mag
+CEERS_5208,214.9272500,52.9338917,5.92,,EGS,1,0,dm(F125W)=0.02 +/- 0.32 mag; dm(F160W)=-0.21 +/- 0.33 mag
+CEERS_7902,214.9830417,52.9560056,6.99,,EGS,1,0,dm(F125W)=0.14 +/- 0.26 mag; dm(F160W)=0.06 +/- 0.17 mag; Table 2 'BL detected'=Y (BL/MBH ref Kocevski2024arXiv240403576K)
+CEERS_10444,214.8922500,52.8774056,6.69,,EGS,1,0,dm(F125W)=0.18 +/- 0.3 mag; dm(F160W)=-0.09 +/- 0.31 mag; Table 2 'BL detected'=Y (BL/MBH ref Kocevski2024arXiv240403576K)
+CEERS_13318,214.7953750,52.7888472,5.28,,EGS,1,0,dm(F125W)=0.31 +/- 0.23 mag; dm(F160W)=-0.07 +/- 0.19 mag; Table 2 'BL detected'=Y (BL/MBH ref Kocevski2024arXiv240403576K)
+CEERS_19578,214.8801667,52.8125611,5.29,,EGS,1,0,dm(F125W)=-0.05 +/- 0.35 mag; dm(F160W)=-0.09 +/- 0.29 mag
+CEERS_24253,214.9799583,52.8610778,6.23,,EGS,1,0,dm(F125W)=0.22 +/- 0.16 mag; dm(F160W)=0.06 +/- 0.16 mag
+UNCOVER_9497,3.5798333,-30.4015694,7.04,,Abell 2744,1,0,dm(F125W)=-0.05 +/- 0.26 mag; dm(F160W)=0.2 +/- 0.2 mag; Table 2 'BL detected'=N (BL/MBH ref Greene2024ApJ...964...39G)
+UNCOVER_9447,3.6251250,-30.4014167,3.25,,Abell 2744,1,0,dm(F125W)=-0.1 +/- 0.18 mag; dm(F160W)=0.05 +/- 0.06 mag
+UNCOVER_3943,3.4988333,-30.3529444,4.75,,Abell 2744,1,0,dm(F125W)=-0.1 +/- 0.24 mag; dm(F160W)=0.07 +/- 0.22 mag

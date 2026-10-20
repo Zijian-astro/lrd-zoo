@@ -1,0 +1,26 @@
+key: harikane2023
+first_author: Harikane
+authors: "Harikane, Y., Zhang, Y., Nakajima, K., Ouchi, M., Isobe, Y., Ono, Y., Hatano, S., et al."
+year: 2023
+title: "A JWST/NIRSpec First Census of Broad-line AGNs at z = 4-7: Detection of 10 Faint AGNs with M_BH ~ 10^6-10^8 M_sun and Their Host Galaxy Properties"
+journal: "ApJ, 959, 39"
+arxiv: "2303.11946"
+doi: "10.3847/1538-4357/ad029e"
+ads_bibcode: "2023ApJ...959...39H"
+selection: spectroscopic
+sample_is_lrd: false      # broad-line AGN census; the paper gives no per-object LRD classification
+tags: [nirspec]
+fields: [CEERS, GLASS]
+n_objects: 12
+source_url: "https://arxiv.org/e-print/2303.11946"
+source_note: >-
+  arXiv LaTeX source (v3, accepted version); Table 'Physical Properties of Our Faint Type-1 AGNs' (tab_N23):
+  10 objects in the final broad-line AGN sample (broad_line=1) plus 2 'other possible candidates with SNR_broad<5'
+  (broad_line empty, flagged in notes). Sexagesimal J2000 positions converted with astropy SkyCoord. Not on VizieR.
+  Converted with ingest.py.
+notes: >-
+  Spectra are NIRSpec medium/high-resolution gratings and (CEERS) PRISM from the Nakajima+2023 compilation; the table
+  does not say which spectrum each broad line was measured in, so spec is the generic 'NIRSpec'. The paper does not
+  use the LRD label, so lrd is empty for every row (no object counts as an LRD from this paper). GLASS objects are in
+  the Abell 2744 field. Published positions are rounded to 0.01 s in RA and 0.1 arcsec in Dec. CEERS_00746 and
+  CEERS_02782 are CEERS 3210 and CEERS 1670 of Kocevski+2023.

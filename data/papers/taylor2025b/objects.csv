@@ -1,0 +1,2 @@
+id,ra,dec,z,z_type,field,lrd,spec,broad_line,notes
+CAPERS-LRD-z9,150.1362532,2.3080298,9.288,spec,COSMOS,1,NIRSpec/PRISM,1,a.k.a. CAPERS-COSMOS-119334; PRIMER-COSMOS imaging; broad Hbeta

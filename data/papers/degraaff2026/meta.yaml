@@ -1,0 +1,16 @@
+key: degraaff2026
+first_author: de Graaff
+authors: "de Graaff, A., Hviding, R. E., Naidu, R. P., Greene, J. E., Miller, T. B., Leja, J., Matthee, J., et al."
+year: 2026
+title: "Little Red Dots host Black Hole Stars: A unified family of gas-reddened AGN revealed by JWST/NIRSpec spectroscopy"
+journal: "MNRAS, 551, stag1567"
+arxiv: "2511.21820"
+doi: "10.1093/mnras/stag1567"
+selection: spectroscopic
+sample_is_lrd: true
+tags: [nirspec]
+fields: [COSMOS, EGS, UDS, GOODS-N, GOODS-S, Abell 2744, NEXUS, MACS0416, MACS0417, MACS0647, MACS1423, RXJ2129]
+n_objects: 148
+source_url: "https://doi.org/10.5281/zenodo.21977747"
+source_note: "Zenodo deGraaff2026_mnras_lrds_withdups_blackbody_eline_fits.fits (MNRAS version, 181 PRISM spectra of 146 unique LRDs; concept DOI 10.5281/zenodo.17665942). Kept the 146 use_dG26 rows plus the 2 non-use rows that are separate lensed images of A2744-QSO1 at different positions (148 rows); dropped 33 duplicate spectra of the same positions (<0.12 arcsec). Field derived from the DJA root name. Converted with ingest.py."
+notes: "Compilation of all v-shaped, compact NIRSpec/PRISM LRDs in DJA v4.5 at 2.0<z<9.3, from many programs (RUBIES, UNCOVER, CAPERS, JADES, NEXUS, MoM, ...). IDs are '<DJA root>_<program>_<MSA id>'. Overlaps heavily with Hviding+25 and other spectroscopic samples. The arXiv v1 Zenodo version (record 17665942) had 116 unique sources."

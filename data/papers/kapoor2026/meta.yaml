@@ -1,0 +1,14 @@
+key: kapoor2026
+first_author: Kapoor
+authors: "Kapoor, S., Matthee, J., Torralba, A., Kramarenko, I. G., Bordoloi, R., Greene, J. E., Iani, E., et al."
+year: 2026
+title: "Little Red Dots at z~2 in EIGER reveal a gentle decline with respect to their peak number density at z~5"
+arxiv: "2607.00084"
+selection: grism
+sample_is_lrd: false   # 19 broad-line emitters; the 5 in the 'LRDs' block have lrd=1
+tags: [grism, photometry, xray]
+fields: [J0100, J0148, J1030, J1120, J1148, J159]
+n_objects: 19
+source_url: "https://arxiv.org/e-print/2607.00084"
+source_note: "arXiv v1 LaTeX source, aanda.tex Table 1 (tab:spectral): 19 broad-line emitters (5 LRDs + 14 non-LRD AGN) with sexagesimal R.A./Dec. converted to degrees with astropy SkyCoord; xray=det where the X-rays column is ticked. Converted with ingest.py."
+notes: "Blind broad-line search (Pa-beta, HeI 10830, OI 8446) in NIRCam/WFSS data of the EIGER quasar fields, z=1.55-3.18. Field = quasar-field prefix of the ID as in the paper. X-ray non-detections are not tabulated, so xray is empty unless detected. Submitted to A&A."

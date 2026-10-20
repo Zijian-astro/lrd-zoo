@@ -1,0 +1,4 @@
+id,ra,dec,z,z_type,field,lrd,spec,broad_line,xray,variable,notes
+J1025+1402,156.37622,14.03586,0.1007,spec,SDSS,1,ground,1,nondet,0,SDSS J102530.29+140207.3; nicknamed 'The Egg'; NOTE Table 1 DEC is 1.8 arcsec off the SDSS-name position (SDSS DR18: 156.376211 14.035378) - likely a typo in the paper
+J1047+0739,161.98302,7.66423,0.1682,spec,SDSS,1,ground,1,nondet,0,SDSS J104755.92+073951.2
+J1022+0841,155.53552,8.69892,0.2227,spec,SDSS,1,ground,1,,0,SDSS J102208.52+084156.1

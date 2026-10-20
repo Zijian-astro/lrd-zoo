@@ -1,0 +1,30 @@
+key: zhang2025
+first_author: Zhang
+authors: "Zhang, Z., Jiang, L., Liu, W., Ho, L. C."
+year: 2025
+title: "Analysis of Multi-epoch JWST Images of ~300 Little Red Dots: Tentative Detection of Variability in a Minority of Sources"
+journal: "ApJ, 985, 119"
+arxiv: "2411.02729"
+doi: "10.3847/1538-4357/adcb3e"
+selection: variability
+sample_is_lrd: true
+tags: [variability, photometry]
+fields: [UDS, GOODS-S, GOODS-N, A2744, COSMOS, CEERS, EIGER, MACSJ0647.7+7015]
+n_objects: 906
+source_url: "https://github.com/Zijian-astro/variable_LRD_candidates"
+source_note: >-
+  unique_lrds_table.dat from the authors' GitHub repo (906 compiled LRDs, all rows kept).
+  variable=0 for the 314 LRDs with multi-epoch light curves in the repo (all_LRDs/*/lc/lc_data;
+  per-field counts match paper Table 1), variable=1 for the 8 candidates of paper Table 3
+  (tab:vari_LRDs, arXiv v2 LaTeX source), empty for the rest. z = zbest of the repo table,
+  except the 8 candidates where z/ztype are taken from paper Table 3. Converted with ingest.py.
+notes: >-
+  ids are the paper's LIDs (<field>-<index>, e.g. COS-584); the five variability fields use the
+  paper's prefixes (A2744, COS, GN, GS, UDS), the other fields (CEERS, EIGER, MACSJ0647.7+7015;
+  not part of the variability analysis) are prefixed with the repo's field name. The original
+  catalogue ID and source reference are in notes. The paper text quotes 907 LRDs in total but the
+  released table has 906 rows. Repo and paper redshifts differ for UDS-108 and UDS-147 (paper:
+  spec-z 4.052 and 7.782). COS-534 has zbest matching neither its zspec nor zphot, so z_type is empty.
+  The authors flag COS-584 and COS-593 as the most robust variables. lrd=1 for all rows because the
+  paper treats the whole compilation as its LRD sample (it includes 8 extended broad-Halpha emitters
+  from Harikane+23 and the MIRI source Virgil).

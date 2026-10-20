@@ -1,0 +1,6 @@
+id,ra,dec,z,z_type,field,lrd,xray,variable,notes
+GLASS 160133,3.5802958,-30.4244083,4.015,spec,Abell 2744,0,nondet,0,UNCOVER DR3 ID 13322; mu=1.680; broad-Halpha emitter from Harikane et al. 2023; L2-10keV(Gamma=1.7) <2.97e42 erg/s
+GLASS 150029,3.5771458,-30.4225472,4.583,spec,Abell 2744,0,nondet,0,UNCOVER DR3 ID 14033; mu=1.676; broad-Halpha emitter from Harikane et al. 2023; L2-10keV(Gamma=1.7) <4.34e42 erg/s
+MSAID2008,3.5924208,-30.4328278,6.740,spec,Abell 2744,1,nondet,0,UNCOVER DR3 ID 10065; mu=1.691; broad-Halpha emitter from Greene et al. 2024; L2-10keV(Gamma=1.7) <6.58e42 erg/s
+MSAID4286,3.6192042,-30.4232722,5.840,spec,Abell 2744,1,nondet,0,UNCOVER DR3 ID 13742; mu=1.615; broad-Halpha emitter from Greene et al. 2024; L2-10keV(Gamma=1.7) <5.89e42 erg/s
+MSAID38108,3.5300083,-30.3580111,4.960,spec,Abell 2744,1,nondet,0,UNCOVER DR3 ID 50494; mu=1.588; broad-Halpha emitter from Greene et al. 2024; L2-10keV(Gamma=1.7) <15.3e42 erg/s

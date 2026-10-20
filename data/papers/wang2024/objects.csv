@@ -1,0 +1,2 @@
+id,ra,dec,z,z_type,field,lrd,spec,broad_line,xray,f444w,notes
+RUBIES-BLAGN-1,34.244201,-5.245872,3.1034,spec,UDS,1,NIRSpec,1,nondet,21.96,PRISM + G395M; MIRI F770W/F1800W detected; X-ray 3-sigma upper limit

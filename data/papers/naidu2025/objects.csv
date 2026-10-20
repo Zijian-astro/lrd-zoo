@@ -1,0 +1,2 @@
+id,ra,dec,z,z_type,field,lrd,spec,broad_line,f444w,notes
+MoM-BH*-1,34.3974841,-5.1351163,7.7569,spec,UDS,1,NIRSpec,1,25.4,"'black hole star'; called MoM-150135 in early versions of other papers; NIRSpec PRISM (MoM, GO-5224) + G395M (EXCELS); hint of 30% brightening in 56 d at 3-5 um (different instruments)"

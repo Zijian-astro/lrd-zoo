@@ -1,0 +1,16 @@
+key: zhuang2026
+first_author: Zhuang
+authors: "Zhuang, M.-Y., Li, J., Shen, Y., Lin, X., Shapley, A. E., Wang, F., Wu, Q., Yang, Q."
+year: 2026
+title: "NEXUS: A Spectroscopic Census of Broad-line AGNs and Little Red Dots at 3<~z<~6"
+journal: "ApJ, 999, 31"
+arxiv: "2505.20393"
+doi: "10.3847/1538-4357/ae3612"
+selection: grism
+sample_is_lrd: false   # 23 broad-line AGN; the 15 classified as LRDs (incl. 4 tentative) have lrd=1
+tags: [grism, photometry]
+fields: [NEXUS]
+n_objects: 23
+source_url: "https://arxiv.org/e-print/2505.20393"
+source_note: "arXiv v1 LaTeX source, sample631.tex Table 1 ('Broad-line Emitter Sample', 23 rows): ID, R.A./Decl. (deg), grism z_spec, F444W, broad-line FWHM, Type. lrd=1 for Type '(LRD)' or '(LRD*)'. Converted with ingest.py. Published version (ApJ 999, 31) not checked."
+notes: "NIRCam/WFSS (F322W2+F444W) broad-line emitters in the central 100 arcmin^2 of NEXUS (North Ecliptic Pole), first-epoch data. '*' = tentative classification (3 BLAGN* lack H-alpha coverage; broad_line left empty). NX26913 is a luminous quasar. Same field as Pan+26 (pan2026); 11 objects match within 0.03 arcsec. CAVEAT: NX15499 is listed at z=4.513 (broad H-alpha) but Pan+26 (NEXUS-93986) and de Graaff+26 (nexus 10687) give PRISM z=2.346/2.341 at the same position, i.e. the grism line is probably HeI 10830; value kept as published."

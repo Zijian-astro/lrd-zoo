@@ -1,0 +1,17 @@
+key: lin2026b
+first_author: Lin
+facility: SDSS
+authors: "Lin, R., Zheng, Z.-Y., Wang, J., Ho, L. C., Zavala, J. A., Zhang, Z., et al."
+year: 2026
+title: "Local Analogs of Little Red Dots: Optical Variability and Evidence for an Active Galactic Nucleus Origin"
+journal: "ApJ, 1005, 150"
+arxiv: "2603.01473"
+doi: "10.3847/1538-4357/ae74c6"
+selection: local
+sample_is_lrd: true
+tags: [variability, ground-spec]
+fields: [SDSS, LAMOST]
+n_objects: 7
+source_url: "https://arxiv.org/e-print/2603.01473"
+source_note: "arXiv v3 LaTeX source, sf_infuplim.tex Table 1 (tab:para): names, R.A./Dec. (deg, 4 decimals), z_spec; variability flags from the text. Converted with ingest.py."
+notes: "The seven V-shaped broad-line green peas at z=0.24-0.32 first identified as local LRD analogs by Lin, R. et al. 2025 (ApJL 980, L34, arXiv:2412.08396), whose own tables give only J-names (no coordinates), so that paper is not ingested separately. Positions have 4 decimals (~0.4 arcsec). The paper calls them 'local analogs of LRDs' / 'local LRDs'."

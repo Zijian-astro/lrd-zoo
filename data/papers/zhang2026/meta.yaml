@@ -1,0 +1,24 @@
+key: zhang2026
+first_author: Zhang
+authors: "Zhang, Z., Jiang, L., Liu, W., Ho, L. C., Inayoshi, K."
+year: 2026
+title: "JWST Insights into Narrow-line Little Red Dots"
+journal: "ApJ, 998, 170"
+arxiv: "2506.04350"
+doi: "10.3847/1538-4357/ae33c4"
+selection: spectroscopic
+sample_is_lrd: true
+tags: [nirspec, xray]
+fields: [EGS, UDS]
+n_objects: 5
+source_url: "https://arxiv.org/e-print/2506.04350"
+source_note: >-
+  Table 1 (tab:base_info, five narrow-line LRDs) parsed from the arXiv v2 (accepted) LaTeX source;
+  cross-checked against catalog/narrow_lrd_info.fits in https://github.com/Zijian-astro/NL-LRD-2025-Data
+  (Zenodo 10.5281/zenodo.18149018), which also gives the DJA spectrum name and the field.
+  broad_line=0 (single narrow Halpha in NIRSpec grating spectra), xray=nondet (no individual
+  detection in AEGIS-X Deep / X-UDS; stack also undetected). Converted with ingest.py.
+notes: >-
+  ids are the DJA UIDs used in the paper (UID-xxxx). The five were selected from 98 LRDs (32 with
+  grating spectra covering Halpha); only the five narrow-line LRDs are tabulated in the paper.
+  Published in 2026 (arXiv 2025), hence key zhang2026.

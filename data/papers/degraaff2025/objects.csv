@@ -1,0 +1,2 @@
+id,ra,dec,z,z_type,field,lrd,spec,broad_line,xray,notes
+RUBIES-UDS-154183,34.410750,-5.129664,3.548,spec,UDS,1,NIRSpec,1,nondet,'The Cliff'; position 02:17:38.58 -05:07:46.79; PRISM + G395M; X-UDS Chandra upper limits

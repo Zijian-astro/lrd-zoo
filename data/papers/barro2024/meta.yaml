@@ -1,0 +1,33 @@
+key: barro2024
+first_author: Barro
+authors: "Barro, G., Pérez-González, P. G., Kocevski, D. D., McGrath, E. J., Trump, J. R., Simons, R. C., Somerville, R. S., Yung, L. Y. A., et al."
+year: 2024
+title: "Extremely Red Galaxies at z = 5-9 with MIRI and NIRSpec: Dusty Galaxies or Obscured Active Galactic Nuclei?"
+journal: "ApJ, 963, 128"
+arxiv: "2305.14418"
+doi: "10.3847/1538-4357/ad167e"
+ads_bibcode: "2024ApJ...963..128B"
+selection: photometric
+sample_is_lrd: false   # the paper says "extremely red objects", not LRDs; most are LRDs via kocevski2025
+tags: [photometry, miri, nirspec]
+fields: [EGS]
+n_objects: 37
+source_url: "https://arxiv.org/e-print/2305.14418"
+source_note: >-
+  Parsed from the arXiv v1 LaTeX source (the only arXiv version); no VizieR catalogue, journal MRT or other
+  machine-readable release was found. Table 1 (ms.tex, label tab:objects; 8 EROs with MIRI or NIRSpec data) plus the
+  appendix table of the remaining 29 EROs (table2.tex, label tab:otherobjects) = the full sample of 37. IDs, RA/Dec
+  (decimal degrees, 6 decimals in Table 1, 7 in the appendix table) copied as published. z = z_spec from NIRSpec for
+  the 4 Table 1 objects that have one (the paper fixes their SED fits to it; z_phot kept in notes), otherwise the
+  central EAZY z_phot. Table footnote cross-references (Akins+23, Kocevski+23, Fujimoto+23, Labbé+23,
+  Pérez-González+23) kept in notes. Converted with ingest.py.
+notes: >-
+  The paper calls these "extremely red objects" (F277W-F444W > 1.5, F444W < 28, all unresolved, blue rest-UV /
+  red rest-optical); it does not use the term LRD, but Kocevski et al. 2025 recover them as LRDs: 34 of the 37
+  rows here lie within 0.01 arcsec of a kocevski2025 object. Positions are from the CEERS NIRCam catalogue used in the paper; IDs are as printed (Table 1
+  uses 'ncN-', the appendix 'nircamN-'). The published ApJ version may use different IDs: Kocevski et al. 2025 refer to
+  "B23 ID 48777 and 72897", which do not appear in the arXiv tables. Caveat: in Table 1, nc5-9553 and nc5-6746 have
+  identical published coordinates (214.990983, 52.916521), evidently a typo for one of them; that position matches
+  Kocevski et al. 2025 CEERS 14949 (z_spec 5.684), consistent with nc5-9553 (z_phot 5.6), so the position of
+  nc5-6746 (z_phot 7.5) is suspect. Both rows are kept as published. NIRSpec redshifts from CEERS spectroscopy
+  (grating/prism not stated in the table, so spec=NIRSpec).

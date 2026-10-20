@@ -1,0 +1,43 @@
+# Corrections to clear errors in published tables.
+#
+# objects.csv files stay exactly as published; build_catalog.py applies these fixes on top and
+# the web page marks each corrected entry with the reason. Only add a fix when independent
+# sources agree on the right value, and say which source the new value comes from.
+# Allowed keys besides paper/id/reason: ra, dec, z, z_type (use null to blank a value).
+
+# Yue et al. 2024, Table 1: six Kocevski+24 CEERS objects are printed with each other's positions
+# (ID and redshift are right, position belongs to another row). Positions from kocevski2025, same ID.
+- {paper: yue2024, id: CEERS-7902, ra: 214.983037, dec: 52.956006,
+   reason: "Yue+24 Table 1 prints the position of CEERS 13135 for this ID; position from Kocevski+25 (CEERS 7902)"}
+- {paper: yue2024, id: CEERS-10444, ra: 214.892248, dec: 52.877406,
+   reason: "Yue+24 Table 1 prints the position of CEERS 13318 for this ID; position from Kocevski+25 (CEERS 10444)"}
+- {paper: yue2024, id: CEERS-13135, ra: 214.886801, dec: 52.855376,
+   reason: "Yue+24 Table 1 prints the position of CEERS 14949 for this ID; position from Kocevski+25 (CEERS 13135)"}
+- {paper: yue2024, id: CEERS-13318, ra: 214.795367, dec: 52.788848,
+   reason: "Yue+24 Table 1 prints the position of CEERS 7902 for this ID; position from Kocevski+25 (CEERS 13318)"}
+- {paper: yue2024, id: CEERS-14949, ra: 214.990983, dec: 52.916523,
+   reason: "Yue+24 Table 1 prints the position of CEERS 20777 for this ID; position from Kocevski+25 (CEERS 14949)"}
+- {paper: yue2024, id: CEERS-20777, ra: 215.137064, dec: 52.988557,
+   reason: "Yue+24 Table 1 prints the position of CEERS 10444 for this ID; position from Kocevski+25 (CEERS 20777)"}
+
+# Perger et al. 2025 (VizieR J/A+A/693/L2) inherits part of the same mix-up.
+- {paper: perger2025, id: RUBIES-EGS-49140, ra: 214.8922479, dec: 52.8774097,
+   reason: "Perger+25 prints the position of CEERS 13318 for RUBIES-EGS-49140 (its z=6.68 is right); position from Hviding+25"}
+- {paper: perger2025, id: RUBIES-EGS-55604, ra: 214.9830256, dec: 52.9560013,
+   reason: "Perger+25 prints the position of CEERS 13135 for RUBIES-EGS-55604 (its z=6.98 is right); position from Hviding+25"}
+- {paper: perger2025, id: 2024ApJ...968...38K-48983, z: null, z_type: null,
+   reason: "Position is right (Kokorev+24 48983 = Kocevski+25 CEERS 10444, z=6.69), but Perger+25 gives the spec-z of CEERS 20777 (5.286); z removed"}
+- {paper: perger2025, id: 2024ApJ...968...38K-22049, z: null, z_type: null,
+   reason: "Position is right (Kokorev+24 22049 = Kocevski+25 CEERS 20777, z=5.29), but Perger+25 gives the spec-z of CEERS 14949 (5.684); z removed"}
+- {paper: perger2025, id: nc5-9553, z: null, z_type: null,
+   reason: "Perger+25 gives z=4.955 (the spec-z of CEERS 13135), but this position is CEERS 14949 (z=5.68) in Kocevski+25 and Barro+24; z removed"}
+
+# Lin, X. et al. 2026 (local LRD analogues), Table 1: the Dec of J1025+1402 ("The Egg") is 1.8" off both
+# the paper's own designation SDSS J102530.29+140207.3 and SDSS DR18 (objID 1237664132626776244).
+- {paper: lin2026, id: J1025+1402, ra: 156.376211, dec: 14.035378,
+   reason: "Lin+26 Table 1 Dec (14.03586) is 1.8\" off the paper's own SDSS name; position from SDSS DR18 objID 1237664132626776244"}
+
+# Zhang, Z. et al. 2025 (LRD variability), unique_lrds_table.dat: GS-267 is JADES 217926 (orig. ID from Williams+24),
+# but its Dec is 1.26" off Williams+24 Table (-27.744047) and the JADES name in Perez-Gonzalez+24 (-27.74405).
+- {paper: zhang2025, id: GS-267, dec: -27.744047,
+   reason: "Zhang+25 table gives Dec -27.744397 for JADES 217926; Williams+24 and Perez-Gonzalez+24 give -27.744047 (digit slip); Dec from Williams+24"}

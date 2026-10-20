@@ -1,0 +1,34 @@
+key: kocevski2025
+first_author: Kocevski
+authors: "Kocevski, D. D., Finkelstein, S. L., Barro, G., Taylor, A. J., Calabrò, A., Laloux, B., Buchner, J., Trump, J. R., et al."
+year: 2025
+title: "The Rise of Faint, Red Active Galactic Nuclei at z > 4: A Sample of Little Red Dots in the JWST Extragalactic Legacy Fields"
+journal: "ApJ, 986, 126"
+arxiv: "2404.03576"
+doi: "10.3847/1538-4357/adbc7d"
+ads_bibcode: "2025ApJ...986..126K"
+selection: photometric
+sample_is_lrd: true
+tags: [photometry, nirspec, xray]
+fields: [EGS, UDS, COSMOS, GOODS-S, Abell 2744]
+n_objects: 341
+source_url: "https://content.cld.iop.org/journals/0004-637X/986/2/126/revision1/apjadbc7dt3_mrt.txt"
+source_note: >-
+  Journal machine-readable Table 3 (primary sample, 341 LRDs: ID, RA/Dec in decimal degrees, z_best, z_flag,
+  F444W mag), joined with journal MRT Table 5 (apjadbc7dt5_mrt.txt, 15 LRDs with new RUBIES NIRSpec G395M
+  broad-line detections -> spec=NIRSpec/grating, broad_line=1). IDs, coordinates, redshifts and F444W copied as
+  published; z_type from z_flag (1=phot, 2=spec). field derived from the survey prefix of the ID following the
+  paper's Table 1 (CEERS->EGS, PRIMER-UDS->UDS, PRIMER-COS->COSMOS, JADES and NGDEEP->GOODS-S, UNCOVER->Abell 2744).
+  Cross-checked row by row against the authors' GitHub copy (github.com/dalekocevski/Kocevski24, Kocevski24.Table3.dat):
+  identical positions, z and z_flag. Converted with ingest.py.
+notes: >-
+  Photometric (continuum-slope + compactness) selection; 302 of 341 redshifts are photo-z, 39 are spec-z.
+  IDs are the paper's own catalogue IDs per survey (e.g. 'CEERS 7902', 'PRIMER-UDS 33823'), not survey DR IDs.
+  The paper also reports X-ray detections of exactly two LRDs, PRIMER-COS 3866 and JADES 21925 (text, Sect. 5; all
+  341 lie in Chandra footprints), but no table flags this, so the xray column is left empty.
+  Two further tentative (SNR<3) broad-line sources mentioned only in the text are not flagged.
+  Not included: journal MRT Table 6 (apjadbc7dt6_mrt.txt), 195 candidate LRDs that the paper removed from the
+  sample as potentially line-boosted.
+  The published MRT (used here) differs slightly from the 10-row excerpt in arXiv v3: CEERS 2520 is z=8.69 (spec) in
+  the MRT vs 8.74 (phot) in the excerpt, and two F444W values differ by 0.01 mag; positions are identical.
+  CEERS 110480 and CEERS 110826 are 0.51 arcsec apart (z 6.91 and 7.84); both kept as published.

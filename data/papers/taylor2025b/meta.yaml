@@ -1,0 +1,16 @@
+key: taylor2025b
+first_author: Taylor
+authors: "Taylor, A. J., Kokorev, V., Kocevski, D. D., Akins, H. B., Cullen, F., Dickinson, M., et al."
+year: 2025
+title: "CAPERS-LRD-z9: A Gas Enshrouded Little Red Dot Hosting a Broad-line AGN at z=9.288"
+journal: "ApJL, 989, L7"
+arxiv: "2505.04609"
+doi: "10.3847/2041-8213/ade789"
+selection: individual
+sample_is_lrd: true
+tags: [nirspec, photometry, miri]
+fields: [COSMOS]
+n_objects: 1
+source_url: "https://arxiv.org/e-print/2505.04609"
+source_note: "arXiv v4 LaTeX source, main.tex: R.A./Decl. (deg) and z from Table 'Properties of CAPERS-LRD-z9'. Converted with ingest.py."
+notes: "CAPERS-LRD-z9 (a.k.a. CAPERS-COSMOS-119334), broad Hbeta at z=9.288, PRIMER-COSMOS imaging + COSMOS-3D MIRI. Key taylor2025b because taylor2025 is used for the CEERS broad-line AGN paper."

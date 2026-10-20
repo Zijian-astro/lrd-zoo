@@ -1,0 +1,4 @@
+id,ra,dec,z,z_type,field,lrd,notes
+A2744-QSO1A,3.5798375,-30.4015733,7.6,phot,Abell 2744,,"image A of the triply lensed A2744-QSO1; UNCOVER ID 8296; position 00:14:19.161 -30:24:05.664; F444W 359 nJy (observed, lensed); later confirmed z_spec=7.0451 (Furtak+24)"
+A2744-QSO1B,3.5835458,-30.3966828,7.6,phot,Abell 2744,,"image B of the triply lensed A2744-QSO1; UNCOVER ID 9992; position 00:14:20.051 -30:23:48.058; F444W 262 nJy (observed, lensed); later confirmed z_spec=7.0451 (Furtak+24)"
+A2744-QSO1C,3.5972125,-30.3943442,7.6,phot,Abell 2744,,"image C of the triply lensed A2744-QSO1; UNCOVER ID 10712; position 00:14:23.331 -30:23:39.639; F444W 98 nJy (observed, lensed); later confirmed z_spec=7.0451 (Furtak+24)"

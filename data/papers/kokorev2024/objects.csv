@@ -1,0 +1,261 @@
+id,ra,dec,z,z_type,field,f444w,notes
+PRIMER-UDS-1072,34.3722360,-5.2100340,8.91,phot,UDS,25.90,"mosaic primer-uds-north; same source as PRIMER-UDS-59568 (listed twice in the released table, 0.0007 arcsec apart)"
+PRIMER-UDS-1381,34.4409875,-5.2093371,5.66,phot,UDS,26.72,"mosaic primer-uds-north; same source as PRIMER-UDS-59880 (listed twice in the released table, 0.0000 arcsec apart)"
+PRIMER-UDS-1470,34.2605489,-5.2091632,5.40,phot,UDS,26.24,"mosaic primer-uds-north; same source as PRIMER-UDS-59971 (listed twice in the released table, 0.0009 arcsec apart)"
+PRIMER-UDS-1544,34.3774128,-5.2090228,5.46,phot,UDS,26.35,"mosaic primer-uds-north; same source as PRIMER-UDS-60046 (listed twice in the released table, 0.0005 arcsec apart)"
+PRIMER-UDS-1939,34.4030978,-5.2081863,4.36,phot,UDS,25.22,"mosaic primer-uds-north; same source as PRIMER-UDS-60446 (listed twice in the released table, 0.0005 arcsec apart)"
+PRIMER-UDS-3992,34.3673035,-5.2041959,5.66,phot,UDS,24.53,"mosaic primer-uds-north; same source as PRIMER-UDS-62395 (listed twice in the released table, 0.0002 arcsec apart)"
+PRIMER-UDS-7991,34.2936871,-5.1964767,5.66,phot,UDS,23.68,"mosaic primer-uds-north; same source as PRIMER-UDS-66511 (listed twice in the released table, 0.0028 arcsec apart)"
+PRIMER-UDS-8559,34.4654261,-5.1953327,7.94,phot,UDS,25.54,"mosaic primer-uds-north; same source as PRIMER-UDS-67076 (listed twice in the released table, 0.0004 arcsec apart)"
+PRIMER-UDS-10404,34.4628722,-5.1919599,5.66,phot,UDS,24.25,"mosaic primer-uds-north; same source as PRIMER-UDS-68947 (listed twice in the released table, 0.0000 arcsec apart)"
+PRIMER-UDS-11219,34.4711265,-5.1904438,5.43,phot,UDS,24.27,"mosaic primer-uds-north; same source as PRIMER-UDS-69772 (listed twice in the released table, 0.0004 arcsec apart)"
+PRIMER-UDS-14419,34.3991777,-5.1843230,4.82,phot,UDS,25.38,mosaic primer-uds-north
+PRIMER-UDS-15257,34.4318642,-5.1827800,6.92,phot,UDS,25.81,mosaic primer-uds-north
+PRIMER-UDS-16999,34.5080578,-5.1800838,4.21,phot,UDS,23.53,mosaic primer-uds-north
+PRIMER-UDS-18804,34.3635150,-5.1769638,4.32,phot,UDS,24.38,mosaic primer-uds-north
+PRIMER-UDS-18892,34.2689080,-5.1767218,4.73,phot,UDS,25.60,mosaic primer-uds-north
+PRIMER-UDS-19416,34.4607632,-5.1758132,5.43,phot,UDS,26.29,mosaic primer-uds-north
+PRIMER-UDS-21108,34.3629634,-5.1731998,7.14,phot,UDS,25.82,mosaic primer-uds-north
+PRIMER-UDS-22773,34.4389859,-5.1705431,4.40,phot,UDS,25.19,mosaic primer-uds-north
+PRIMER-UDS-23575,34.4080199,-5.1691466,5.66,phot,UDS,25.29,mosaic primer-uds-north
+PRIMER-UDS-24081,34.3462067,-5.1681970,5.66,phot,UDS,25.10,mosaic primer-uds-north
+PRIMER-UDS-24100,34.4428828,-5.1681804,4.99,phot,UDS,24.87,mosaic primer-uds-north
+PRIMER-UDS-29106,34.3316430,-5.1592331,5.20,phot,UDS,24.93,mosaic primer-uds-north
+PRIMER-UDS-29110,34.4259152,-5.1591796,7.13,phot,UDS,26.00,mosaic primer-uds-north
+PRIMER-UDS-31581,34.3696604,-5.1551483,4.16,phot,UDS,26.93,mosaic primer-uds-north
+PRIMER-UDS-31645,34.5141791,-5.1550463,4.76,phot,UDS,25.52,mosaic primer-uds-north
+PRIMER-UDS-32025,34.4524928,-5.1547073,4.04,phot,UDS,25.21,mosaic primer-uds-north
+PRIMER-UDS-32237,34.4198598,-5.1542151,4.61,phot,UDS,24.25,mosaic primer-uds-north
+PRIMER-UDS-32986,34.4114007,-5.1530879,4.15,phot,UDS,26.71,mosaic primer-uds-north
+PRIMER-UDS-33332,34.4049841,-5.1526067,4.54,phot,UDS,25.69,mosaic primer-uds-north
+PRIMER-UDS-33774,34.2478282,-5.1519968,7.14,phot,UDS,26.00,mosaic primer-uds-north
+PRIMER-UDS-35111,34.2960034,-5.1498962,5.66,phot,UDS,24.87,mosaic primer-uds-north
+PRIMER-UDS-36327,34.2760416,-5.1480306,7.86,phot,UDS,26.74,mosaic primer-uds-north
+PRIMER-UDS-42014,34.3607184,-5.1390819,4.55,phot,UDS,26.42,mosaic primer-uds-north
+PRIMER-UDS-42859,34.4596071,-5.1377977,6.58,phot,UDS,25.46,mosaic primer-uds-north
+PRIMER-UDS-43738,34.4243106,-5.1364909,5.09,phot,UDS,24.20,mosaic primer-uds-north
+PRIMER-UDS-43932,34.3867131,-5.1361082,4.24,phot,UDS,25.43,mosaic primer-uds-north
+PRIMER-UDS-44053,34.4473589,-5.1358604,5.44,phot,UDS,25.63,mosaic primer-uds-north
+PRIMER-UDS-44681,34.4178217,-5.1348418,4.58,phot,UDS,25.45,mosaic primer-uds-north
+PRIMER-UDS-46085,34.4549316,-5.1327079,4.79,phot,UDS,24.43,mosaic primer-uds-north
+PRIMER-UDS-48927,34.2770446,-5.1283356,7.91,phot,UDS,26.84,mosaic primer-uds-north
+PRIMER-UDS-52141,34.4471312,-5.1229920,7.13,phot,UDS,25.81,mosaic primer-uds-north
+PRIMER-UDS-52856,34.3871364,-5.1216052,6.32,phot,UDS,26.54,mosaic primer-uds-north
+PRIMER-UDS-53667,34.2670333,-5.1200740,4.56,phot,UDS,25.27,mosaic primer-uds-north
+PRIMER-UDS-54143,34.4669429,-5.1192261,4.73,phot,UDS,25.92,mosaic primer-uds-north
+PRIMER-UDS-54603,34.3402517,-5.1187072,5.65,phot,UDS,26.18,mosaic primer-uds-north
+PRIMER-UDS-55902,34.3723693,-5.1159118,8.67,phot,UDS,26.27,mosaic primer-uds-north
+PRIMER-UDS-56783,34.2168792,-5.1143848,5.31,phot,UDS,25.62,mosaic primer-uds-north
+PRIMER-UDS-57469,34.4302189,-5.1131884,5.67,phot,UDS,24.95,mosaic primer-uds-north
+PRIMER-UDS-57944,34.3532557,-5.1122669,5.29,phot,UDS,25.59,mosaic primer-uds-north
+PRIMER-UDS-61010,34.2184269,-5.1071604,7.13,phot,UDS,26.30,mosaic primer-uds-north
+PRIMER-UDS-61298,34.3944051,-5.1067470,5.24,phot,UDS,25.23,mosaic primer-uds-north
+PRIMER-UDS-61378,34.2139527,-5.1065526,7.46,phot,UDS,26.70,mosaic primer-uds-north
+PRIMER-UDS-62716,34.3967921,-5.1044111,5.39,phot,UDS,25.15,mosaic primer-uds-north
+PRIMER-UDS-64273,34.2285262,-5.1015261,7.13,phot,UDS,26.41,mosaic primer-uds-north
+PRIMER-UDS-66007,34.2281006,-5.0981440,4.60,phot,UDS,25.50,mosaic primer-uds-north
+PRIMER-UDS-67270,34.2022958,-5.0953506,5.67,phot,UDS,24.60,mosaic primer-uds-north
+PRIMER-UDS-68006,34.4416834,-5.0936478,5.16,phot,UDS,24.04,mosaic primer-uds-north
+PRIMER-UDS-69921,34.2616248,-5.0893585,5.65,phot,UDS,25.03,mosaic primer-uds-north
+PRIMER-UDS-69936,34.2925664,-5.0893188,7.03,phot,UDS,25.74,mosaic primer-uds-north
+PRIMER-UDS-70423,34.2263119,-5.0881001,5.48,phot,UDS,25.66,mosaic primer-uds-north
+PRIMER-UDS-70813,34.2138128,-5.0870496,4.71,phot,UDS,25.11,mosaic primer-uds-north
+PRIMER-UDS-71037,34.4469527,-5.0866854,6.85,phot,UDS,24.75,mosaic primer-uds-north
+PRIMER-UDS-71893,34.3561304,-5.0842465,6.43,phot,UDS,26.35,mosaic primer-uds-north
+PRIMER-COSMOS-4278,150.1323061,2.1696924,5.66,phot,COSMOS,26.17,"mosaic primer-cosmos-east; same source as PRIMER-COSMOS-7242 (listed twice in the released table, 0.0006 arcsec apart)"
+PRIMER-COSMOS-6282,150.1491542,2.1839552,5.67,phot,COSMOS,24.82,mosaic primer-cosmos-east
+PRIMER-COSMOS-9227,150.1249242,2.2145722,5.71,phot,COSMOS,24.62,"mosaic primer-cosmos-east; same source as PRIMER-COSMOS-16152 (listed twice in the released table, 0.0001 arcsec apart)"
+PRIMER-COSMOS-10696,150.1495154,2.2286532,5.67,phot,COSMOS,25.93,mosaic primer-cosmos-east
+PRIMER-COSMOS-11967,150.1368162,2.2375629,5.48,phot,COSMOS,27.05,mosaic primer-cosmos-east
+PRIMER-COSMOS-14086,150.1493600,2.2525643,7.13,phot,COSMOS,26.19,mosaic primer-cosmos-east
+PRIMER-COSMOS-14487,150.1235352,2.2548352,7.17,phot,COSMOS,26.98,mosaic primer-cosmos-east
+PRIMER-COSMOS-15393,150.1606400,2.2600869,5.69,phot,COSMOS,27.31,mosaic primer-cosmos-east
+PRIMER-COSMOS-15850,150.1247322,2.2627937,7.05,phot,COSMOS,24.89,"mosaic primer-cosmos-east; same source as PRIMER-COSMOS-25633 (listed twice in the released table, 0.0002 arcsec apart)"
+PRIMER-COSMOS-16083,150.1507965,2.2640964,4.58,phot,COSMOS,25.36,mosaic primer-cosmos-east
+PRIMER-COSMOS-16408,150.1561572,2.2660570,4.57,phot,COSMOS,25.36,mosaic primer-cosmos-east
+PRIMER-COSMOS-16563,150.1197035,2.2670131,5.02,phot,COSMOS,24.69,"mosaic primer-cosmos-east; same source as PRIMER-COSMOS-26495 (listed twice in the released table, 0.0003 arcsec apart)"
+PRIMER-COSMOS-17813,150.1527690,2.2731888,5.23,phot,COSMOS,26.48,mosaic primer-cosmos-east
+PRIMER-COSMOS-18893,150.1758247,2.2802447,4.85,phot,COSMOS,26.74,mosaic primer-cosmos-east
+PRIMER-COSMOS-19462,150.1152254,2.2829873,4.37,phot,COSMOS,26.38,"mosaic primer-cosmos-east; same source as PRIMER-COSMOS-29568 (listed twice in the released table, 0.0011 arcsec apart)"
+PRIMER-COSMOS-19946,150.1326102,2.2854227,5.97,phot,COSMOS,25.97,"mosaic primer-cosmos-east; same source as PRIMER-COSMOS-30073 (listed twice in the released table, 0.0003 arcsec apart)"
+PRIMER-COSMOS-20187,150.1602574,2.2865445,6.61,phot,COSMOS,24.88,mosaic primer-cosmos-east
+PRIMER-COSMOS-21943,150.1630126,2.2946759,4.72,phot,COSMOS,26.15,mosaic primer-cosmos-east
+PRIMER-COSMOS-23571,150.1292356,2.3017441,4.76,phot,COSMOS,26.76,"mosaic primer-cosmos-east; same source as PRIMER-COSMOS-33230 (listed twice in the released table, 0.0005 arcsec apart)"
+PRIMER-COSMOS-26971,150.1291526,2.3158155,6.41,phot,COSMOS,25.07,"mosaic primer-cosmos-east; same source as PRIMER-COSMOS-36162 (listed twice in the released table, 0.0005 arcsec apart)"
+PRIMER-COSMOS-27072,150.2050895,2.3169437,4.96,phot,COSMOS,20.53,mosaic primer-cosmos-east
+PRIMER-COSMOS-27765,150.1583627,2.3202001,5.17,phot,COSMOS,25.45,mosaic primer-cosmos-east
+PRIMER-COSMOS-31668,150.1411004,2.3383750,5.61,phot,COSMOS,24.39,mosaic primer-cosmos-east
+PRIMER-COSMOS-31770,150.1757790,2.3387876,5.78,phot,COSMOS,23.74,mosaic primer-cosmos-east
+PRIMER-COSMOS-32928,150.1444515,2.3443943,4.46,phot,COSMOS,24.24,mosaic primer-cosmos-east
+PRIMER-COSMOS-40209,150.1759109,2.3767574,5.46,phot,COSMOS,25.98,mosaic primer-cosmos-east
+PRIMER-COSMOS-40642,150.1758423,2.3787302,4.63,phot,COSMOS,26.13,mosaic primer-cosmos-east
+PRIMER-COSMOS-40799,150.1568561,2.3794575,7.68,phot,COSMOS,25.96,mosaic primer-cosmos-east
+PRIMER-COSMOS-42464,150.1701807,2.3883899,5.37,phot,COSMOS,24.02,mosaic primer-cosmos-east
+PRIMER-COSMOS-43445,150.1294120,2.3936626,5.70,phot,COSMOS,27.50,"mosaic primer-cosmos-east; same source as PRIMER-COSMOS-50300 (listed twice in the released table, 0.0001 arcsec apart)"
+PRIMER-COSMOS-45179,150.1558358,2.4031090,7.11,phot,COSMOS,25.42,mosaic primer-cosmos-east
+PRIMER-COSMOS-47824,150.1287354,2.4163334,5.66,phot,COSMOS,25.21,"mosaic primer-cosmos-east; same source as PRIMER-COSMOS-53626 (listed twice in the released table, 0.0000 arcsec apart)"
+PRIMER-COSMOS-48498,150.1776947,2.4195603,4.45,phot,COSMOS,26.69,mosaic primer-cosmos-east
+PRIMER-COSMOS-48540,150.1150719,2.4196835,5.66,phot,COSMOS,26.41,"mosaic primer-cosmos-east; same source as PRIMER-COSMOS-54067 (listed twice in the released table, 0.0008 arcsec apart)"
+PRIMER-COSMOS-50325,150.1550823,2.4293540,6.43,phot,COSMOS,25.81,mosaic primer-cosmos-east
+PRIMER-COSMOS-50988,150.1759486,2.4324329,4.53,phot,COSMOS,23.75,mosaic primer-cosmos-east
+PRIMER-COSMOS-51514,150.1316987,2.4356820,4.44,phot,COSMOS,24.19,"mosaic primer-cosmos-east; same source as PRIMER-COSMOS-55716 (listed twice in the released table, 0.0001 arcsec apart)"
+PRIMER-COSMOS-51855,150.1732890,2.4376769,4.65,phot,COSMOS,24.52,mosaic primer-cosmos-east
+PRIMER-COSMOS-52084,150.1634286,2.4391550,7.08,phot,COSMOS,24.33,mosaic primer-cosmos-east
+PRIMER-COSMOS-52124,150.2016572,2.4393731,4.83,phot,COSMOS,24.79,mosaic primer-cosmos-east
+PRIMER-COSMOS-54661,150.1510756,2.4543512,5.67,phot,COSMOS,25.91,mosaic primer-cosmos-east
+PRIMER-COSMOS-55423,150.1655447,2.4591163,5.41,phot,COSMOS,24.40,mosaic primer-cosmos-east
+PRIMER-UDS-344,34.4095685,-5.3220411,7.14,phot,UDS,25.58,mosaic primer-uds-south
+PRIMER-UDS-2480,34.5320185,-5.3151647,4.68,phot,UDS,26.13,mosaic primer-uds-south
+PRIMER-UDS-4620,34.4665298,-5.3103080,5.75,phot,UDS,24.69,mosaic primer-uds-south
+PRIMER-UDS-7830,34.2464470,-5.3033974,5.55,phot,UDS,25.79,mosaic primer-uds-south
+PRIMER-UDS-9104,34.2702844,-5.3007195,6.09,phot,UDS,25.78,mosaic primer-uds-south
+PRIMER-UDS-9791,34.5103965,-5.2993779,5.03,phot,UDS,25.73,mosaic primer-uds-south
+PRIMER-UDS-11501,34.4209268,-5.2961639,4.68,phot,UDS,24.16,mosaic primer-uds-south
+PRIMER-UDS-14258,34.3114909,-5.2909939,5.47,phot,UDS,26.13,mosaic primer-uds-south
+PRIMER-UDS-17986,34.3669031,-5.2841878,4.94,phot,UDS,23.63,mosaic primer-uds-south
+PRIMER-UDS-21488,34.3919413,-5.2769295,5.41,phot,UDS,23.77,mosaic primer-uds-south
+PRIMER-UDS-22358,34.3049917,-5.2754215,4.68,phot,UDS,26.75,mosaic primer-uds-south
+PRIMER-UDS-23107,34.3965086,-5.2742299,4.95,phot,UDS,26.57,mosaic primer-uds-south
+PRIMER-UDS-25430,34.4533542,-5.2707172,7.13,phot,UDS,25.96,mosaic primer-uds-south
+PRIMER-UDS-28931,34.4660859,-5.2647678,7.90,phot,UDS,24.66,mosaic primer-uds-south
+PRIMER-UDS-29392,34.2931205,-5.2640696,7.47,phot,UDS,25.28,mosaic primer-uds-south
+PRIMER-UDS-30157,34.4543286,-5.2627597,4.73,phot,UDS,27.01,mosaic primer-uds-south
+PRIMER-UDS-30191,34.2469757,-5.2627282,4.04,phot,UDS,26.22,mosaic primer-uds-south
+PRIMER-UDS-30520,34.3927931,-5.2621760,5.35,phot,UDS,25.98,mosaic primer-uds-south
+PRIMER-UDS-32880,34.3324292,-5.2580987,4.76,phot,UDS,25.88,mosaic primer-uds-south
+PRIMER-UDS-33445,34.2975320,-5.2571888,4.35,phot,UDS,26.17,mosaic primer-uds-south
+PRIMER-UDS-33898,34.3555081,-5.2564498,4.55,phot,UDS,26.80,mosaic primer-uds-south
+PRIMER-UDS-36872,34.4070891,-5.2516664,7.14,phot,UDS,25.58,mosaic primer-uds-south
+PRIMER-UDS-37557,34.4223110,-5.2507027,5.66,phot,UDS,24.40,mosaic primer-uds-south
+PRIMER-UDS-37751,34.5142198,-5.2503647,5.36,phot,UDS,24.54,mosaic primer-uds-south
+PRIMER-UDS-37878,34.4018169,-5.2501672,4.77,phot,UDS,26.04,mosaic primer-uds-south
+PRIMER-UDS-39711,34.4197363,-5.2470585,5.46,phot,UDS,26.81,mosaic primer-uds-south
+PRIMER-UDS-44435,34.3703073,-5.2386396,5.17,phot,UDS,26.07,mosaic primer-uds-south
+PRIMER-UDS-45383,34.3439280,-5.2366774,4.86,phot,UDS,26.39,mosaic primer-uds-south
+PRIMER-UDS-45637,34.3440029,-5.2361791,4.54,phot,UDS,24.82,mosaic primer-uds-south
+PRIMER-UDS-47509,34.2646031,-5.2325854,5.66,phot,UDS,24.92,mosaic primer-uds-south
+PRIMER-UDS-48686,34.4963572,-5.2303610,4.84,phot,UDS,26.66,mosaic primer-uds-south
+PRIMER-UDS-48982,34.3312304,-5.2298618,5.39,phot,UDS,25.55,mosaic primer-uds-south
+PRIMER-UDS-50716,34.3131541,-5.2267809,7.86,phot,UDS,26.05,mosaic primer-uds-south
+PRIMER-UDS-51593,34.3735981,-5.2252034,4.46,phot,UDS,25.08,mosaic primer-uds-south
+PRIMER-UDS-52581,34.4053923,-5.2235276,6.17,phot,UDS,24.60,mosaic primer-uds-south
+PRIMER-UDS-55634,34.3721401,-5.2179641,6.88,phot,UDS,25.60,mosaic primer-uds-south
+PRIMER-UDS-55783,34.2707115,-5.2176793,4.63,phot,UDS,24.35,mosaic primer-uds-south
+PRIMER-UDS-57494,34.3687773,-5.2142853,4.02,phot,UDS,23.48,mosaic primer-uds-south
+PRIMER-UDS-59568,34.3722360,-5.2100341,8.90,phot,UDS,25.89,"mosaic primer-uds-south; same source as PRIMER-UDS-1072 (listed twice in the released table, 0.0007 arcsec apart)"
+PRIMER-UDS-59880,34.4409875,-5.2093371,5.66,phot,UDS,26.71,"mosaic primer-uds-south; same source as PRIMER-UDS-1381 (listed twice in the released table, 0.0000 arcsec apart)"
+PRIMER-UDS-59971,34.2605488,-5.2091635,5.39,phot,UDS,26.24,"mosaic primer-uds-south; same source as PRIMER-UDS-1470 (listed twice in the released table, 0.0009 arcsec apart)"
+PRIMER-UDS-60046,34.3774128,-5.2090229,5.46,phot,UDS,26.35,"mosaic primer-uds-south; same source as PRIMER-UDS-1544 (listed twice in the released table, 0.0005 arcsec apart)"
+PRIMER-UDS-60446,34.4030979,-5.2081864,4.37,phot,UDS,25.22,"mosaic primer-uds-south; same source as PRIMER-UDS-1939 (listed twice in the released table, 0.0005 arcsec apart)"
+PRIMER-UDS-62395,34.3673035,-5.2041958,5.66,phot,UDS,24.54,"mosaic primer-uds-south; same source as PRIMER-UDS-3992 (listed twice in the released table, 0.0002 arcsec apart)"
+PRIMER-UDS-66511,34.2936876,-5.1964773,7.13,phot,UDS,23.68,"mosaic primer-uds-south; same source as PRIMER-UDS-7991 (listed twice in the released table, 0.0028 arcsec apart)"
+PRIMER-UDS-67076,34.4654262,-5.1953328,7.94,phot,UDS,25.55,"mosaic primer-uds-south; same source as PRIMER-UDS-8559 (listed twice in the released table, 0.0004 arcsec apart)"
+PRIMER-UDS-68947,34.4628722,-5.1919599,5.66,phot,UDS,24.25,"mosaic primer-uds-south; same source as PRIMER-UDS-10404 (listed twice in the released table, 0.0000 arcsec apart)"
+PRIMER-UDS-69772,34.4711266,-5.1904439,5.43,phot,UDS,24.27,"mosaic primer-uds-south; same source as PRIMER-UDS-11219 (listed twice in the released table, 0.0004 arcsec apart)"
+CEERS-6756,214.8964764,52.7876910,7.14,phot,EGS,25.60,mosaic ceers-full
+CEERS-9246,215.0759983,52.9213331,4.60,phot,EGS,25.30,mosaic ceers-full
+CEERS-12234,214.9117927,52.8090632,6.14,phot,EGS,25.08,mosaic ceers-full
+CEERS-12544,214.8958624,52.7982122,4.55,phot,EGS,26.81,mosaic ceers-full
+CEERS-13736,214.9551926,52.8430208,5.36,phot,EGS,25.00,mosaic ceers-full
+CEERS-14076,214.9349741,52.8293673,5.66,phot,EGS,26.72,mosaic ceers-full
+CEERS-19354,214.8997086,52.8128427,5.43,phot,EGS,25.63,mosaic ceers-full
+CEERS-20010,215.0617875,52.9311753,8.93,phot,EGS,27.27,mosaic ceers-full
+CEERS-20632,214.8945675,52.8121654,5.65,phot,EGS,25.18,mosaic ceers-full
+CEERS-20897,214.9490179,52.8517466,4.53,phot,EGS,24.46,mosaic ceers-full
+CEERS-22049,215.1370825,52.9885549,7.14,phot,EGS,25.55,mosaic ceers-full
+CEERS-22239,215.1314783,52.9849108,7.13,phot,EGS,26.64,mosaic ceers-full
+CEERS-23054,215.0782594,52.9484972,6.87,phot,EGS,26.39,mosaic ceers-full
+CEERS-24464,214.8760423,52.8061116,5.66,phot,EGS,25.55,mosaic ceers-full
+CEERS-28748,214.9241499,52.8490514,4.75,phot,EGS,24.54,mosaic ceers-full
+CEERS-29421,215.0220707,52.9207859,4.79,phot,EGS,26.04,mosaic ceers-full
+CEERS-30600,214.8501129,52.8000512,4.03,phot,EGS,26.38,mosaic ceers-full
+CEERS-36886,214.8493880,52.8118237,4.45,phot,EGS,25.23,mosaic ceers-full
+CEERS-36985,214.9909773,52.9165231,5.65,phot,EGS,25.36,mosaic ceers-full
+CEERS-39094,214.7325488,52.7357517,4.73,phot,EGS,25.35,mosaic ceers-full
+CEERS-40589,214.8405415,52.8179428,8.01,phot,EGS,26.23,mosaic ceers-full
+CEERS-41179,214.8924791,52.8568905,7.24,phot,EGS,25.68,mosaic ceers-full
+CEERS-41913,214.7953684,52.7888459,5.25,phot,EGS,23.40,mosaic ceers-full
+CEERS-42093,214.8867919,52.8553808,6.45,phot,EGS,24.79,mosaic ceers-full
+CEERS-47021,214.8967633,52.8758002,8.02,phot,EGS,27.33,mosaic ceers-full
+CEERS-48983,214.8922482,52.8774094,7.14,phot,EGS,24.16,mosaic ceers-full
+CEERS-49360,214.9370014,52.9106542,4.74,phot,EGS,26.08,mosaic ceers-full
+CEERS-55490,214.9830263,52.9560012,7.15,phot,EGS,24.11,mosaic ceers-full
+CEERS-57051,215.0084907,52.9779738,5.67,phot,EGS,25.56,mosaic ceers-full
+CEERS-58630,214.8400406,52.8606507,4.55,phot,EGS,25.53,mosaic ceers-full
+CEERS-59162,214.8066697,52.8378025,7.84,phot,EGS,25.48,mosaic ceers-full
+CEERS-59626,214.8601565,52.8774333,6.37,phot,EGS,25.58,mosaic ceers-full
+CEERS-60774,214.9233738,52.9255927,5.28,phot,EGS,25.12,mosaic ceers-full
+CEERS-61323,214.9724414,52.9621927,7.13,phot,EGS,26.20,mosaic ceers-full
+CEERS-63106,214.9272394,52.9338965,5.66,phot,EGS,24.89,mosaic ceers-full
+CEERS-67137,214.8886864,52.9154132,7.50,phot,EGS,25.55,mosaic ceers-full
+CEERS-68816,214.7665817,52.8315227,4.53,phot,EGS,25.61,mosaic ceers-full
+CEERS-70681,214.9568370,52.9731530,7.90,phot,EGS,26.02,mosaic ceers-full
+CEERS-71267,215.0028416,53.0075927,7.52,phot,EGS,26.64,mosaic ceers-full
+CEERS-71321,214.8091469,52.8684797,7.13,phot,EGS,26.08,mosaic ceers-full
+CEERS-71380,214.9984027,53.0046240,7.13,phot,EGS,25.07,mosaic ceers-full
+CEERS-72633,214.8176793,52.8778598,5.44,phot,EGS,25.71,mosaic ceers-full
+CEERS-72956,214.8306601,52.8877748,8.90,phot,EGS,26.57,mosaic ceers-full
+CEERS-73890,214.9125024,52.9494403,5.66,phot,EGS,26.43,mosaic ceers-full
+PRIMER-COSMOS-7242,150.1323062,2.1696925,5.66,phot,COSMOS,26.18,"mosaic primer-cosmos-west; same source as PRIMER-COSMOS-4278 (listed twice in the released table, 0.0006 arcsec apart)"
+PRIMER-COSMOS-8118,150.0981218,2.1749178,5.64,phot,COSMOS,26.13,mosaic primer-cosmos-west
+PRIMER-COSMOS-13074,150.0716734,2.2004064,5.21,phot,COSMOS,23.88,mosaic primer-cosmos-west
+PRIMER-COSMOS-13666,150.1229491,2.2033023,5.29,phot,COSMOS,25.22,mosaic primer-cosmos-west
+PRIMER-COSMOS-15233,150.0597846,2.2105374,4.99,phot,COSMOS,25.20,mosaic primer-cosmos-west
+PRIMER-COSMOS-16152,150.1249242,2.2145722,5.71,phot,COSMOS,24.62,"mosaic primer-cosmos-west; same source as PRIMER-COSMOS-9227 (listed twice in the released table, 0.0001 arcsec apart)"
+PRIMER-COSMOS-18540,150.0625591,2.2257225,8.93,phot,COSMOS,25.95,mosaic primer-cosmos-west
+PRIMER-COSMOS-21037,150.0777710,2.2375287,4.48,phot,COSMOS,25.47,mosaic primer-cosmos-west
+PRIMER-COSMOS-21620,150.0665706,2.2401842,8.09,phot,COSMOS,25.73,mosaic primer-cosmos-west
+PRIMER-COSMOS-22379,150.0752210,2.2446800,5.73,phot,COSMOS,25.65,mosaic primer-cosmos-west
+PRIMER-COSMOS-22483,150.1110759,2.2452700,7.14,phot,COSMOS,25.49,mosaic primer-cosmos-west
+PRIMER-COSMOS-22702,150.0637599,2.2468026,5.43,phot,COSMOS,23.36,mosaic primer-cosmos-west
+PRIMER-COSMOS-25633,150.1247322,2.2627936,7.05,phot,COSMOS,24.89,"mosaic primer-cosmos-west; same source as PRIMER-COSMOS-15850 (listed twice in the released table, 0.0002 arcsec apart)"
+PRIMER-COSMOS-26495,150.1197034,2.2670130,5.02,phot,COSMOS,24.69,"mosaic primer-cosmos-west; same source as PRIMER-COSMOS-16563 (listed twice in the released table, 0.0003 arcsec apart)"
+PRIMER-COSMOS-28491,150.0780274,2.2776250,5.59,phot,COSMOS,24.70,mosaic primer-cosmos-west
+PRIMER-COSMOS-28500,150.0828208,2.2777259,5.43,phot,COSMOS,25.27,mosaic primer-cosmos-west
+PRIMER-COSMOS-29372,150.1334399,2.2820779,5.39,phot,COSMOS,26.48,mosaic primer-cosmos-west
+PRIMER-COSMOS-29568,150.1152256,2.2829875,4.36,phot,COSMOS,26.38,"mosaic primer-cosmos-west; same source as PRIMER-COSMOS-19462 (listed twice in the released table, 0.0011 arcsec apart)"
+PRIMER-COSMOS-30073,150.1326103,2.2854227,6.00,phot,COSMOS,25.97,"mosaic primer-cosmos-west; same source as PRIMER-COSMOS-19946 (listed twice in the released table, 0.0003 arcsec apart)"
+PRIMER-COSMOS-30145,150.0791693,2.2857358,5.66,phot,COSMOS,25.77,mosaic primer-cosmos-west
+PRIMER-COSMOS-31319,150.0553698,2.2915889,6.33,phot,COSMOS,24.67,mosaic primer-cosmos-west
+PRIMER-COSMOS-31661,150.0596650,2.2934374,4.46,phot,COSMOS,24.97,mosaic primer-cosmos-west
+PRIMER-COSMOS-32535,150.0719713,2.2972604,5.75,phot,COSMOS,25.15,mosaic primer-cosmos-west
+PRIMER-COSMOS-33230,150.1292355,2.3017440,4.75,phot,COSMOS,26.76,"mosaic primer-cosmos-west; same source as PRIMER-COSMOS-23571 (listed twice in the released table, 0.0005 arcsec apart)"
+PRIMER-COSMOS-36162,150.1291526,2.3158154,6.41,phot,COSMOS,25.06,"mosaic primer-cosmos-west; same source as PRIMER-COSMOS-26971 (listed twice in the released table, 0.0005 arcsec apart)"
+PRIMER-COSMOS-42656,150.0777899,2.3503724,5.69,phot,COSMOS,25.24,mosaic primer-cosmos-west
+PRIMER-COSMOS-43505,150.0633371,2.3549759,4.68,phot,COSMOS,25.61,mosaic primer-cosmos-west
+PRIMER-COSMOS-44446,150.1069091,2.3600478,7.13,phot,COSMOS,25.54,mosaic primer-cosmos-west
+PRIMER-COSMOS-46914,150.0783402,2.3726832,5.65,phot,COSMOS,26.07,mosaic primer-cosmos-west
+PRIMER-COSMOS-47165,150.0742360,2.3738872,5.23,phot,COSMOS,24.61,mosaic primer-cosmos-west
+PRIMER-COSMOS-50300,150.1294120,2.3936626,5.70,phot,COSMOS,27.51,"mosaic primer-cosmos-west; same source as PRIMER-COSMOS-43445 (listed twice in the released table, 0.0001 arcsec apart)"
+PRIMER-COSMOS-50560,150.1010416,2.3952354,5.15,phot,COSMOS,26.20,mosaic primer-cosmos-west
+PRIMER-COSMOS-51657,150.1102472,2.4022096,4.79,phot,COSMOS,24.62,mosaic primer-cosmos-west
+PRIMER-COSMOS-53626,150.1287354,2.4163334,5.66,phot,COSMOS,25.24,"mosaic primer-cosmos-west; same source as PRIMER-COSMOS-47824 (listed twice in the released table, 0.0000 arcsec apart)"
+PRIMER-COSMOS-54067,150.1150718,2.4196833,5.66,phot,COSMOS,26.43,"mosaic primer-cosmos-west; same source as PRIMER-COSMOS-48540 (listed twice in the released table, 0.0008 arcsec apart)"
+PRIMER-COSMOS-55716,150.1316987,2.4356821,4.44,phot,COSMOS,24.19,"mosaic primer-cosmos-west; same source as PRIMER-COSMOS-51514 (listed twice in the released table, 0.0001 arcsec apart)"
+GOODS-S-1498,53.0570313,-27.8743687,4.66,phot,GOODS-S,25.35,mosaic gds
+GOODS-S-2981,53.0877270,-27.8712407,4.81,phot,GOODS-S,27.03,mosaic gds
+GOODS-S-3099,53.0641137,-27.8709292,5.46,phot,GOODS-S,25.75,mosaic gds
+GOODS-S-5434,53.1247677,-27.8662990,4.11,phot,GOODS-S,24.31,mosaic gds
+GOODS-S-14381,53.0605456,-27.8483953,5.44,phot,GOODS-S,27.08,mosaic gds
+GOODS-S-14605,53.1060452,-27.8482194,6.93,phot,GOODS-S,25.66,mosaic gds
+GOODS-S-16053,53.1434060,-27.8448042,6.90,phot,GOODS-S,27.65,mosaic gds
+GOODS-S-18537,53.1166824,-27.8397931,4.28,phot,GOODS-S,24.99,mosaic gds
+GOODS-S-22388,53.1618003,-27.8316142,7.18,phot,GOODS-S,22.69,mosaic gds
+GOODS-S-23636,53.2273788,-27.8287909,7.13,phot,GOODS-S,25.64,mosaic gds
+GOODS-S-23868,53.1338262,-27.8282556,8.93,phot,GOODS-S,27.19,mosaic gds
+GOODS-S-29303,53.1265395,-27.8180907,5.99,phot,GOODS-S,26.01,mosaic gds
+GOODS-S-32147,53.0676758,-27.8123269,4.60,phot,GOODS-S,24.18,mosaic gds
+GOODS-S-32402,53.1593332,-27.8117493,4.94,phot,GOODS-S,26.97,mosaic gds
+GOODS-S-35367,53.1547711,-27.8065187,5.49,phot,GOODS-S,24.64,mosaic gds
+GOODS-S-37563,53.1407819,-27.8021792,5.71,phot,GOODS-S,26.49,mosaic gds
+GOODS-S-39509,53.1115407,-27.7980733,4.29,phot,GOODS-S,26.95,mosaic gds
+GOODS-S-41129,53.1214248,-27.7949124,7.13,phot,GOODS-S,26.13,mosaic gds
+GOODS-S-44531,53.0867483,-27.7874315,7.12,phot,GOODS-S,26.30,mosaic gds
+GOODS-S-45202,53.1269022,-27.7861519,7.13,phot,GOODS-S,25.57,mosaic gds
+GOODS-S-46221,53.1390411,-27.7844418,4.05,phot,GOODS-S,25.41,mosaic gds
+GOODS-S-46281,53.1167455,-27.7839769,4.79,phot,GOODS-S,25.62,mosaic gds
+GOODS-S-51983,53.2039936,-27.7721003,7.14,phot,GOODS-S,26.35,mosaic gds
+GOODS-S-52017,53.1661158,-27.7720433,6.33,phot,GOODS-S,26.40,mosaic gds
+GOODS-S-64049,53.1847863,-27.7440455,5.27,phot,GOODS-S,27.04,mosaic gds
+GOODS-S-65646,53.1581828,-27.7391316,5.66,phot,GOODS-S,25.85,mosaic gds
+GOODS-S-66116,53.1613762,-27.7376682,6.85,phot,GOODS-S,25.29,mosaic gds

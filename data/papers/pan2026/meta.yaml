@@ -1,0 +1,14 @@
+key: pan2026
+first_author: Pan
+authors: "Pan, Z., Zhuang, M.-Y., Shen, Y., Wang, F., Greene, J. E., Burgasser, A. J., Li, J., Stone, Z., Venkatraman, P."
+year: 2026
+title: "NEXUS: Abundance, Environments, and Spectral Diversity of Little Red Dots from the NIRSpec MSA Sample"
+arxiv: "2606.09721"
+selection: spectroscopic
+sample_is_lrd: true
+tags: [nirspec, photometry]
+fields: [NEXUS]
+n_objects: 36
+source_url: "https://arxiv.org/e-print/2606.09721"
+source_note: "arXiv v1 LaTeX source, nexus_prism_LRD.tex Table 2 (tab:catalog, 'Spectroscopic LRD Sample', 36 rows): QDR ID, R.A./Decl. (deg), z_spec, F444W, broad-line FWHM, shape class, selection flag. Converted with ingest.py."
+notes: "Spectroscopically confirmed LRDs (NIRSpec MSA/PRISM, epochs 1-6) in NEXUS-Deep at the North Ecliptic Pole, 2.3<z<7.4. broad_line=1 for the 32 with a listed broad-line FWHM (abstract: >~90% have robust broad lines); empty for the 4 without. Shape subclass (S/V/L) and selection flag (1=V-color, 2=V-slope, 3=Red-color, 0=missed by photometric methods) in the notes. Text gives z=2.887 for ID-92199 while Table 2 lists 2.877 (table value kept). Submitted to ApJ."

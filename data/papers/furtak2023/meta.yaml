@@ -1,0 +1,16 @@
+key: furtak2023
+first_author: Furtak
+authors: "Furtak, L. J., Zitrin, A., Plat, A., Fujimoto, S., Wang, B., Nelson, E. J., Labbé, I., et al."
+year: 2023
+title: "JWST UNCOVER: Extremely red and compact object at z_phot~7.6 triply imaged by Abell 2744"
+journal: "ApJ, 952, 142"
+arxiv: "2212.10531"
+doi: "10.3847/1538-4357/acdc9d"
+selection: individual
+sample_is_lrd: false   # paper predates the LRD term; it calls the source an extremely red compact, dust-obscured quasar-like object
+tags: [photometry, xray, alma]
+fields: [Abell 2744]
+n_objects: 3
+source_url: "https://arxiv.org/e-print/2212.10531"
+source_note: "arXiv v4 LaTeX source, main.tex Table 1 (tab:photometry): sexagesimal R.A./Dec. of the three images converted to degrees with astropy SkyCoord. Converted with ingest.py."
+notes: "Discovery paper of A2744-QSO1, one object lensed into three images (QSO1A/B/C, one row each). Added because Furtak et al. 2024 (Nature, arXiv:2308.05735, the NIRSpec follow-up giving z_spec=7.0451) contains no coordinates in its source. The paper calls it an extremely red, compact, dust-obscured quasar-like object; the term 'little red dot' does not appear (it postdates the paper), so lrd is left empty; z here is the photometric z~7.6 from this paper."

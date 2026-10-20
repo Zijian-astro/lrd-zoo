@@ -1,0 +1,16 @@
+key: juodzbalis2024
+first_author: Juodžbalis
+authors: "Juodžbalis, I., Ji, X., Maiolino, R., D'Eugenio, F., Scholtz, J., Risaliti, G., et al."
+year: 2024
+title: "JADES - The Rosetta Stone of JWST-discovered AGN: deciphering the intriguing nature of early AGN"
+journal: "MNRAS, 535, 853"
+arxiv: "2407.08643"
+doi: "10.1093/mnras/stae2367"
+selection: individual
+sample_is_lrd: false   # paper calls GN-28074 a broad-line AGN with LRD-like colours, not explicitly an LRD
+tags: [nirspec, photometry, xray]
+fields: [GOODS-N]
+n_objects: 1
+source_url: "https://arxiv.org/e-print/2407.08643"
+source_note: "arXiv v2 LaTeX source, mnras_template.tex: RA/Dec (deg), CANDELS/3D-HST IDs and z=2.26 from the Introduction. Converted with ingest.py."
+notes: "GN-28074, JADES 'Rosetta Stone' AGN at z=2.26 with Balmer and HeI absorption. The paper says its colours resemble LRDs (passes most Kokorev+24 cuts if redshifted to z=7) and its continuum is v-shaped, but does not label it an LRD, so lrd is left empty."

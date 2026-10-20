@@ -1,0 +1,23 @@
+key: kocevski2023
+first_author: Kocevski
+authors: "Kocevski, D. D., Onoue, M., Inayoshi, K., Trump, J. R., Arrabal Haro, P., Grazian, A., Dickinson, M., et al."
+year: 2023
+title: "Hidden Little Monsters: Spectroscopic Identification of Low-mass, Broad-line AGNs at z > 5 with CEERS"
+journal: "ApJL, 954, L4"
+arxiv: "2302.00012"
+doi: "10.3847/2041-8213/ace5a0"
+ads_bibcode: "2023ApJ...954L...4K"
+selection: spectroscopic
+sample_is_lrd: false      # two broad-line AGN; the paper predates the LRD label and gives no LRD classification
+tags: [nirspec, xray]
+fields: [EGS]
+n_objects: 2
+source_url: "https://arxiv.org/e-print/2302.00012"
+source_note: >-
+  arXiv LaTeX source (v1, the only arXiv version); Table 1 'AGN Sample' (tab_sample, 2 rows, RA/Dec in decimal
+  degrees). xray=nondet from the text ("Neither source is directly detected in the deep (800 ksec) Chandra X-ray
+  observations of the CEERS field from the AEGIS-XD survey"). Not on VizieR. Converted with ingest.py.
+notes: >-
+  Broad Halpha in NIRSpec G395M (R~1000) spectra. IDs are the paper's 'CEERS 1670' / 'CEERS 3210' (MSA IDs); the same
+  objects are CEERS_02782 / CEERS_00746 in Harikane+2023 and CEERS-2782 / CEERS-746 in Taylor+2025. Values are from
+  arXiv v1; the published ApJL version could not be checked. lrd is empty (no LRD classification in this paper).

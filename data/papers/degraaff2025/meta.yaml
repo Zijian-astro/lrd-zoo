@@ -1,0 +1,16 @@
+key: degraaff2025
+first_author: de Graaff
+authors: "de Graaff, A., Rix, H.-W., Naidu, R. P., Labbé, I., Wang, B., Leja, J., et al."
+year: 2025
+title: "A remarkable Ruby: Absorption in dense gas, rather than evolved stars, drives the extreme Balmer break of a Little Red Dot at z=3.5"
+journal: "A&A, 701, A168"
+arxiv: "2503.16600"
+doi: "10.1051/0004-6361/202554681"
+selection: individual
+sample_is_lrd: true
+tags: [nirspec, photometry, miri, xray]
+fields: [UDS]
+n_objects: 1
+source_url: "https://arxiv.org/e-print/2503.16600"
+source_note: "arXiv v2 LaTeX source, main.tex: sexagesimal position from Sect. 2.1 (R.A. 02:17:38.58; Dec. -05:07:46.79) converted to degrees with astropy SkyCoord; z_spec=3.548 from the text/Fig. 1 caption. Converted with ingest.py."
+notes: "'The Cliff' (RUBIES-UDS-154183), RUBIES NIRSpec PRISM + G395M; extreme Balmer break attributed to dense gas absorption (black-hole-star-like)."

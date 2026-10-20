@@ -1,0 +1,14 @@
+key: labbe2024
+first_author: Labbé
+authors: "Labbé, I., Greene, J. E., Matthee, J., Treiber, H., Kokorev, V., Miller, T. B., et al."
+year: 2024
+title: "An unambiguous AGN and a Balmer break in an Ultraluminous Little Red Dot at z=4.47 from Ultradeep UNCOVER and All the Little Things Spectroscopy"
+arxiv: "2412.04557"
+selection: individual
+sample_is_lrd: true
+tags: [nirspec, grism, photometry, xray]
+fields: [Abell 2744]
+n_objects: 1
+source_url: "https://arxiv.org/e-print/2412.04557"
+source_note: "arXiv v1 LaTeX source, paper.tex: position from the Introduction (R.A.=3.584758, Dec=-30.343630, decimal degrees as published); z=4.47 from title/text. Converted with ingest.py."
+notes: "A2744-45924, one of the most luminous LRDs known (F444W~22 AB), sometimes nicknamed 'the Monster' (nickname not used in the paper text). Not lensed into multiple images. arXiv version says 'submitted to ApJ'; no journal reference found."

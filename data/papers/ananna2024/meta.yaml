@@ -1,0 +1,24 @@
+key: ananna2024
+first_author: Ananna
+authors: "Ananna, T. T., Bogdán, Á., Kovács, O. E., Natarajan, P., Hickox, R. C."
+year: 2024
+title: "X-Ray View of Little Red Dots: Do They Host Supermassive Black Holes?"
+journal: "ApJL, 969, L18"
+arxiv: "2404.19010"
+doi: "10.3847/2041-8213/ad5669"
+selection: xray
+sample_is_lrd: true
+tags: [xray]
+fields: [Abell 2744]
+n_objects: 23
+source_url: "https://arxiv.org/e-print/2404.19010"
+source_note: >-
+  Table 1 ("Analyzed sample of Little Red Dots", 23 rows, RA/Dec in decimal degrees) parsed from the
+  arXiv v2 LaTeX source; three rows commented out in the source (not in the published table) are
+  skipped. xray=nondet for all (Chandra 2-10 keV upper limits only; no individual detection).
+  z_type=spec for redshifts marked with a star (Greene+23), phot otherwise. Converted with ingest.py.
+notes: >-
+  The 23 rows are 21 individual LRDs plus 3 images of the triply lensed quasar at z=7.04 (UNCOVER-8296,
+  -9992, -10712; only 8296 was stacked). IDs are printed as "UNCOVER ID" in the paper; they are the
+  Labbe+23 numbering (identical ids and positions in labbe2025), not UNCOVER DR3 (e.g. UNCOVER-571
+  here is MSAID2008 = DR3 10065 in kokubo2025).

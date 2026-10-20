@@ -1,0 +1,24 @@
+id,ra,dec,z,z_type,field,lrd,spec,broad_line,f444w,notes
+NX29853,268.525957,65.227706,2.866,grism,NEXUS,1,NIRCam/grism,1,23.60,Type: BLAGN (LRD); BLAGN selection flag 12; broad Halpha FWHM 659 km/s
+NX34911,268.428710,65.203777,2.874,grism,NEXUS,0,NIRCam/grism,1,22.23,Type: BLAGN; BLAGN selection flag 12; broad HeI FWHM 1064 km/s
+NX7607,268.432893,65.147652,3.208,grism,NEXUS,1,NIRCam/grism,1,23.79,Type: BLAGN (LRD); BLAGN selection flag 2; broad Halpha FWHM 946 km/s
+NX28630,268.505621,65.233145,3.462,grism,NEXUS,1,NIRCam/grism,1,23.40,Type: BLAGN (LRD); BLAGN selection flag 12; broad Halpha FWHM 1535 km/s
+NX7168,268.483161,65.147721,3.568,grism,NEXUS,0,NIRCam/grism,1,21.90,Type: BLAGN; BLAGN selection flag 12; broad Halpha FWHM 1490 km/s
+NX7434,268.380805,65.146778,3.714,grism,NEXUS,0,NIRCam/grism,1,25.00,Type: BLAGN; BLAGN selection flag 12; broad Halpha FWHM 1054 km/s
+NX6877,268.442554,65.144320,3.932,grism,NEXUS,1,NIRCam/grism,1,24.04,Type: BLAGN (LRD*); BLAGN selection flag 2; broad Halpha FWHM 2808 km/s
+NX4833,268.522059,65.135414,3.963,grism,NEXUS,0,NIRCam/grism,1,23.53,Type: BLAGN; BLAGN selection flag 12; broad Halpha FWHM 2947 km/s
+NX21958,268.426066,65.267830,4.044,grism,NEXUS,1,NIRCam/grism,1,25.47,Type: BLAGN (LRD); BLAGN selection flag 1; broad Halpha FWHM 1190 km/s
+NX5732,268.541898,65.138808,4.423,grism,NEXUS,1,NIRCam/grism,1,23.67,Type: BLAGN (LRD); BLAGN selection flag 12; broad Halpha FWHM 2751 km/s
+NX21246,268.511349,65.270607,4.465,grism,NEXUS,1,NIRCam/grism,1,22.49,Type: BLAGN (LRD); BLAGN selection flag 12; broad Halpha FWHM 2999 km/s
+NX15499,268.486881,65.187833,4.513,grism,NEXUS,1,NIRCam/grism,1,22.21,Type: BLAGN (LRD); BLAGN selection flag 2; broad Halpha FWHM 791 km/s
+NX23770,268.542071,65.260276,4.516,grism,NEXUS,0,NIRCam/grism,1,23.83,Type: BLAGN; BLAGN selection flag 12; broad Halpha FWHM 1793 km/s
+NX23192,268.522548,65.262645,4.522,grism,NEXUS,1,NIRCam/grism,1,23.43,Type: BLAGN (LRD); BLAGN selection flag 12; broad Halpha FWHM 3447 km/s
+NX26913,268.666877,65.243642,4.595,grism,NEXUS,0,NIRCam/grism,1,19.67,Type: BLAGN (QSO); BLAGN selection flag 12; broad Halpha FWHM 3105 km/s
+NX10835,268.437675,65.167485,4.649,grism,NEXUS,1,NIRCam/grism,1,25.08,Type: BLAGN (LRD); BLAGN selection flag 1; broad Halpha FWHM 2250 km/s
+NX26545,268.520329,65.246470,4.823,grism,NEXUS,0,NIRCam/grism,1,25.33,Type: BLAGN; BLAGN selection flag 12; broad Halpha FWHM 1099 km/s
+NX32030,268.639098,65.216381,5.063,grism,NEXUS,0,NIRCam/grism,1,25.76,Type: BLAGN; BLAGN selection flag 1; broad Halpha FWHM 652 km/s
+NX12300,268.472995,65.174101,5.066,grism,NEXUS,1,NIRCam/grism,1,25.26,Type: BLAGN (LRD); BLAGN selection flag 12; broad Halpha FWHM 823 km/s
+NX8933,268.615474,65.155855,5.574,grism,NEXUS,1,NIRCam/grism,,23.21,Type: BLAGN* (LRD*); BLAGN selection flag 3
+NX12143,268.428338,65.173501,5.864,grism,NEXUS,1,NIRCam/grism,,24.44,Type: BLAGN* (LRD*); BLAGN selection flag 3
+NX12349,268.568556,65.174341,5.871,grism,NEXUS,1,NIRCam/grism,1,23.83,Type: BLAGN (LRD); BLAGN selection flag 12; broad Halpha FWHM 1673 km/s
+NX7680,268.393574,65.147946,7.006,grism,NEXUS,1,NIRCam/grism,,24.93,Type: BLAGN* (LRD*); BLAGN selection flag 3

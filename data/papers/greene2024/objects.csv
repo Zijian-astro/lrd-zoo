@@ -1,0 +1,18 @@
+id,ra,dec,z,z_type,field,lrd,spec,broad_line,f444w,notes
+UNCOVER-2008,3.592423,-30.432828,6.74,spec,Abell 2744,1,NIRSpec/PRISM,0,27.3,unconfirmed broad-line AGN
+UNCOVER-4286,3.619202,-30.423270,5.84,spec,Abell 2744,1,NIRSpec/PRISM,1,24.8,
+UNCOVER-10686,3.550838,-30.406598,5.05,spec,Abell 2744,1,NIRSpec/PRISM,0,24.3,unconfirmed broad-line AGN
+UNCOVER-13123,3.579829,-30.401570,7.04,spec,Abell 2744,1,NIRSpec/PRISM,1,25.0,one of three images of the triply-lensed A2744-QSO1 (13123/15383/16594)
+UNCOVER-13821,3.620607,-30.399951,6.34,spec,Abell 2744,1,NIRSpec/PRISM,1,25.0,
+UNCOVER-15383,3.583534,-30.396678,7.04,spec,Abell 2744,1,NIRSpec/PRISM,1,25.3,one of three images of the triply-lensed A2744-QSO1 (13123/15383/16594)
+UNCOVER-16594,3.597203,-30.394330,7.04,spec,Abell 2744,1,NIRSpec/PRISM,1,26.3,one of three images of the triply-lensed A2744-QSO1 (13123/15383/16594)
+UNCOVER-20466,3.640409,-30.386437,8.50,spec,Abell 2744,1,NIRSpec/PRISM,1,26.2,
+UNCOVER-23608,3.542815,-30.380646,5.80,spec,Abell 2744,1,NIRSpec/PRISM,1,24.9,
+UNCOVER-28876,3.569596,-30.373222,7.04,spec,Abell 2744,1,NIRSpec/PRISM,0,26.8,unconfirmed broad-line AGN
+UNCOVER-32265,3.537530,-30.370168,,,Abell 2744,0,NIRSpec/PRISM,,27.3,brown dwarf (z_spec=0.00 in table)
+UNCOVER-33437,3.546419,-30.366245,,,Abell 2744,0,NIRSpec/PRISM,,27.0,brown dwarf (z_spec=0.00 in table)
+UNCOVER-35488,3.578984,-30.362598,6.26,spec,Abell 2744,1,NIRSpec/PRISM,1,24.5,BL per Halpha-fits table; arXiv v1 text inconsistently lists 35488 as failing the chi2 cut
+UNCOVER-38108,3.530009,-30.358013,4.96,spec,Abell 2744,1,NIRSpec/PRISM,1,24.7,
+UNCOVER-39243,3.513894,-30.356024,,,Abell 2744,0,NIRSpec/PRISM,,25.6,brown dwarf (z_spec=0.00 in table)
+UNCOVER-41225,3.533994,-30.353308,6.76,spec,Abell 2744,1,NIRSpec/PRISM,1,25.9,
+UNCOVER-45924,3.584758,-30.343630,4.46,spec,Abell 2744,1,NIRSpec/PRISM,1,22.1,

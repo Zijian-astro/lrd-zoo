@@ -1,0 +1,2 @@
+id,ra,dec,z,z_type,field,lrd,spec,broad_line,xray,notes
+A2744-45924,3.584758,-30.343630,4.47,spec,Abell 2744,1,NIRSpec/PRISM,1,nondet,UNCOVER ID 45924; F444W~22 AB; also NIRCam/grism F356W (ALT); Chandra non-detection

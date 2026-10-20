@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>LRD Zoo</title>
+<meta name="description" content="A cross-matched compilation of every published JWST little red dot, with a coordinate search to check whether a source has already been reported.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='7' fill='%23b3262e'/%3E%3C/svg%3E">
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap masthead-inner">
+    <div class="brand">
+      <svg class="psf" viewBox="0 0 64 64" aria-hidden="true">
+        <defs>
+          <radialGradient id="psf-core" cx="50%" cy="50%" r="50%">
+            <stop offset="0" stop-color="var(--dot-core)"/>
+            <stop offset="0.35" stop-color="var(--accent)"/>
+            <stop offset="1" stop-color="var(--accent)" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <g class="spikes" stroke="var(--accent)" stroke-linecap="round">
+          <line x1="32" y1="4" x2="32" y2="60"/>
+          <line x1="7.8" y1="18" x2="56.2" y2="46"/>
+          <line x1="7.8" y1="46" x2="56.2" y2="18"/>
+          <line class="minor" x1="20" y1="32" x2="44" y2="32"/>
+        </g>
+        <circle cx="32" cy="32" r="13" fill="url(#psf-core)"/>
+      </svg>
+      <div>
+        <h1>LRD Zoo</h1>
+        <p class="tagline">Every published little red dot, cross-matched across papers.</p>
+      </div>
+    </div>
+    <div class="masthead-side">
+      <p class="stats" id="stats" aria-live="polite">Loading catalogue…</p>
+      <div class="masthead-actions">
+        <a id="repo-link" class="ghost-btn" href="#" hidden>GitHub</a>
+        <button id="theme-btn" class="ghost-btn" type="button" aria-label="Switch colour theme">Theme: auto</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="console" aria-labelledby="q-title">
+    <div class="console-head">
+      <h2 id="q-title">Has this source been published?</h2>
+      <p class="hint">One position per line: decimal degrees, sexagesimal, or a J-name. Anything after the coordinates is kept as your label. A line that is not a position is searched as a name.</p>
+    </div>
+    <form id="q-form" class="console-body">
+      <div class="q-input">
+        <label for="q-text" class="sr-only">Positions or names</label>
+        <textarea id="q-text" rows="5" wrap="off" spellcheck="false" autocomplete="off"></textarea>
+        <div class="q-controls">
+          <label for="q-radius">Match radius</label>
+          <select id="q-radius">
+            <option value="0.3">0.3″</option>
+            <option value="0.5">0.5″</option>
+            <option value="1" selected>1″</option>
+            <option value="2">2″</option>
+            <option value="5">5″</option>
+          </select>
+          <button type="submit" class="primary-btn">Search</button>
+          <label class="file-btn ghost-btn" for="q-file">Upload CSV</label>
+          <input id="q-file" type="file" accept=".csv,.txt,.tsv,.dat" class="sr-only">
+          <button type="button" id="q-clear" class="ghost-btn">Clear</button>
+        </div>
+        <p class="example-note" id="q-example-note" hidden>Example input: two published objects (offset by a fraction of an arcsec) and one empty position.</p>
+      </div>
+      <div class="q-results" id="q-results" aria-live="polite"></div>
+    </form>
+  </section>
+
+  <nav class="tabs" role="tablist" aria-label="Views">
+    <button role="tab" id="tab-catalogue" aria-controls="view-catalogue" aria-selected="true">Catalogue</button>
+    <button role="tab" id="tab-charts" aria-controls="view-charts" aria-selected="false">Fields &amp; redshifts</button>
+    <button role="tab" id="tab-papers" aria-controls="view-papers" aria-selected="false">Papers</button>
+    <button role="tab" id="tab-inbox" aria-controls="view-inbox" aria-selected="false">New on arXiv <span class="count-badge" id="inbox-badge" hidden></span></button>
+    <button role="tab" id="tab-about" aria-controls="view-about" aria-selected="false">About</button>
+  </nav>
+
+  <section id="view-catalogue" role="tabpanel" aria-labelledby="tab-catalogue" class="view">
+    <div class="filters" id="filters">
+      <div class="filter-row">
+        <label class="f-search"><span class="sr-only">Search names</span>
+          <input id="f-text" type="search" placeholder="Name, alias or paper (e.g. QSO1, Kocevski)" autocomplete="off">
+        </label>
+        <label><span class="f-label">Field</span><select id="f-field"><option value="">All fields</option></select></label>
+        <label><span class="f-label">Paper</span><select id="f-paper"><option value="">All papers</option></select></label>
+        <label class="f-z"><span class="f-label">z from</span><input id="f-zmin" type="number" step="0.1" min="0" max="20" inputmode="decimal"></label>
+        <label class="f-z"><span class="f-label">to</span><input id="f-zmax" type="number" step="0.1" min="0" max="20" inputmode="decimal"></label>
+      </div>
+      <div class="filter-row chips" role="group" aria-label="Require">
+        <label class="chip"><input type="checkbox" id="f-lrd" checked><span>LRDs only</span></label>
+        <label class="chip"><input type="checkbox" id="f-jwst" checked><span>JWST only</span></label>
+        <label class="chip"><input type="checkbox" id="f-spec"><span>Has a spectrum</span></label>
+        <label class="chip"><input type="checkbox" id="f-bl"><span>Broad line</span></label>
+        <label class="chip"><input type="checkbox" id="f-multi"><span>In 2+ papers</span></label>
+        <label class="chip"><input type="checkbox" id="f-xray"><span>X-ray detected</span></label>
+        <label class="chip"><input type="checkbox" id="f-var"><span>Variable</span></label>
+        <label class="chip"><input type="checkbox" id="f-miri"><span>MIRI</span></label>
+        <span class="spacer"></span>
+        <button type="button" id="f-reset" class="link-btn">Reset filters</button>
+      </div>
+    </div>
+    <div class="table-head">
+      <p id="cat-count" class="muted"></p>
+      <button type="button" id="cat-download" class="ghost-btn">Download these rows (CSV)</button>
+    </div>
+    <div class="table-scroll">
+      <table class="data" id="cat-table">
+        <thead><tr>
+          <th data-sort="name">Zoo name</th>
+          <th data-sort="ra" class="num">RA</th>
+          <th data-sort="dec" class="num">Dec</th>
+          <th data-sort="field">Field</th>
+          <th data-sort="z" class="num">z</th>
+          <th data-sort="lrd">Class</th>
+          <th>Data</th>
+          <th data-sort="n_papers" class="num">Papers</th>
+          <th data-sort="first">First reported</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="pager" id="cat-pager"></div>
+  </section>
+
+  <section id="view-charts" role="tabpanel" aria-labelledby="tab-charts" class="view" hidden>
+    <p class="muted view-note">Charts show the objects that pass the catalogue filters (<span id="chart-filter-note"></span>). Colour gives where the adopted redshift comes from.</p>
+    <div class="legend" id="z-legend"></div>
+    <div class="chart-block">
+      <h3>On the sky</h3>
+      <div id="sky-all" class="chart"></div>
+    </div>
+    <div class="chart-block">
+      <h3>Deep fields <span class="muted small">(RA increases to the left; 1′ = 1/60°)</span></h3>
+      <div id="sky-fields" class="multiples"></div>
+    </div>
+    <div class="chart-grid">
+      <div class="chart-block">
+        <h3>Redshift distribution</h3>
+        <div id="z-hist" class="chart"></div>
+      </div>
+      <div class="chart-block">
+        <h3>Objects in the zoo, by date first reported</h3>
+        <div id="growth" class="chart"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="view-papers" role="tabpanel" aria-labelledby="tab-papers" class="view" hidden>
+    <div class="table-head">
+      <p class="muted" id="papers-count"></p>
+      <a class="ghost-btn" href="data/build/references.bib">BibTeX for all papers</a>
+    </div>
+    <div class="table-scroll">
+      <table class="data" id="papers-table">
+        <thead><tr>
+          <th>Paper</th><th>Title</th><th>Selection</th>
+          <th class="num">Rows</th><th class="num">LRDs</th><th class="num">First reported here</th><th>Source</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="view-inbox" role="tabpanel" aria-labelledby="tab-inbox" class="view" hidden>
+    <p class="muted view-note" id="inbox-note"></p>
+    <div class="chips" role="group" aria-label="Show" id="inbox-filter"></div>
+    <ol class="inbox" id="inbox-list"></ol>
+  </section>
+
+  <section id="view-about" role="tabpanel" aria-labelledby="tab-about" class="view prose" hidden>
+    <h3>What is in the zoo</h3>
+    <p>Every object from every paper below, as the authors listed it. Rows from different papers that fall within <span id="about-radius">0.5</span>″ of each other are merged into one object (friends-of-friends), and the object gets a permanent name of the form <code>LRDZ Jhhmmss.ss±ddmmss.s</code> from its first position. Names do not change when later papers shift the mean position.</p>
+    <p>An object is marked <b>LRD</b> if at least one paper classifies it as one. Some spectroscopic papers list all broad-line AGN; their objects are kept (they still answer "has this been published?") but are marked <b>BL AGN</b> unless the paper calls them LRDs. <b>Contested</b> means one paper calls it an LRD and another says it is not. <b>Unclassified</b> objects come from papers that predate or avoid the term (for example "extremely red objects") and no other paper has classified them.</p>
+    <p><b>JWST only</b> hides candidates that so far appear only in wide-area surveys (for example Euclid or SDSS). They are still found by the position search.</p>
+    <p>The adopted redshift is the most recent spectroscopic value, then grism, then photometric. Each paper's own value is in the object's detail view.</p>
+    <h3>Things to keep in mind</h3>
+    <ul>
+      <li>Different teams reduce the same JWST images with different astrometry. Offsets up to ~0.2″ are normal; use a 1″ radius when checking a candidate.</li>
+      <li>Selection criteria differ a lot between papers (colour cuts, compactness, v-shaped continua, broad lines). "In the zoo" means "published", not "confirmed".</li>
+      <li>Strongly lensed objects can appear as several images with separate rows.</li>
+      <li>Papers whose tables give no coordinates cannot be included. The arXiv tab lists recent papers that have not been added yet.</li>
+    </ul>
+    <h3>Downloads</h3>
+    <ul class="downloads">
+      <li><a href="data/build/lrdzoo_objects.csv">lrdzoo_objects.csv</a>: one row per object</li>
+      <li><a href="data/build/lrdzoo_entries.csv">lrdzoo_entries.csv</a>: one row per object per paper</li>
+      <li><a href="data/build/lrdzoo.json">lrdzoo.json</a>: everything on this page</li>
+      <li><a href="data/build/references.bib">references.bib</a>: all included papers</li>
+    </ul>
+    <h3>How to cite</h3>
+    <p>Please cite the original papers for the objects you use. The detail view of each object has a button that copies BibTeX for exactly those papers.</p>
+    <h3>Add a paper or fix an entry</h3>
+    <p id="contribute-text">Each paper is a folder with a <code>meta.yaml</code> and an <code>objects.csv</code>; the format is described in <code>data/SCHEMA.md</code>. Pull requests and issues are welcome.</p>
+    <p class="muted" id="maintainer"></p>
+  </section>
+</main>
+
+<aside class="drawer" id="drawer" hidden aria-labelledby="d-title">
+  <div class="drawer-inner">
+    <div class="drawer-head">
+      <h2 id="d-title"></h2>
+      <button type="button" class="ghost-btn" id="d-close" aria-label="Close details">Close</button>
+    </div>
+    <div id="d-body"></div>
+  </div>
+</aside>
+<div class="tooltip" id="tooltip" role="status" hidden></div>
+
+<footer class="wrap footer">
+  <p class="muted small" id="footer-text"></p>
+</footer>
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+id,ra,dec,z,z_type,field,lrd,xray,notes
+CEERS-00397,214.83621,52.88269,6.000,spec,AEGIS,1,nondet,from harikane23
+CEERS-00672,214.88967,52.83297,5.666,spec,AEGIS,1,nondet,from harikane23; in Kocevski+24 colour-selected subset
+CEERS-00717,215.08142,52.97219,6.936,spec,AEGIS,1,nondet,from harikane23
+CEERS-00746,214.80912,52.86847,5.624,spec,AEGIS,1,nondet,from harikane23; in Kocevski+24 colour-selected subset
+CEERS-01236,215.14529,52.96728,4.484,spec,AEGIS,1,nondet,from harikane23
+CEERS-01244,215.24067,53.03606,4.478,spec,AEGIS,1,nondet,from harikane23
+CEERS-01665,215.17821,53.05936,4.483,spec,AEGIS,1,nondet,from harikane23
+CEERS-02782,214.82346,52.83028,5.241,spec,AEGIS,1,nondet,from harikane23
+GOODS-N-13733,189.05708,62.26894,5.236,spec,CDF-N,1,nondet,from matthee24
+GOODS-N-16813,189.17929,62.29253,5.355,spec,CDF-N,1,nondet,from matthee24
+GOODS-N-4014,189.30013,62.21204,5.228,spec,CDF-N,1,nondet,from matthee24
+GOODS-S-13971,53.13858,-27.79025,5.481,spec,CDF-S,1,nondet,from matthee24
+M23-10013704-2,53.12654,-27.81809,5.919,spec,CDF-S,1,nondet,from maiolino23; in Kocevski+24 colour-selected subset
+M23-20621,189.12252,62.29285,4.681,spec,CDF-N,1,nondet,from maiolino23
+M23-3608,189.11794,62.23552,5.269,spec,CDF-N,1,nondet,from maiolino23
+M23-53757-2,189.26978,62.19421,4.448,spec,CDF-N,1,nondet,from maiolino23
+M23-73488-2,189.19740,62.17723,4.133,spec,CDF-N,1,nondet,from maiolino23
+M23-77652,189.29323,62.19900,5.229,spec,CDF-N,1,nondet,from maiolino23
+M23-8083,53.13284,-27.80186,4.648,spec,CDF-S,1,nondet,from maiolino23
+CEERS-5760,214.97244,52.96220,5.079,spec,AEGIS,1,nondet,from kocevski24; in Kocevski+24 colour-selected subset
+CEERS-6126,214.92338,52.92559,5.288,spec,AEGIS,1,nondet,from kocevski24; in Kocevski+24 colour-selected subset
+CEERS-7902,214.88680,52.85538,6.986,spec,AEGIS,1,nondet,"from kocevski24; in Kocevski+24 colour-selected subset; WARNING: printed position matches Kocevski+24 ID 13135, not 7902 (ID/z and position appear mismatched in Yue+24 Table 1)"
+CEERS-10444,214.79537,52.78885,6.687,spec,AEGIS,1,nondet,"from kocevski24; in Kocevski+24 colour-selected subset; WARNING: printed position matches Kocevski+24 ID 13318, not 10444 (ID/z and position appear mismatched in Yue+24 Table 1)"
+CEERS-13135,214.99098,52.91652,4.955,spec,AEGIS,1,nondet,"from kocevski24; in Kocevski+24 colour-selected subset; WARNING: printed position matches Kocevski+24 ID 14949, not 13135 (ID/z and position appear mismatched in Yue+24 Table 1)"
+CEERS-13318,214.98304,52.95601,5.280,spec,AEGIS,1,nondet,"from kocevski24; in Kocevski+24 colour-selected subset; WARNING: printed position matches Kocevski+24 ID 7902, not 13318 (ID/z and position appear mismatched in Yue+24 Table 1)"
+CEERS-14949,215.13706,52.98856,5.684,spec,AEGIS,1,nondet,"from kocevski24; in Kocevski+24 colour-selected subset; WARNING: printed position matches Kocevski+24 ID 20777, not 14949 (ID/z and position appear mismatched in Yue+24 Table 1)"
+CEERS-20496,215.07826,52.94850,6.786,spec,AEGIS,1,nondet,from kocevski24; in Kocevski+24 colour-selected subset
+CEERS-20777,214.89225,52.87741,5.286,spec,AEGIS,1,nondet,"from kocevski24; in Kocevski+24 colour-selected subset; WARNING: printed position matches Kocevski+24 ID 10444, not 20777 (ID/z and position appear mismatched in Yue+24 Table 1)"
+PRIMER-UDS-29881,34.31313,-5.22677,6.170,spec,X-UDS,1,nondet,from kocevski24; in Kocevski+24 colour-selected subset
+PRIMER-UDS-31092,34.26458,-5.23254,5.675,spec,X-UDS,1,nondet,from kocevski24; in Kocevski+24 colour-selected subset
+PRIMER-UDS-32438,34.24181,-5.23940,3.500,spec,X-UDS,1,nondet,from kocevski24; in Kocevski+24 colour-selected subset
+PRIMER-UDS-33823,34.24419,-5.24583,3.103,spec,X-UDS,1,nondet,from kocevski24; in Kocevski+24 colour-selected subset
+PRIMER-UDS-116251,34.26054,-5.20912,5.365,spec,X-UDS,1,nondet,from kocevski24; in Kocevski+24 colour-selected subset
+PRIMER-UDS-119639,34.31214,-5.20255,6.518,spec,X-UDS,1,nondet,from kocevski24; in Kocevski+24 colour-selected subset

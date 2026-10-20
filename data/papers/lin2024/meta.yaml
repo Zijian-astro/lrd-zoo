@@ -1,0 +1,23 @@
+key: lin2024
+first_author: Lin
+authors: "Lin, X., Wang, F., Fan, X., Cai, Z., Champagne, J. B., Sun, F., Volonteri, M., et al."
+year: 2024
+title: "A SPectroscopic Survey of Biased Halos In the Reionization Era (ASPIRE): Broad-line AGN at z = 4-5 Revealed by JWST/NIRCam WFSS"
+journal: "ApJ, 974, 147"
+arxiv: "2407.17570"
+doi: "10.3847/1538-4357/ad6565"
+ads_bibcode: "2024ApJ...974..147L"
+selection: grism
+tags: [grism, photometry]
+fields: ["J0109-3047", "J0218+0007", "J0224-4711", "J0229-0808", "J0430-1445", "J0910-0414", "J0923+0402", "J1526-2050", "J2002-3013", "J2132+1217", "J2232+2930"]
+n_objects: 16
+source_url: "https://arxiv.org/e-print/2407.17570"
+source_note: >-
+  arXiv LaTeX source (v1, the only arXiv version, marked 'Accepted by the ApJ'); Table 1 (tab:basic, file tab1.tex)
+  'The coordinate, redshift, and AB magnitude in F356W of the 16 LRDs in the ASPIRE fields'. RA/Dec written as
+  published (decimal degrees, 4 decimals). Not on VizieR. Converted with ingest.py.
+notes: >-
+  Broad-line Halpha emitters (BHAEs) found in NIRCam F356W grism (WFSS) data of the ASPIRE fields (25 quasars at 6.5<z<6.8),
+  pre-selected as compact (F356W r_h<0.2") and red (F200W-F356W>0.75); the paper's tables call all 16 "LRDs", so the
+  default sample_is_lrd (true) is used. field = the ASPIRE quasar field from the object ID (J0109M3047 -> J0109-3047).
+  Positions are rounded to 1e-4 deg (~0.36 arcsec), so matches against other catalogues need a ~0.5 arcsec radius.

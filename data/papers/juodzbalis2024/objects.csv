@@ -1,0 +1,2 @@
+id,ra,dec,z,z_type,field,lrd,spec,broad_line,xray,notes
+GN-28074,189.06458,62.27382,2.26,spec,GOODS-N,,NIRSpec,1,nondet,CANDELS ID GN-19549; 3D-HST ID 26945; JADES PRISM + R1000 gratings; Balmer/HeI absorption; paper calls it a broad-line AGN with LRD-like colours and v-shaped continuum (not explicitly an LRD)

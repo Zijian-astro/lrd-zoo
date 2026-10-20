@@ -1,0 +1,33 @@
+key: perger2025
+first_author: Perger
+authors: "Perger, K., Fogasy, J., Frey, S., Gabányi, K. É."
+year: 2025
+title: "Deep silence: Radio properties of little red dots"
+journal: "A&A, 693, L2"
+arxiv: "2411.19518"
+doi: "10.1051/0004-6361/202452422"
+ads_bibcode: "2025A&A...693L...2P"
+selection: radio
+sample_is_lrd: true
+tags: [radio]
+n_objects: 919
+source_url: "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/693/L2"
+source_note: >-
+  VizieR J/A+A/693/L2, file stacked.dat (919 literature LRDs at Dec > -40 deg) read with its ReadMe.
+  z = zspec if given (z_type=spec), else zphot (phot). Names that are bare numbers are prefixed with
+  the discovery-paper bibcode from the Ref column ("<bibcode>-<number>"); the original Name and Ref
+  are kept in notes. Converted with ingest.py.
+notes: >-
+  A compilation (Akins+24, Kokorev+24, Kocevski+24, Labbe+23, Matthee+24, Perez-Gonzalez+24, ...)
+  cross-matched with VLASS and FIRST: no LRD has a radio counterpart and the stacks are undetected
+  (no per-object radio column in this schema). One row, Abell2744-QSO1, is flagged in the source as
+  "cluster coordinates used", so its position is not the quasar's own.
+  CAVEATS found by cross-checking (flagged with WARNING in notes, values kept as published):
+  (1) the 13 Labbe+23 (Nature) objects have their discovery-paper redshifts in the zspec column; that
+  study is photometric, so z_type is left empty for them (e.g. 2023Natur.616..266L-13050, zspec=8.14,
+  is CEERS 82815 at spec-z 5.62 in Kocevski+24);
+  (2) in five EGS rows (RUBIES-EGS-49140, RUBIES-EGS-55604, Kokorev 48983 and 22049, Barro nc5-9553) the
+  zspec does not belong to the object at the listed position: it matches another Kocevski+24 object. This
+  is the same ID/position mix-up as in Yue+24 Table 1 (see yue2024), probably from a common upstream table.
+  The check uses the Kocevski+24 positions/spec-z in the Zhang+25 compilation (crosscheck file in the raw
+  directory), and it agrees with kocevski2025 and hviding2025.

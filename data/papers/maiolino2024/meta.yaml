@@ -1,0 +1,26 @@
+key: maiolino2024
+first_author: Maiolino
+authors: "Maiolino, R., Scholtz, J., Curtis-Lake, E., Carniani, S., Baker, W., de Graaff, A., Tacchella, S., et al."
+year: 2024
+title: "JADES: The diverse population of infant black holes at 4 < z < 11: Merging, tiny, poor, but mighty"
+journal: "A&A, 691, A145"
+arxiv: "2308.01230"
+doi: "10.1051/0004-6361/202347640"
+ads_bibcode: "2024A&A...691A.145M"
+selection: spectroscopic
+sample_is_lrd: false      # broad-line AGN sample; the paper gives no per-object LRD classification
+tags: [nirspec]
+fields: [GOODS-S, GOODS-N]
+n_objects: 12
+source_url: "https://arxiv.org/e-print/2308.01230"
+source_note: >-
+  arXiv LaTeX source (v4, accepted version); Table 'Measured quantities for the broad lines ... that require only one
+  broad component' (tab:measures, 9 rows) plus Table 'Measured quantities for the three cases requiring two broad
+  components' (tab:measures_dual, 3 rows). RA/Dec are the decimal degrees embedded in the 'JADES Name' column
+  (5 decimals, written as published). Not on VizieR. Converted with ingest.py.
+notes: >-
+  The 12 new broad-line AGN at 4<z<7. GN-z11 (z=10.6), which the paper also discusses and lists in its inferred-
+  properties table, is not included because this paper gives no coordinates for it (per the table note, its parameters
+  come from earlier JADES papers). Broad Halpha detected in NIRSpec medium-resolution (R~1000) grating spectra; 3608 and 62309 are flagged
+  'tentative' (DeltaBIC<10). The paper does not use the LRD label, so lrd is empty for every row. The NIRSpec ID used
+  in the paper's text is given in notes.

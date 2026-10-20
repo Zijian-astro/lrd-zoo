@@ -1,0 +1,23 @@
+key: tee2025
+first_author: Tee
+authors: "Tee, W. L., Fan, X., Wang, F., Yang, J."
+year: 2025
+title: "Lack of Rest-frame Ultraviolet Variability in Little Red Dots Based on HST and JWST Observations"
+journal: "ApJL, 983, L26"
+arxiv: "2412.05242"
+doi: "10.3847/2041-8213/adc5e3"
+selection: variability
+sample_is_lrd: true
+tags: [variability, photometry]
+fields: [EGS, GOODS-S, Abell 2744]
+n_objects: 21
+source_url: "https://arxiv.org/e-print/2412.05242"
+source_note: >-
+  Table 2 (tab:variability_result, 21 LRDs) parsed from the arXiv v1 LaTeX source (the only arXiv
+  version, submitted to ApJL); sexagesimal RA/Dec converted with astropy SkyCoord. variable=0 for all
+  (no source with >3 sigma variability between HST and JWST epochs). field from the ID prefix following
+  paper Table 1 (CEERS -> EGS, JADES -> GOODS-S, UNCOVER -> Abell 2744). Converted with ingest.py.
+notes: >-
+  z is the paper's z_best (spectroscopic and photometric mixed, not flagged), so z_type is empty.
+  RA is printed to 0.01 s (~0.13"). The 'BL detected' flags come from the literature (in notes),
+  not from this paper. The published ApJL table may differ slightly from arXiv v1.

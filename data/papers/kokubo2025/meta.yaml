@@ -1,0 +1,22 @@
+key: kokubo2025
+first_author: Kokubo
+authors: "Kokubo, M., Harikane, Y."
+year: 2025
+title: "Challenging the AGN Scenario for JWST/NIRSpec Little Red Dot and Non-Little Red Dot Broad Halpha Emitters in Light of Non-detection of NIRCam Photometric Variability and X-Ray"
+journal: "ApJ, 995, 24"
+arxiv: "2407.04777"
+doi: "10.3847/1538-4357/ae119e"
+selection: variability
+sample_is_lrd: false      # 5 broad-Halpha emitters; 3 are LRDs (lrd=1), 2 are non-LRDs (lrd=0)
+tags: [variability, xray, photometry]
+fields: [Abell 2744]
+n_objects: 5
+source_url: "https://arxiv.org/e-print/2407.04777"
+source_note: >-
+  Table "Properties of the JWST broad Halpha emitters studied in this work" (tbl:targets) from the
+  arXiv v3 LaTeX source; sexagesimal ICRS coordinates (UNCOVER DR3) converted with astropy SkyCoord.
+  variable=0 for all five (no significant NIRCam variability); xray=nondet for all five (Chandra
+  upper limits, tbl:chandra_upperlimit). Converted with ingest.py.
+notes: >-
+  Published Dec 2025 (arXiv Jul 2024), hence key kokubo2025. Broad Halpha lines are taken from
+  Harikane+23 / Greene+24, not measured in this paper, so broad_line is left empty.

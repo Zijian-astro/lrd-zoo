@@ -1,0 +1,3 @@
+id,ra,dec,z,z_type,field,lrd,spec,broad_line,xray,notes
+CEERS-1670,214.823453,52.830281,5.242,spec,EGS,,NIRSpec/grating,1,nondet,same source as the AGN candidate of Onoue+2023 (table note)
+CEERS-3210,214.809142,52.868484,5.624,spec,EGS,,NIRSpec/grating,1,nondet,inferred to be a heavily obscured broad-line AGN

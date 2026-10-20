@@ -1,0 +1,8 @@
+id,ra,dec,z,z_type,field,lrd,spec,broad_line,variable,notes
+J120052+331238,180.2182,33.2107,0.303,spec,SDSS/LAMOST,1,ground,1,,"V-shaped broad-line green pea (local LRD analog); non-zero ZTF excess variance in g,r,i but no DRW fit"
+J092834+292136,142.1452,29.3601,0.293,spec,SDSS/LAMOST,1,ground,1,1,V-shaped broad-line green pea (local LRD analog)
+J115438+065025,178.6624,6.8403,0.269,spec,SDSS/LAMOST,1,ground,1,1,V-shaped broad-line green pea (local LRD analog)
+J003515+084859,8.8132,8.8166,0.242,spec,SDSS/LAMOST,1,ground,1,0,V-shaped broad-line green pea (local LRD analog)
+J092359+415736,140.9996,41.9602,0.323,spec,SDSS/LAMOST,1,ground,1,0,V-shaped broad-line green pea (local LRD analog)
+J122245+360218,185.6905,36.0384,0.301,spec,SDSS/LAMOST,1,ground,1,0,V-shaped broad-line green pea (local LRD analog)
+J085058+303053,132.7421,30.5149,0.280,spec,SDSS/LAMOST,1,ground,1,0,V-shaped broad-line green pea (local LRD analog)

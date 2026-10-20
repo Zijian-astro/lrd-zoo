@@ -1,0 +1,24 @@
+id,ra,dec,z,z_type,field,lrd,xray,notes
+UNCOVER-571,3.592423,-30.432824,6.74,spec,Abell 2744,1,nondet,UNCOVER ID 571; mu=1.69; log L2-10keV <43.68; Labbe+23 AGN subset
+UNCOVER-1967,3.619200,-30.423270,5.84,spec,Abell 2744,1,nondet,UNCOVER ID 1967; mu=1.63; log L2-10keV <43.39
+UNCOVER-2476,3.610205,-30.421001,4.56,phot,Abell 2744,1,nondet,UNCOVER ID 2476; mu=1.92; log L2-10keV <43.13
+UNCOVER-2940,3.575989,-30.419030,4.47,phot,Abell 2744,1,nondet,UNCOVER ID 2940; mu=1.81; log L2-10keV <43.35; Labbe+23 AGN subset
+UNCOVER-5957,3.556703,-30.408192,3.52,phot,Abell 2744,1,nondet,UNCOVER ID 5957; mu=1.57; log L2-10keV <43.25; Labbe+23 AGN subset
+UNCOVER-6151,3.567758,-30.407272,4.45,phot,Abell 2744,1,nondet,UNCOVER ID 6151; mu=1.86; log L2-10keV <43.46
+UNCOVER-6430,3.550837,-30.406598,5.05,spec,Abell 2744,1,nondet,UNCOVER ID 6430; mu=1.54; log L2-10keV <43.57; Labbe+23 AGN subset
+UNCOVER-8296,3.579829,-30.401569,7.04,spec,Abell 2744,1,nondet,UNCOVER ID 8296; mu=6.94; log L2-10keV <43.47; Labbe+23 AGN subset; image of the triply lensed quasar (Furtak+23); used in stack
+UNCOVER-8798,3.620605,-30.399950,6.34,spec,Abell 2744,1,nondet,UNCOVER ID 8798; mu=1.58; log L2-10keV <43.49; Labbe+23 AGN subset
+UNCOVER-9992,3.583536,-30.396676,7.04,spec,Abell 2744,1,nondet,UNCOVER ID 9992; mu=8.55; log L2-10keV <43.38; Labbe+23 AGN subset; image of the triply lensed quasar (Furtak+23); not stacked
+UNCOVER-10148,3.545794,-30.395724,4.96,phot,Abell 2744,1,nondet,UNCOVER ID 10148; mu=1.69; log L2-10keV <43.58; Labbe+23 AGN subset
+UNCOVER-10712,3.597201,-30.394328,7.04,spec,Abell 2744,1,nondet,UNCOVER ID 10712; mu=4.12; log L2-10keV <43.68; Labbe+23 AGN subset; image of the triply lensed quasar (Furtak+23); not stacked
+UNCOVER-13556,3.640410,-30.386436,8.50,spec,Abell 2744,1,nondet,UNCOVER ID 13556; mu=1.32; log L2-10keV <44.03; Labbe+23 AGN subset
+UNCOVER-15798,3.535308,-30.381010,6.44,phot,Abell 2744,1,nondet,UNCOVER ID 15798; mu=2.54; log L2-10keV <43.74
+UNCOVER-16561,3.567022,-30.379719,6.34,phot,Abell 2744,1,nondet,UNCOVER ID 16561; mu=3.56; log L2-10keV <43.63; Labbe+23 AGN subset
+UNCOVER-20080,3.569595,-30.373224,7.04,spec,Abell 2744,1,nondet,UNCOVER ID 20080; mu=2.71; log L2-10keV <43.81; Labbe+23 AGN subset
+UNCOVER-28343,3.530008,-30.358013,4.96,spec,Abell 2744,1,nondet,UNCOVER ID 28343; mu=1.87; log L2-10keV <43.71; Labbe+23 AGN subset
+UNCOVER-30782,3.533997,-30.353311,6.76,spec,Abell 2744,1,nondet,UNCOVER ID 30782; mu=1.75; log L2-10keV <43.77; Labbe+23 AGN subset
+UNCOVER-31142,3.498841,-30.352945,4.81,phot,Abell 2744,1,nondet,UNCOVER ID 31142; mu=1.00; log L2-10keV <43.71
+UNCOVER-31298,3.472870,-30.352132,4.82,phot,Abell 2744,1,nondet,UNCOVER ID 31298; mu=1.00; log L2-10keV <43.76
+UNCOVER-35771,3.525296,-30.342213,4.30,phot,Abell 2744,1,nondet,UNCOVER ID 35771; mu=1.44; log L2-10keV <43.45
+UNCOVER-35819,3.473941,-30.342061,4.59,phot,Abell 2744,1,nondet,UNCOVER ID 35819; mu=1.00; log L2-10keV <43.50
+UNCOVER-37108,3.569464,-30.339305,3.01,phot,Abell 2744,1,nondet,UNCOVER ID 37108; mu=1.53; log L2-10keV <43.08

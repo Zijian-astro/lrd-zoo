@@ -1,0 +1,27 @@
+key: kocevski2026
+first_author: Kocevski
+authors: "Kocevski, D. D., Taylor, A. J., Onoue, M., Inayoshi, K., Finkelstein, S. L., Barro, G., Guo, J., Arrabal Haro, P., et al."
+year: 2026
+title: "Skyfire: A Spectroscopic Census of Little Red Dots and Broad-Line AGN in the CEERS Field"
+arxiv: "2609.00112"
+selection: spectroscopic
+sample_is_lrd: false      # 33 tabulated broad-line emitters; the 16 flagged as LRDs in the authors' table have lrd=1
+tags: [nirspec]
+fields: [EGS]
+n_objects: 33
+source_url: "https://github.com/dalekocevski/Kocevski26"
+source_note: >-
+  Table3.Kocevski26.cat from the authors' GitHub repository (linked in the paper; commit ed70d1a851, 2026-09-04),
+  the machine-readable version of the paper's 'Catalog of Skyfire Sources with Broad Emission Lines' (tab_blagn).
+  Every row was checked against the table in the arXiv v1 LaTeX source (https://arxiv.org/e-print/2609.00112): same
+  33 IDs, identical RA/Dec/z. lrd taken from the GitHub 'LRD Flag' column (0=NO, 1=YES). The paper's 178-source
+  redshift catalogue is printed only as a 10-row excerpt and is not in the repository, so it is not ingested.
+  Not on VizieR. Converted with ingest.py.
+notes: >-
+  Submitted to ApJ (arXiv v1, Aug 2026); NIRSpec G395M spectroscopy of five pointings in the EGS/CEERS field.
+  Inconsistencies in the paper: the text quotes 34 broad-line sources and 18 LRDs among them, but both tables list
+  33 sources and the GitHub LRD flag marks 16; the 34th, Skyfire-549755 (a re-observation of RUBIES-EGS-28812), has
+  no table entry. The text says 3 broad HeI and 2 broad Pa-gamma lines, the tables give 2 HeI and two Paschen lines
+  (Pa-delta in LaTeX, 'Pg'/'Pa' on GitHub). The two HeI-only sources have broad_line empty (no broad Balmer/Paschen
+  line). Some tabulated 'broad' components are narrow by usual standards (FWHM 400-600 km/s, e.g. Skyfire-549030,
+  -530722, -9382); they are kept as listed.

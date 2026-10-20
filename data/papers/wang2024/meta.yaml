@@ -1,0 +1,16 @@
+key: wang2024
+first_author: Wang
+authors: "Wang, B., de Graaff, A., Davies, R. L., Greene, J. E., Leja, J., Brammer, G. B., et al."
+year: 2025
+title: "RUBIES: JWST/NIRSpec Confirmation of an Infrared-luminous, Broad-line Little Red Dot with an Ionized Outflow"
+journal: "ApJ, 984, 121"
+arxiv: "2403.02304"
+doi: "10.3847/1538-4357/adc1ca"
+selection: individual
+sample_is_lrd: true
+tags: [nirspec, photometry, miri, xray]
+fields: [UDS]
+n_objects: 1
+source_url: "https://arxiv.org/e-print/2403.02304"
+source_note: "arXiv v4 LaTeX source, rubies_brd_wang.tex: RA/Dec (deg), z_spec and F444W from Table 'Observations' (tab:obs). Converted with ingest.py."
+notes: "RUBIES-BLAGN-1 at z=3.1034. arXiv 2024, published in ApJ in 2025 (folder key keeps the arXiv year as assigned in the project plan)."

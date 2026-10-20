@@ -1,0 +1,32 @@
+key: kokorev2024
+first_author: Kokorev
+authors: "Kokorev, V., Caputi, K. I., Greene, J. E., Dayal, P., Trebitsch, M., Cutler, S. E., Fujimoto, S., Labbé, I., et al."
+year: 2024
+title: "A Census of Photometrically Selected Little Red Dots at 4 < z < 9 in JWST Blank Fields"
+journal: "ApJ, 968, 38"
+arxiv: "2401.09981"
+doi: "10.3847/1538-4357/ad4265"
+ads_bibcode: "2024ApJ...968...38K"
+selection: photometric
+sample_is_lrd: true
+tags: [photometry]
+fields: [EGS, COSMOS, UDS, GOODS-S]
+n_objects: 260
+source_url: "https://doi.org/10.5281/zenodo.10820724"
+source_note: >-
+  Full version of the paper's Appendix table (cited in the paper as Zenodo 10.5281/zenodo.10820724, v1.1):
+  lrd_table_v1.1.fits inside VasilyKokorev/lrd_phot-v1.1.zip, byte-identical to the file on
+  github.com/VasilyKokorev/lrd_phot. 260 rows, all kept. ra/dec and z_phot (EAZY) copied from the FITS columns
+  (ra/dec written with 7 decimals, z rounded to 2 decimals as in the printed table). f444w is AB mag computed as
+  23.9 - 2.5 log10(f444w_flux [uJy]) from the released total flux. id = paper's field label + catalogue id
+  (FITS fields ceers-full -> CEERS, primer-cosmos-east/west -> PRIMER-COSMOS, primer-uds-north/south -> PRIMER-UDS,
+  gds -> GOODS-S); ids are unique across the table. The 19 rows of the printed excerpt were checked against the FITS
+  (identical positions and z). Converted with ingest.py.
+notes: >-
+  Photometric colour + compactness selection; all redshifts are EAZY photo-z (no spec-z in the table).
+  Positions are from the authors' own grizli reductions of CEERS, PRIMER-COSMOS, PRIMER-UDS and GOODS-S.
+  DUPLICATES: the released 260-row table (the paper's quoted sample size) lists 22 sources twice, once from each half
+  of an overlapping mosaic pair (10 in primer-uds-north/south, 12 in primer-cosmos-east/west), with different IDs and
+  positions within 0.003 arcsec, so it contains 238 distinct objects. Both rows are kept as published and each is
+  cross-referenced in the row notes ("same source as ..."); one pair (PRIMER-UDS-7991 / -66511) even has different
+  photo-z (5.66 vs 7.13). The source mosaic (FITS 'field' value) is given in each row's notes.

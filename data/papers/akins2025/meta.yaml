@@ -1,0 +1,30 @@
+key: akins2025
+first_author: Akins
+authors: "Akins, H. B., Casey, C. M., Lambrides, E., Allen, N., Andika, I. T., Brinch, M., Champagne, J. B., Cooper, O., et al."
+year: 2025
+title: "COSMOS-Web: The Overabundance and Physical Nature of \"Little Red Dots\"—Implications for Early Galaxy and SMBH Assembly"
+journal: "ApJ, 991, 37"
+arxiv: "2406.10341"
+doi: "10.3847/1538-4357/ade984"
+ads_bibcode: "2025ApJ...991...37A"
+selection: photometric
+sample_is_lrd: true
+tags: [photometry, miri]
+fields: [COSMOS]
+n_objects: 434
+source_url: "https://content.cld.iop.org/journals/0004-637X/991/1/37/revision2/apjade984t1_mrt.txt"
+source_note: >-
+  Journal machine-readable Table 1 (434 LRDs; ID, RA/Dec in decimal degrees, photometry, QSO- and galaxy-model
+  photo-z). All rows kept. z = zQSO (median redshift from the QSO SED models, the redshift the paper uses for its
+  AGN analysis); the galaxy-model (BAGPIPES) photo-z is kept in notes as z_gal. Exception: COS-756434, for which the
+  paper adopts z_spec = 6.9993 (NIRSpec/PRISM, broad Halpha) from its table "Spectroscopic measurements for
+  COS-756434", parsed from the arXiv LaTeX source (no MRT for that table); its RA/Dec there agree with the MRT to
+  0.01 arcsec. f444w = F444mag (COSMOS-Web NIRCam). id = 'COS-' + MRT ID, the paper's own naming (e.g. COS-756434).
+  Cross-checked against the authors' GitHub release (github.com/hollisakins/akins24_cw, COSMOS-Web_LRDs.dat):
+  identical IDs, positions and redshifts. Converted with ingest.py.
+notes: >-
+  Photometric selection (F277W-F444W > 1.5, compact in F444W, brown dwarfs removed) over the 0.54 deg2
+  COSMOS-Web mosaic; positions from the COSMOS-Web NIRCam imaging. All redshifts are photo-z except COS-756434.
+  Per the MRT flags, 148 objects have MIRI coverage (COSMOS-Web and/or PRIMER MIRI) and 28 have PRIMER-COSMOS
+  NIRCam coverage. The spectroscopic table was read from arXiv v1 (the only arXiv version); the published
+  Table 1 MRT was used for everything else.
