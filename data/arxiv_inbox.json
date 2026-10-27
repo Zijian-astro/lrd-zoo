@@ -1,8 +1,55 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-27",
  "query": "(ti:\"little red dot\" OR ti:\"little red dots\" OR abs:\"little red dot\" OR abs:\"little red dots\" OR abs:LRDs) AND (cat:astro-ph.GA OR cat:astro-ph.CO OR cat:astro-ph.HE OR cat:astro-ph.SR)",
  "ads": true,
  "papers": [
+  {
+   "arxiv": "2610.34552",
+   "title": "Multiphase Gas Structure in JWST Little Red Dots",
+   "authors": [
+    "Seok-Jun Chang",
+    "Max Gronke",
+    "Jorryt Matthee",
+    "Charlotte Mason"
+   ],
+   "published": "2026-10-25",
+   "primary": "astro-ph.GA",
+   "journal_ref": null,
+   "sample_hint": true,
+   "abstract": "JWST has uncovered a population of compact high-redshift galaxies, 'little red dots' (LRDs), exhibiting broad Balmer emission lines that often show narrow absorption features and strong Balmer breaks - spectral signatures attributed to dense gas surrounding rapidly growing black holes, but whose small-scale structure remains unknown. A striking feature of LRD spectra is that the H$β$ absorption is systematically deeper than H$α$, yet in any homogeneous gas this ordering is physically impossible. Here we model the H$α$ and H$β$ line profiles using radiative transfer simulations for 11 LRDs with JWST sensitive high resolution spectroscopy, and independently constrain the $n=2$ hydrogen column density, $N_{\\rm HI,\\mathit{n}=2}$, from the Balmer-break continuum. We find that the $N_{\\rm HI,\\mathit{n}=2}$ from H$α$ in a homogeneous medium cannot reproduce the observed H$β$ absorption in several objects, and that this $N_{\\rm HI,\\mathit{n}=2}$ typically falls two orders of magnitude below the lower bound set by the Balmer break. Both tensions are simultaneously resolved by a multiphase medium of dense clumps within diffuse hot ionized gas. This multiphase gas structure is a necessary ingredient for any viable LRD model, regardless of the nature of the central engine.",
+   "first_seen": "2026-10-27",
+   "status": "todo"
+  },
+  {
+   "arxiv": "2610.33297",
+   "title": "Initial Conditions of Magnetized AGN Accretion Disks from Cloud Capture and Disruption",
+   "authors": [
+    "Philip F. Hopkins"
+   ],
+   "published": "2026-10-23",
+   "primary": "astro-ph.GA",
+   "journal_ref": null,
+   "sample_hint": false,
+   "abstract": "Accretion onto supermassive black holes (BHs) from the ISM can occur via capture of cold gas 'clouds' (GMCs, clumps, or overdense structures). Unlike material in stellar tidal disruptions or X-ray binaries, or classical Bondi accretion, ISM clouds are strongly magnetized (plasma $β\\equiv P_{\\rm thermal}/P_{\\rm magnetic} \\ll 1$), with supersonic turbulence, and cool rapidly. We derive analytic scalings for the initial conditions of accretion disks formed by capture/disruption of such clouds, in three regimes: (1) low-mass BHs ($M_{\\rm BH} \\ll M_{\\rm cl}$), where turbulent Bondi-Hoyle or hierarchical 'leapfrog' growth via sub-cloud encounters dominates; (2) comparable-mass encounters ($M_{\\rm BH} \\sim M_{\\rm cl}$); and (3) massive BHs tidally disrupting small clouds ($M_{\\rm BH} \\gg M_{\\rm cl}$). In each, the resulting disk is predicted to be initially toroidally-magnetically-dominated ($|B_φ| \\gg |B_{z}|$, $β\\ll 1$), geometrically thick ($H/R \\sim 0.1-1$), and gravitationally stable ($Q \\gtrsim 1$), with super-sonic, trans-Alfvenic turbulence. These conditions differ qualitatively from those assumed in classical accretion/$α$ disk theory, 'chaotic cold accretion', stellar tidal disruption, or Bondi-Hoyle accretion. At least initially, the toroidal field should be sustained by flux-freezing on timescales shorter than Parker or turbulent resistive losses. We examine how cloud mass spectra drive accretion rate distributions, duty cycles, and fueling rates, with integrated BH grow",
+   "first_seen": "2026-10-27",
+   "status": "todo"
+  },
+  {
+   "arxiv": "2610.32519",
+   "title": "Scalar-Field Singularities and Cyclic Cosmology in Brans-Dicke Theory",
+   "authors": [
+    "Konrad Marosek",
+    "Adam Balcerzak"
+   ],
+   "published": "2026-10-23",
+   "primary": "gr-qc",
+   "journal_ref": null,
+   "sample_hint": false,
+   "abstract": "We investigate a Brans-Dicke cosmological model with a scalar-field potential and derive an analytical solution for a power-law ansatz for the scalar field. The resulting cosmological evolution terminates in a scalar-field singularity at which the scalar field diverges and the effective gravitational coupling tends to zero, while the scale factor remains finite and the energy density and pressure diverge. We then explore a heuristic interpretation of this behaviour in which the rapid decrease of the effective gravitational coupling near the singularity could be associated with accelerated black-hole evaporation. We phenomenologically postulate a transition to a subsequent cosmological branch, although a smooth transition preserving the same scalar-field potential on both branches has not been obtained within the ansatz considered. The physical mechanism underlying such a transition therefore remains unknown. Finally, we discuss possible, highly speculative connections between this scenario and the Little Red Dots observed by the James Webb Space Telescope. These connections are not predictions of the present model but motivate further investigation of the possible implications of scalar-field singularities for cyclic cosmological scenarios.",
+   "first_seen": "2026-10-27",
+   "fulltext_only": true,
+   "status": "todo"
+  },
   {
    "arxiv": "2610.32430",
    "title": "Local Analogs of Little Red Dots: Clues to the X-ray Weakness",
@@ -28,6 +75,45 @@
    "abstract": "A major question about JWST's little red dots (LRDs) at $z\\sim4-8$ is the origin of their apparent X-ray weakness. Even deep Chandra stacks yield only tentative detections or broad-band limits and cannot distinguish among super-Eddington accretion, intrinsic X-ray weakness, and Compton-thick (CT) obscuration. Local analogs offer a powerful complementary route. At $z\\sim0.3$, similarly luminous sources require $\\sim10^{3-4}$ less exposure for comparable signal-to-noise, suffer less source confusion, and directly probe the diagnostic rest-frame soft X-rays. Here we present a pilot Einstein Probe/FXT study of six \"local little red dots\" (LLRDs), V-shaped broad-line green pea galaxies selected as low-redshift counterparts of LRDs. These sources show X-ray diversity: \"X-normal\" LLRDs resemble type 1 AGNs in X-ray luminosity and optical variability, whereas the \"X-weak\" stack lies $\\sim0.5-0.7$ dex below standard unobscured-quasar scaling relations while remaining compatible with the representative LRD stack and 95% of published individual limits. The X-weak LLRDs also lack detected optical variability and have redder optical continua than X-normal LLRDs, making their V-shaped SEDs closer to those of high-redshift LRDs. The detection of the X-weak stack at $\\sim3.3σ$ with the soft-X-ray-sensitive EP-FXT provides rest-frame $\\sim2-3$ keV constraints difficult to reconcile with a typical unobscured super-Eddington model or a local-AGN-like CT geometry examined here, although modified",
    "first_seen": "2026-10-26",
    "status": "todo"
+  },
+  {
+   "arxiv": "2610.31881",
+   "title": "Semi-Analytic Predictions for Strong-Lensing Perturbers in Cold and Self-Interacting Dark Matter",
+   "authors": [
+    "Jonathan Tekverk",
+    "Duncan K. Adams",
+    "Simon Birrer",
+    "Rouven Essig",
+    "Daniel Gilman"
+   ],
+   "published": "2026-10-22",
+   "primary": "astro-ph.CO",
+   "journal_ref": null,
+   "sample_hint": false,
+   "abstract": "Strong gravitational lensing is sensitive to the abundance and internal structure of dark matter halos, providing a probe of gravothermal evolution in self-interacting dark matter (SIDM). We combine semi-analytic cold dark matter (CDM) subhalo histories with a model for gravothermal evolution in SIDM to generate CDM and SIDM subhalo populations across SIDM parameter space. We predict their projected enclosed masses and deflection-based projected density slopes and compare them with three perturbers inferred through gravitational imaging in PJ011646, SDSS J0946+1006, and JVAS B1938+666. For SIDM model parameters $σ_0/m_χ=147.1$ cm$^2$/g and $w=120$ km/s, SIDM subhalos reproduce all three perturbers more often than CDM subhalos. For PJ011646, we find ~0.6 cored SIDM subhalos per host matching the perturber, compared with ~0.002 in CDM, while core-collapsed subhalos are too steep. For SDSS J0946+1006, we find ~3 core-collapsed and ~0.004 cored SIDM subhalos per host, compared with none in 900 CDM realizations, although baryons, neglected here, may matter for such massive subhalos. For \"detection V\" in JVAS B1938+666, we find ~220 core-collapsed and ~20 cored SIDM subhalos per host within the $2σ$ posterior region, compared with ~0.2 in CDM; the CDM candidates require exceptionally early accretion, at median redshift $z\\sim13$. Simultaneously reproducing all three perturbers requires $w\\gtrsim10^2$ km/s, so that the massive (~$5.6\\times10^{10}M_\\odot$) progenitors of SDSS J0946+1",
+   "first_seen": "2026-10-27",
+   "fulltext_only": true,
+   "status": "todo"
+  },
+  {
+   "arxiv": "2610.31078",
+   "title": "Self-Supervised Representation Learning for JWST Galaxy Images and Low Resolution Spectra",
+   "authors": [
+    "Yang Cheng",
+    "Morgan Fouesneau",
+    "Ivelina G. Momcheva",
+    "Tobias Buck",
+    "Shengxiu Sun"
+   ],
+   "published": "2026-10-22",
+   "primary": "astro-ph.GA",
+   "journal_ref": null,
+   "sample_hint": false,
+   "abstract": "A self-supervised multimodal model recovers galaxy stellar masses from sparse JWST data that lack the multi-band coverage required by traditional SED fitting. We train on single-band F150W imaging paired with observed-frame 1-2 $μ$m PRISM spectra and obtain a joint image-spectrum representation that recovers stellar mass at $1<z\\le3$ with $R^2 \\sim 0.9$ and $σ_{\\mathrm{NMAD}} = 0.24$ dex; cross-modal CLIP alignment further raises single-modality performance by $ΔR^2 = +0.04$ (imaging) and $+0.09$ (spectroscopy), narrowing the gap to joint-modality inference. The code and documentation are available at \\href{https://github.com/2003cy/neurips2026_ssl_jwst}{GitHub}.",
+   "first_seen": "2026-10-27",
+   "fulltext_only": true,
+   "status": "todo",
+   "doi": "10.48550/arXiv.2610.31078"
   },
   {
    "arxiv": "2610.29887",
@@ -223,7 +309,8 @@
    "abstract": "Space-borne gravitational wave (GW) detectors such as TianQin are expected to detect GW standard sirens for cosmological parameter estimation. All previous studies of TianQin adopted the $Λ$CDM model to generate mock standard siren data. In this work, we quantitatively investigate how the choice of background cosmological model affects mock TianQin standard siren (TQSS) catalogs and the corresponding cosmological implications. Adopting the $Λ$CDM model and a redshift-binned dark energy (DE) reconstruction model (the wbin model), we consider the bright standard sirens from massive black hole binary mergers and generate two mock TQSS catalogs, i.e. TQSS1 and TQSS2, respectively. We investigate the difference of the catalogs and further explore their cosmological implications within the Chevallier-Polarski-Linder (CPL) model, both individually and in combination with DESI DR2 baryon acoustic oscillation (BAO) data, $\\textit{Planck}$ 2018 cosmic microwave background (CMB) data, and DESY5 type Ia supernova (SN Ia) data. We find that there are only small differences between TQSS1 and TQSS2 catalogs, with a maximum relative difference of $1.48\\%$ in the distance-redshift relation. In addition, either the TQSS1 or TQSS2 catalog alone gives cosmological constraints similar to those obtained from SN data, implying that these two catalogs can serve as a complement to mainstream cosmological observations. Most importantly, we find that both TQSS1+DESI DR2+CMB+DESY5 and TQSS2+DESI DR2+CMB",
    "first_seen": "2026-10-21",
    "fulltext_only": true,
-   "status": "todo"
+   "status": "todo",
+   "doi": "10.48550/arXiv.2610.26727"
   },
   {
    "arxiv": "2610.26560",
