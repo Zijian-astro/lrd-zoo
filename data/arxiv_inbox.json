@@ -1,8 +1,32 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-10-29",
  "query": "(ti:\"little red dot\" OR ti:\"little red dots\" OR abs:\"little red dot\" OR abs:\"little red dots\" OR abs:LRDs) AND (cat:astro-ph.GA OR cat:astro-ph.CO OR cat:astro-ph.HE OR cat:astro-ph.SR)",
  "ads": true,
  "papers": [
+  {
+   "arxiv": "2610.37643",
+   "title": "What shapes the bright end of the UV luminosity function? Stellar mass, star-formation variability, and dust in JADES",
+   "authors": [
+    "Amanda Stoffers",
+    "Sandro Tacchella",
+    "Benjamin D. Johnson",
+    "Brant Robertson",
+    "Roberto Maiolino",
+    "Andrew J. Bunker",
+    "Emma Curtis-Lake",
+    "A. Lola Danhaive",
+    "Qiao Duan",
+    "Francesco D'Eugenio"
+   ],
+   "published": "2026-10-27",
+   "primary": "astro-ph.GA",
+   "journal_ref": null,
+   "sample_hint": true,
+   "abstract": "JWST surveys find more UV-bright galaxies at $z>10$ than galaxy-formation models predict, but the roles of recent star formation, stellar mass and dust remain uncertain. We analyse 1365 spectroscopically confirmed JADES galaxies at $3\\leq z\\leq9$, fitting NIRCam photometry and NIRSpec emission lines with \\ceri. Our model includes flexible star-formation histories (SFHs) under three priors, two-component dust attenuation and nebular emission. We account for spectroscopic selection through population reweighting and assess the reliability of inferred trends. At $z=3$--5, rising SFHs are more common in low-mass galaxies, whereas most galaxies above $10^{9.5}\\,{\\rm M}_{\\odot}$ have declining SFHs. The apparent increase in rising fractions with redshift cannot be distinguished from the adopted SFH prior alone. At fixed stellar mass, recent star formation is the strongest predictor of UV brightness. UV-brighter galaxies have higher recent SFRs, younger stellar populations and less attenuation at fixed SFR. Below $10^9\\,{\\rm M}_{\\odot}$, they are also more likely to have rising SFHs, with odds increasing by up to a factor of 2.3 per magnitude brighter, although the strongest trend requires caution. In contrast, galaxies with $M_{\\mathrm{UV}}<-20$ at $z=3$--5 are predominantly massive, and approximately half have declining SFHs. Dust partly offsets burst-driven UV brightening: attenuation increases with recent SFR and declines gradually after the inferred SFR peak. In model sensitivi",
+   "first_seen": "2026-10-29",
+   "fulltext_only": true,
+   "status": "todo"
+  },
   {
    "arxiv": "2610.37564",
    "title": "Little Red Dots with Broad H$β$ Lines Reveal the Black Hole Mass Function at 7<z<9.5",
@@ -128,7 +152,8 @@
    "abstract": "We present the Star-formation from Photometry through the Addition of Medium-bands (SPAM) survey, a 62.9 hr JWST/NIRCam imaging program to add ten new filters, nine medium-band filters, and one broad-band filter to the CEERS legacy dataset. We describe the observation strategy, present the data, and detail the data-reduction process. We include a complete reduction of imaging in the legacy CEERS footprint, inclusive of all publicly available photometric parallel and GO observations within the legacy CEERS footprint. We present a multi-band photometric and photometric redshift catalog which includes all medium- and broad-band filters available on NIRCam. We find that adding medium bands from the SPAM and MINERVA programs improves photometric redshifts. We discuss how these data advance the SPAM survey's key science goals: better-constrained photometric redshifts, identification of high-redshift overdensity members, improved recovery of emission-line strengths, and more accurate star formation histories.",
    "first_seen": "2026-10-28",
    "fulltext_only": true,
-   "status": "todo"
+   "status": "todo",
+   "doi": "10.48550/arXiv.2610.35570"
   },
   {
    "arxiv": "2610.34552",
@@ -145,7 +170,8 @@
    "sample_hint": true,
    "abstract": "JWST has uncovered a population of compact high-redshift galaxies, 'little red dots' (LRDs), exhibiting broad Balmer emission lines that often show narrow absorption features and strong Balmer breaks - spectral signatures attributed to dense gas surrounding rapidly growing black holes, but whose small-scale structure remains unknown. A striking feature of LRD spectra is that the H$β$ absorption is systematically deeper than H$α$, yet in any homogeneous gas this ordering is physically impossible. Here we model the H$α$ and H$β$ line profiles using radiative transfer simulations for 11 LRDs with JWST sensitive high resolution spectroscopy, and independently constrain the $n=2$ hydrogen column density, $N_{\\rm HI,\\mathit{n}=2}$, from the Balmer-break continuum. We find that the $N_{\\rm HI,\\mathit{n}=2}$ from H$α$ in a homogeneous medium cannot reproduce the observed H$β$ absorption in several objects, and that this $N_{\\rm HI,\\mathit{n}=2}$ typically falls two orders of magnitude below the lower bound set by the Balmer break. Both tensions are simultaneously resolved by a multiphase medium of dense clumps within diffuse hot ionized gas. This multiphase gas structure is a necessary ingredient for any viable LRD model, regardless of the nature of the central engine.",
    "first_seen": "2026-10-27",
-   "status": "todo"
+   "status": "todo",
+   "doi": "10.48550/arXiv.2610.34552"
   },
   {
    "arxiv": "2610.33297",
@@ -159,7 +185,8 @@
    "sample_hint": false,
    "abstract": "Accretion onto supermassive black holes (BHs) from the ISM can occur via capture of cold gas 'clouds' (GMCs, clumps, or overdense structures). Unlike material in stellar tidal disruptions or X-ray binaries, or classical Bondi accretion, ISM clouds are strongly magnetized (plasma $β\\equiv P_{\\rm thermal}/P_{\\rm magnetic} \\ll 1$), with supersonic turbulence, and cool rapidly. We derive analytic scalings for the initial conditions of accretion disks formed by capture/disruption of such clouds, in three regimes: (1) low-mass BHs ($M_{\\rm BH} \\ll M_{\\rm cl}$), where turbulent Bondi-Hoyle or hierarchical 'leapfrog' growth via sub-cloud encounters dominates; (2) comparable-mass encounters ($M_{\\rm BH} \\sim M_{\\rm cl}$); and (3) massive BHs tidally disrupting small clouds ($M_{\\rm BH} \\gg M_{\\rm cl}$). In each, the resulting disk is predicted to be initially toroidally-magnetically-dominated ($|B_φ| \\gg |B_{z}|$, $β\\ll 1$), geometrically thick ($H/R \\sim 0.1-1$), and gravitationally stable ($Q \\gtrsim 1$), with super-sonic, trans-Alfvenic turbulence. These conditions differ qualitatively from those assumed in classical accretion/$α$ disk theory, 'chaotic cold accretion', stellar tidal disruption, or Bondi-Hoyle accretion. At least initially, the toroidal field should be sustained by flux-freezing on timescales shorter than Parker or turbulent resistive losses. We examine how cloud mass spectra drive accretion rate distributions, duty cycles, and fueling rates, with integrated BH grow",
    "first_seen": "2026-10-27",
-   "status": "todo"
+   "status": "todo",
+   "doi": "10.48550/arXiv.2610.33297"
   },
   {
    "arxiv": "2610.33155",
@@ -209,7 +236,8 @@
    "abstract": "Heavily dust-obscured active galactic nuclei (AGN) are crucial for understanding supermassive black hole growth. Using multi-band MIRI photometry from the MINERVA survey, we report the discovery in the UDS field of an extremely mid-infrared bright Compton-thick AGN (CT AGN) at $z \\sim 3.8$, \\textit{el Ascua} (the Ember). The AGN and/or its host galaxy is detected at 870\\,$μ$m with ALMA and at 1.4\\,GHz with the VLA. With UV-to-radio spectral energy distribution modeling, we estimate that the dusty host galaxy has a stellar mass of $\\log\\left( M_\\star / M_\\odot \\right)=10.82 \\pm 0.57$ and a star formation rate of ${\\rm{SFR}} =157 \\pm 8 \\,M_\\odot\\,{\\rm yr^{-1}}$, and we confirm the presence of a powerful dusty AGN with an intrinsic accretion luminosity of $\\log\\left( L_{\\rm{acc}} /{\\rm erg\\,s^{-1}} \\right)=47.12 \\pm 0.58$. CT obscuration is revealed by comparing the upper limit on the X-ray luminosity over $2-10 \\,{\\rm{keV}}$ with the $6 \\,{\\rmμ{m}}$ mid-IR AGN luminosity. We additionally find evidence for a radio excess by comparing its total IR-to-radio ratio to those of typical star-forming galaxies and radio-quiet AGN, implying that \\textit{el Ascua} could be a rare radio-loud CT AGN. With an extremely high ratio between black hole accretion rate and SFR, the AGN is likely nearing the peak of a deeply obscured phase of black hole growth before AGN feedback blows away the obscuring material. Our work demonstrates the power of MIRI to reveal heavily obscured AGN missing from o",
    "first_seen": "2026-10-28",
    "fulltext_only": true,
-   "status": "todo"
+   "status": "todo",
+   "doi": "10.48550/arXiv.2610.33155"
   },
   {
    "arxiv": "2610.32519",
