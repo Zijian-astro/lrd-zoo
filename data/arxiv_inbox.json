@@ -1,8 +1,31 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-10-31",
  "query": "(ti:\"little red dot\" OR ti:\"little red dots\" OR abs:\"little red dot\" OR abs:\"little red dots\" OR abs:LRDs) AND (cat:astro-ph.GA OR cat:astro-ph.CO OR cat:astro-ph.HE OR cat:astro-ph.SR)",
  "ads": true,
  "papers": [
+  {
+   "arxiv": "2610.37852",
+   "title": "Core-collapse universality for inelastic self-interacting dark matter halos",
+   "authors": [
+    "Evan Batteas",
+    "Alexander Brisebois",
+    "Maheen Hemani",
+    "Maximilian Heyne",
+    "J. Leo Kim",
+    "Lukas Lehmann",
+    "Laura Sagunski",
+    "Aster Schnell",
+    "Sean Tulin"
+   ],
+   "published": "2026-10-27",
+   "primary": "astro-ph.CO",
+   "journal_ref": null,
+   "sample_hint": false,
+   "abstract": "We study the gravothermal collapse of inelastic dark matter halos with velocity-dependent elastic and dissipative self-interactions. Within the gravothermal fluid framework, we derive the effective cooling rate for dark matter upscattering to an excited state followed by decay back to the ground state, with emitted states carrying off energy from the halo. We solve the gravothermal fluid equations numerically to simulate spherically symmetric halos over the core-growing and collapse phases of their evolution. While halos with purely elastic self-interactions have universal evolution trajectories, inelastic dark matter halos exhibit much more diversity in their evolution. Nevertheless, inelastic halo dynamics contain a hidden parametric universality from which we derive a semi-analytic formula for calculating the halo collapse time for arbitrary velocity-dependent elastic and inelastic cross sections without the need for simulations.",
+   "first_seen": "2026-10-31",
+   "fulltext_only": true,
+   "status": "todo"
+  },
   {
    "arxiv": "2610.37643",
    "title": "What shapes the bright end of the UV luminosity function? Stellar mass, star-formation variability, and dust in JADES",
@@ -25,7 +48,8 @@
    "abstract": "JWST surveys find more UV-bright galaxies at $z>10$ than galaxy-formation models predict, but the roles of recent star formation, stellar mass and dust remain uncertain. We analyse 1365 spectroscopically confirmed JADES galaxies at $3\\leq z\\leq9$, fitting NIRCam photometry and NIRSpec emission lines with \\ceri. Our model includes flexible star-formation histories (SFHs) under three priors, two-component dust attenuation and nebular emission. We account for spectroscopic selection through population reweighting and assess the reliability of inferred trends. At $z=3$--5, rising SFHs are more common in low-mass galaxies, whereas most galaxies above $10^{9.5}\\,{\\rm M}_{\\odot}$ have declining SFHs. The apparent increase in rising fractions with redshift cannot be distinguished from the adopted SFH prior alone. At fixed stellar mass, recent star formation is the strongest predictor of UV brightness. UV-brighter galaxies have higher recent SFRs, younger stellar populations and less attenuation at fixed SFR. Below $10^9\\,{\\rm M}_{\\odot}$, they are also more likely to have rising SFHs, with odds increasing by up to a factor of 2.3 per magnitude brighter, although the strongest trend requires caution. In contrast, galaxies with $M_{\\mathrm{UV}}<-20$ at $z=3$--5 are predominantly massive, and approximately half have declining SFHs. Dust partly offsets burst-driven UV brightening: attenuation increases with recent SFR and declines gradually after the inferred SFR peak. In model sensitivi",
    "first_seen": "2026-10-29",
    "fulltext_only": true,
-   "status": "todo"
+   "status": "todo",
+   "doi": "10.48550/arXiv.2610.37643"
   },
   {
    "arxiv": "2610.37564",
@@ -70,7 +94,8 @@
    "sample_hint": true,
    "abstract": "We present a systematic search for broad H$β$ emission at $7<z<9.5$ in 21,770 JWST/NIRSpec PRISM spectra drawn from four blank fields and six lensing clusters with photometry spanning 1942 arcmin$^2$. We find a sample of 20 sources with statistically significant broad-H$β$ emission, including 13 new sources. Our entire sample has colors and morphologies consistent with little red dots (LRDs), compared to only 37\\% of broad-line emitters at $3.5<z<6$. Interpreting the broad-lines as indicators of Broad-line Active Galactic Nuclei (BLAGN), we infer black hole masses of $4.2\\times10^{6}-2.1\\times10^{8}$\\,$M_{\\odot}$. We calculate completeness corrections and construct the black hole mass function at $z\\sim8$. The normalization of the black hole mass function rises by $\\approx1.0$~dex from $z\\sim8-5$, consistent with average black hole growth at $f_{\\textrm{Edd}}\\approx0.1$. Comparing with cosmological simulations, the $z\\sim8$ black hole mass function requires heavy ($10^5$\\,$M_{\\odot}$) seeds or super-Eddington accretion onto light or intermediate mass seeds to match its normalization. Finally, we infer bolometric luminosities for the sample and construct a bolometric luminosity function. We integrate over this luminosity function to derive a black hole accretion density (BHAD) of $4.8^{+5.8}_{-2.6}\\times10^{-7}~M_{\\odot}~\\textrm{yr}^{-1}~\\textrm{Mpc}^{-3}$, showing broad agreement with previous photometric work, but disagreement with previous X-ray models, reinforcing the idea",
    "first_seen": "2026-10-28",
-   "status": "todo"
+   "status": "todo",
+   "doi": "10.48550/arXiv.2610.37564"
   },
   {
    "arxiv": "2610.36089",
@@ -89,7 +114,8 @@
    "sample_hint": false,
    "abstract": "The formation of supermassive black holes (SMBHs) in the early Universe has been a longstanding mystery due to the brief period available to assemble them. More recently, the unexpected discovery with the James Webb Space Telescope (JWST) of Little Red Dots (LRDs), compact sources exhibiting signatures of active galactic nuclei (AGN), has accentuated this challenge. Cosmological simulations investigating their formation and evolution confront the limitation that the compact scale of SMBH/LRD physics cannot be simultaneously resolved with the larger-scale cosmological environment. We address this limitation by utilizing a cutout technique, selecting a targeted region around an SMBH seed from a cosmological parent simulation and re-running the cutout at higher (sub-pc) resolution for shorter periods. We explore two SMBH formation scenarios: the standard, light seed stellar-remnant case, and the heavy-seed, direct collapse black hole (DCBH) channel. Within the high-resolution achieved by the cutouts, the DCBH, due to its larger mass, is able to induce a buildup of high density gas nearby and accrete gas in bursts of super-Eddington phases, growing in mass and producing an LRD-like spectrum. In contrast, the stellar remnant cannot do so and remains dormant, unable to affect the nearby gas or significantly evolve by gas accretion alone. Therefore, we find that observed high-redshift SMBHs and LRDs require the existence of heavy seeds to assemble dense gas around themselves, enabli",
    "first_seen": "2026-10-28",
-   "status": "todo"
+   "status": "todo",
+   "doi": "10.48550/arXiv.2610.36089"
   },
   {
    "arxiv": "2610.35570",
