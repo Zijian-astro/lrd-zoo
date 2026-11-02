@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01",
+ "updated": "2026-11-02",
  "query": "(ti:\"little red dot\" OR ti:\"little red dots\" OR abs:\"little red dot\" OR abs:\"little red dots\" OR abs:LRDs) AND (cat:astro-ph.GA OR cat:astro-ph.CO OR cat:astro-ph.HE OR cat:astro-ph.SR)",
  "ads": true,
  "papers": [
@@ -597,7 +597,8 @@
    "abstract": "Detailed UV-to-optical studies of galaxies at z >= 10 have largely focused on bright systems (MUV <= -20 mag), leaving intrinsically faint galaxies virtually unexplored to date. Combining NIRCam, NIRSpec, and MIRI imaging and spectroscopy, we investigate UNCOVER-ABELL2744-13151 (U13151), an ultra-faint galaxy at z = 9.7995 (MUV = -17.44 mag), magnified by Abell 2744 ($μ$ = 12.8). U13151 is very blue ($β$ ~ -2.64), ultra-low mass (log10(M*/Msun) ~ 6.68), young (~ 5.5 Myr), metal-poor (Z ~ 3-6% Zsun), and compact (Re ~ 122 pc). It exhibits negligible dust attenuation, extreme ionization conditions, and intense star formation (sSFR(Ha) ~ 94 Gyr-1, or equivalently M*/SFR(Ha) ~ 10.6 Myr). Despite similarities with much brighter galaxies, its low C/O, approximately solar Ne/O, and undetected nitrogen emission suggest enrichment dominated by core-collapse supernovae, in stark contrast with similar nitrogen-enhanced systems. U13151 might be undergoing its first major episode of star formation, assembling most (if not all) of its M* through five unresolved clumps. Its high ionizing photon production efficiency (log10($ξ_{\\rm ion}$/ (Hz erg-1)) ~ 25.64) suggests, through a simple toy model, suggests, through a simple toy model, that similarly short-lived episodes could contribute significantly to the ionizing photon budget of low-mass galaxies during Cosmic Reionization. We explore different evolutionary scenarios, from U13151-like galaxies potentially representing the progenitors of B",
    "first_seen": "2026-10-21",
    "fulltext_only": true,
-   "status": "todo"
+   "status": "todo",
+   "doi": "10.48550/arXiv.2610.26560"
   },
   {
    "arxiv": "2610.23806",
@@ -6870,6 +6871,29 @@
    "first_seen": "2026-10-18",
    "status": "todo",
    "doi": "10.48550/arXiv.2511.09278"
+  },
+  {
+   "arxiv": "2511.08683",
+   "title": "Bridging scales: Modeling suppressed Bondi accretion on black holes and its impact on galaxy growth",
+   "authors": [
+    "Antonio J. Porras-Valverde",
+    "Priyamvada Natarajan",
+    "Angelo Ricarte",
+    "Kung-Yi Su",
+    "Hyerin Cho",
+    "Ramesh Narayan",
+    "Ben S. Prather"
+   ],
+   "published": "2025-11-11",
+   "primary": "astro-ph.GA",
+   "journal_ref": null,
+   "sample_hint": false,
+   "abstract": "The accretion and feedback processes governing supermassive black hole (SMBH) growth span an enormous range of spatial scales, from the Event Horizon to the circumgalactic medium. Recent general relativistic magnetohydrodynamic (GRMHD) simulations demonstrate that strong magnetic fields can substantially suppress Bondi accretion by creating magnetically arrested disk (MAD) states, reducing inflow rates by up to two orders of magnitude relative to classical Bondi predictions. We incorporate this magnetic suppression prescription from Cho et al. (2023, 2024) into the Dark Sage semi-analytic model (SAM), which tracks SMBH and galaxy co-evolution within hierarchical merger trees derived from the IllustrisTNG cosmological simulation. Implementing the suppression across different Eddington-ratio regimes, we explore its impact on black hole mass functions (BHMFs), stellar mass functions (SMFs), and AGN luminosity functions. Restricting suppression to sub-Eddington accretors ($f_{\\rm Edd} < 3 \\times 10^{-3}$) and rescaling AGN feedback efficiencies gives simultaneous agreement with observed $z = 0$ SMFs and BHMFs, as illustrated by Case D in this work. At $z > 6$, super-Eddington growth episodes dominate in the SAM, reproducing JWST-inferred luminous AGN number densities. Our results highlight the critical sensitivity of galaxy assembly to the coupling between small-scale accretion physics and large-scale feedback regulation. Magnetic suppression of hot gas accretion can reconcile lo",
+   "first_seen": "2026-11-02",
+   "fulltext_only": true,
+   "status": "todo",
+   "bibcode": "2026ApJ..1000..173P",
+   "doi": "10.3847/1538-4357/ae47fd"
   },
   {
    "arxiv": "2511.08477",
