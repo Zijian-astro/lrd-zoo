@@ -1,8 +1,25 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "query": "(ti:\"little red dot\" OR ti:\"little red dots\" OR abs:\"little red dot\" OR abs:\"little red dots\" OR abs:LRDs) AND (cat:astro-ph.GA OR cat:astro-ph.CO OR cat:astro-ph.HE OR cat:astro-ph.SR)",
  "ads": true,
  "papers": [
+  {
+   "arxiv": "2611.06026",
+   "title": "Spectroscopy-informed Deep Learning Searches for Photometric Little Red Dots in JWST Surveys",
+   "authors": [
+    "Chenxuan Zhang",
+    "Huanian Zhang",
+    "Qingwen Wu"
+   ],
+   "published": "2026-11-04",
+   "primary": "astro-ph.GA",
+   "journal_ref": null,
+   "sample_hint": true,
+   "abstract": "Little Red Dots (LRDs) are a population of compact, red sources discovered at high redshift with JWST that exhibit distinctive V-shaped spectral energy distributions (SEDs). Existing LRD samples are typically identified using a variety of color-based selection criteria, which can lead to differences in the populations recovered by different studies. We develop a cross-modal machine-learning framework that combines matched NIRCam imaging and NIRSpec/PRISM spectroscopy to transfer spectroscopic information into imaging-based representations, enabling LRD identification from JWST/NIRCam imaging alone. Applied to spectroscopically observed high-redshift galaxies previously classified as non-LRDs, our model identifies 35 new LRD candidates. The majority satisfy at least one independent LRD color selection criterion, and among the 13 candidates with medium- or high-resolution NIRSpec grating spectra, 10 exhibit broad H$α$ emission - a hallmark of LRDs. We further apply the classifier to public NIRCam imaging from the Dawn JWST Archive and two independent JWST surveys, yielding 357 and 23 additional LRD candidates, respectively. The candidates recovered by our method span a broader range of observed SED properties than those in existing samples, suggesting that current color-selected samples may not fully capture the diversity of LRD-like systems present in JWST surveys. Our findings highlight the value of spectroscopy-informed photometric classification as a powerful strategy for s",
+   "doi": "10.3847/1538-4365/aebc7f",
+   "first_seen": "2026-11-05",
+   "status": "todo"
+  },
   {
    "arxiv": "2611.05349",
    "title": "UV spectra of little red dots: Broad-line N/C, gas recycling and black hole masses",
