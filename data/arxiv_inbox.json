@@ -1,8 +1,33 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-09",
  "query": "(ti:\"little red dot\" OR ti:\"little red dots\" OR abs:\"little red dot\" OR abs:\"little red dots\" OR abs:LRDs) AND (cat:astro-ph.GA OR cat:astro-ph.CO OR cat:astro-ph.HE OR cat:astro-ph.SR)",
  "ads": true,
  "papers": [
+  {
+   "arxiv": "2611.09397",
+   "title": "Where the red rise stops: JWST/MIRI reveals a near-infrared turnover in the Little Red Dot Abell2744-QSO1",
+   "authors": [
+    "E. Iani",
+    "P. Rinaldi",
+    "A. Torralba",
+    "J. Matthee",
+    "F. D'Eugenio",
+    "A. Gupta",
+    "S. Mascia",
+    "C. Di Cesare",
+    "G. Oestlin",
+    "G. Kotiwale",
+    "M. Catone",
+    "G. Rodighiero"
+   ],
+   "published": "2026-11-06",
+   "primary": "astro-ph.GA",
+   "journal_ref": null,
+   "sample_hint": false,
+   "abstract": "Little Red Dots (LRDs) are compact sources with a blue rest-frame UV, a steep red optical continuum and, often, broad hydrogen lines. They have been interpreted as dense stellar systems, dust-reddened active galactic nuclei, or black holes embedded in dense, dust-poor gas, scenarios that are hard to tell apart in the rest-frame UV and optical. We present JWST/MIRI F770W and F1000W imaging of the triply lensed Abell2744-QSO1 at z=7.04, probing rest-frame 0.96 and 1.24um. QSO1 is unresolved, and its steep optical rise stops near rest-frame 1um. Up to 1.24um, a T~4450K blackbody, or a hotter one reddened by dust, describes the continuum, with no sign of the hot dust seen in most type-1 quasars. Our statistically preferred SED fits produce the red continuum with (3-4)x10^9 Msun of stars, over 100 times the dynamical limit on the host mass, and are therefore disfavoured. An accretion disc in a dense gas cocoon respects this limit but over-predicts the 1.24um flux by 5 sigma. Super-Eddington accretion models with a thermalising envelope reproduce the turnover, but only for a black hole ~2.5dex less massive than the dynamical estimate. For a dust-reddened accretion disc (A_V ~ 2 mag), dust at ~1200K can re-emit at most ~2 per cent of the absorbed luminosity, and most of it would have to emerge at ~70-600K, unless the dust covers only a small fraction of the sky. The dynamics favour an accretion-powered source, but our data cannot distinguish dust reddening from processing by dense g",
+   "first_seen": "2026-11-09",
+   "status": "todo"
+  },
   {
    "arxiv": "2611.07070",
    "title": "On the importance of medium-resolution continuum spectroscopy for JWST's extragalactic legacy",
