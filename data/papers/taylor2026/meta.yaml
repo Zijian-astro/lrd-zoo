@@ -1,0 +1,25 @@
+key: taylor2026
+first_author: Taylor
+label: "Taylor+26"
+authors: "Taylor, A. J., Finkelstein, S. L., Akins, H. B., Kokorev, V., Arrabal Haro, P., Koudmani, S., et al."
+year: 2026
+title: "Little Red Dots with Broad Hβ Lines Reveal the Black Hole Mass Function at 7<z<9.5"
+arxiv: "2610.37564"
+selection: spectroscopic
+sample_is_lrd: true       # "our 20 object sample consists entirely of LRDs" (Sect. LRD Selection)
+tags: [nirspec]
+fields: [A2744, COSMOS, UDS, CEERS, GOODS-S, MJ1149]
+n_objects: 20
+source_url: "https://arxiv.org/e-print/2610.37564"
+source_note: >-
+  arXiv LaTeX source (v1, submitted to ApJ; SHA-256 aac82d27f7d72bf23fbe468511d8b9525e2d010054ac200a140e8c6a6e6f144e).
+  id, RA/Dec (decimal degrees, 6 decimals) and z_spec from Table "Measured Properties of BLAGN at 7<z<9.5"
+  (tab:sample, 20 rows); field, previous references and spectrum IDs from the appendix Table "Spectra Contributing
+  to the BLAGN Sample" (tab:apdx), whose id/RA/Dec/z are asserted identical to tab:sample. lrd=1 for all
+  (Sect. LRD Selection), broad_line=1 for all (broad Hbeta in NIRSpec PRISM, Sect. Broad-line Fitting),
+  z_type=spec. No X-ray or variability results. Not on VizieR; no journal MRT yet. Converted with ingest.py.
+notes: >-
+  Systematic search for broad Hbeta in 21,770 NIRSpec PRISM spectra at 7<z<9.5 (four blank fields, six lensing
+  clusters); 13 of the 20 are new. Field names as in the paper (CEERS = EGS, MJ1149 = MACS J1149). G395M grating
+  spectra exist for 13 objects but are used only for outflow tests. J021718.46-051326.2 is superposed with a blue
+  lower-redshift interloper. Values are magnification-corrected in the paper; positions are not affected.
