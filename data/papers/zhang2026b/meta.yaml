@@ -1,0 +1,32 @@
+key: zhang2026b
+first_author: Zhang
+label: "C. Zhang+26"
+authors: "Zhang, C., Zhang, H., Wu, Q."
+year: 2026
+title: "Spectroscopy-informed Deep Learning Searches for Photometric Little Red Dots in JWST Surveys"
+arxiv: "2611.06026"
+selection: photometric
+sample_is_lrd: true
+tags: [photometry, nirspec]
+fields: [UDS, EGS, COSMOS, GOODS-S, NEP, MACS J0416, MACS J0417, MACS J1149, Abell 370, BEACON pure-parallel fields]
+n_objects: 58
+source_url: "https://arxiv.org/e-print/2611.06026"
+source_note: >-
+  arXiv v1 LaTeX source (main_v3.tex). Three complete tables, concatenated: tab:fp_recovery (35 spectroscopic
+  LRD candidates: DJA spectrum IDs, RA/Dec in decimal degrees with 5 decimals as published, z_spec, F444W in a
+  0.36" aperture), tab:sapphires (5 SAPPHIRES MACS J0416 candidates; ids prefixed "SAPPHIRES-"; the paper does
+  not say whether z is photometric, so z_type is empty) and tab:beacon_candidates (18 BEACON DR1 candidates,
+  z_phot). broad_line from tab:fp_grating_halpha for the 13 spectroscopic candidates with grating coverage
+  (Broad -> 1; Narrow or No emission -> 0; spec=NIRSpec for these, NIRSpec/PRISM for the other 22).
+  field from the DJA spectrum-root prefix (rubies-uds -> UDS, nexus -> NEP, capers-cos -> COSMOS, etc.),
+  "MACS J0416" for SAPPHIRES, and the BEACON pointing name. lrd=1 for all (the paper calls every listed
+  object an LRD candidate). Row counts asserted against the text (35, five, 18). Converted with ingest.py.
+notes: >-
+  Candidates from an image-based machine-learning classifier (p >= 0.80) trained with NIRCam imaging plus
+  NIRSpec/PRISM spectra; the paper calls them candidates, not confirmed LRDs, and notes that some may be
+  contaminants (rubies-uds31-977881 looks quiescent; several BEACON candidates have F277W-F444W < 0.1).
+  The 35 spectroscopic candidates were previously classified as non-LRDs; 10 of the 13 with grating spectra show
+  broad Halpha. NOT included: the paper's main photometric sample of 357 DJA candidates (tab:dja_candidates),
+  of which only the top 10 are printed; the full table is announced as a machine-readable table, which will
+  only exist once the paper is published. Ingest it from the MRT then (and drop nothing here).
+  Preprint (v1); key zhang2026b because zhang2026 exists.
