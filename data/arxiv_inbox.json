@@ -1,8 +1,68 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "query": "(ti:\"little red dot\" OR ti:\"little red dots\" OR abs:\"little red dot\" OR abs:\"little red dots\" OR abs:LRDs) AND (cat:astro-ph.GA OR cat:astro-ph.CO OR cat:astro-ph.HE OR cat:astro-ph.SR)",
  "ads": true,
  "papers": [
+  {
+   "arxiv": "2611.22487",
+   "title": "Dual and Binary AGN at Cosmic Dawn: The need for a JWST Program to resolve the merger channel of Early Black Hole Growth",
+   "authors": [
+    "Filippo Mannucci",
+    "Matteo Ceci",
+    "Norman A. Grogin",
+    "Anton M. Koekemoer",
+    "Muhammad A. Latif",
+    "Alessandro Marconi",
+    "Enikő Regős",
+    "Raffaella Schneider",
+    "Martina Scialpi",
+    "Giulia Tozzi",
+    "Alessandro Trinca",
+    "Giacomo Venturi",
+    "Maria Vittoria Zanchettin",
+    "Huanian Zhang"
+   ],
+   "published": "2026-11-17",
+   "primary": "astro-ph.GA",
+   "journal_ref": null,
+   "sample_hint": true,
+   "abstract": "The discovery with JWST of accreting black holes (BHs) at z=4-9 in numbers far exceeding pre-JWST expectations, many of them overmassive relative to their hosts and linked to the enigmatic Little Red Dots (LRDs), raises the question of how early BHs form and grow. Hierarchical assembly predicts that galaxy mergers drive gas to galactic nuclei and bring BHs together, leaving a direct observational signature: dual AGN at tens of kpc separations and sub-kpc to few-kpc \"duets\" in post-merger galaxies, which are the progenitors of the low-frequency GW sources targeted by pulsar timing arrays and LISA. JWST has opened the window to study these systems at z>3. However, these early discoveries are very limited number and come from heterogeneous, largely serendipitous samples, so these systems can hardly be used for robust statistical studies. Within the Genesis initiative We propose a uniformly selected census of dual AGN and their hosts from cosmic noon to cosmic dawn, as a science case for the Genesis initiative. Our tiered strategy uses the survey imaging and spectroscopy for candidate selection at no extra cost, followed by NIRSpec IFU confirmation, multi-band NIRCam (and MIRI/ALMA) host characterisation, and multi-epoch revisits. Confirming and characterising about 100 pairs requires of order 1000 hr, well beyond the ceiling of standard TAC programs, and demands multi-cycle continuity. The census will deliver pair fractions as functions of redshift, separation and luminosity, BH",
+   "first_seen": "2026-11-18",
+   "status": "todo"
+  },
+  {
+   "arxiv": "2611.22316",
+   "title": "Lord/Egg of the LRDs: One geometry for its many faces",
+   "authors": [
+    "Piero Madau",
+    "Roberto Maiolino",
+    "Xihan Ji",
+    "Xiaojing Lin",
+    "Xiaohui Fan"
+   ],
+   "published": "2026-11-17",
+   "primary": "astro-ph.GA",
+   "journal_ref": null,
+   "sample_hint": false,
+   "abstract": "Little red dots (LRDs) combine V-shaped ultraviolet-optical continua, broad Balmer emission, and weak X-rays. The nearby analog SDSS J102530.29+140207.3, known as Lord/Egg, offers detailed spectroscopy and polarimetry. We test one active galactic nucleus (AGN) geometry by fitting its ultraviolet-to-infrared continuum with an inclination-dependent accretion-disk spectral energy distribution (SED), young stars, and a clumpy dusty screen. The same SED is used in Cloudy calculations of a radially stratified, virialized broad-line region (BLR). The fit favors log10(M_BH/M_sun) about 7.4, highly super-Eddington accretion, inclination above 70 degrees, and line-of-sight cloud extinction of about 3 mag. It also predicts a 2 keV luminosity below the Chandra limit. A BLR whose density rises from 10^9 to 10^11 cm^-3 near the sublimation radius reproduces the broad H-alpha profile without a separate intermediate-width Gaussian. For cloud columns near 10^23 cm^-2, it also matches the different Balmer-line widths, exponential-like wings, and Balmer decrement without electron scattering. The redshifted H-beta-H-delta absorber lacks an H-alpha counterpart, requiring velocity-coherent H-alpha re-emission into the absorption trough. Cool outer clumps explain K I and saturated Na I absorption, while the geometry recovers the continuum and H-alpha polarization and their position-angle offset. Ca II triplet absorption requires localized, non-radiatively heated, warm dust-poor zones near the subli",
+   "first_seen": "2026-11-18",
+   "status": "todo"
+  },
+  {
+   "arxiv": "2611.21838",
+   "title": "Super-Eddington Accretion onto Compact Objects: Theory Meets Observation",
+   "authors": [
+    "Yan-Fei Jiang",
+    "Jenny E. Greene"
+   ],
+   "published": "2026-11-16",
+   "primary": "astro-ph.HE",
+   "journal_ref": null,
+   "sample_hint": false,
+   "abstract": "We review candidate super-Eddington populations together with semi-analytic models and radiation magnetohydrodynamic simulations, with the following conclusions: $\\bullet$ Likely super-Eddington sources over a range of black hole mass show similar properties, including outflow on a range of scales, hard X-ray weakness, decreased emission from jets, and suppressed optical/UV variability. $\\bullet$ Theoretical treatment of super-Eddington accretion predicts similar behavior across a range of methods and initial conditions, although interesting differences remain, particularly in the importance of magnetic fields. Numerical simulations produce a puffed-up inner disk with a funnel that grows narrower at higher mass accretion rate. Radiative efficiency declines with accretion rate in thermal-pressure--supported disks. $\\bullet$ Ubiquitous outflow is likely an important ingredient in galaxy feedback at high Eddington ratios, as wind mechanical power increases with accretion rate and can rival jet power. Wind kinetic power depends far less on uncertain black hole spin and magnetic fields. $\\bullet$ Observational classes of objects can be sorted in a two-dimensional parameter space of Eddington ratio and orientation. Observations down the funnel observe rapid X-ray variability, while observations through the wind will see suppressed X-ray emission. At the highest Eddington ratios, we envision a regime where the photosphere extends to $r > 10^6 \\, r_g$, and the observer sees only ther",
+   "first_seen": "2026-11-18",
+   "status": "todo"
+  },
   {
    "arxiv": "2611.18153",
    "title": "Constraining Accretion Regimes of Little Red Dots from Their Variability",
