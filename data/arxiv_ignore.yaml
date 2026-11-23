@@ -1,3 +1,4 @@
 # arXiv IDs that mention little red dots but have no object table to add.
 # The monitor marks them "Ignored" instead of "To review".
 # Format:  "2610.12577": "theory, no objects"
+"2611.22487": "JWST program white paper (dual AGN), no object table"
