@@ -1,0 +1,26 @@
+key: wang2026
+first_author: Wang
+authors: "Wang, H."
+year: 2026
+title: "A Tight Broad-line Width-Luminosity Relation in Little Red Dots and Its Consequence for Virial Black Hole Masses"
+arxiv: "2611.24217"
+selection: spectroscopic
+sample_is_lrd: false
+tags: [nirspec]
+fields: [EGS, UDS]
+n_objects: 44
+source_url: "https://arxiv.org/e-print/2611.24217"
+source_note: >-
+  Table 1 ("The sample", tab:sample), full 44-row version tables/Table1_full.csv in the arXiv v1
+  LaTeX source (the printed table shows 5 rows; ingest.py checks those 5 against the CSV and the
+  29 LRD + 15 other counts against the paper's numbers.tex). lrd from the "cls" column (LRD -> 1,
+  other -> 0; classifications taken by the paper from Taylor+25, Kocevski+26, Hviding+25, Sect. 2.3).
+  broad_line=1 for all (every source passes the broad-Halpha quality cuts, S/N >= 5 and
+  Delta BIC >= 6, Sect. 2.3); spec=NIRSpec/grating (DJA G235M/G395M/G395H spectra, Sect. 2.1);
+  z_type=spec (redshifts of the NIRSpec grating spectra in which Halpha is fitted). field from position
+  (all sources in EGS or UDS, Sect. 2.3). Converted with ingest.py.
+notes: >-
+  Sample of 29 LRDs and 15 other JWST broad-line sources with uniformly refitted broad Halpha widths
+  from public DJA grating spectra. The paper's GitHub archive
+  (github.com/NianSi-AI/lrd-width-luminosity) could not be reached during ingestion. CEERS-746 and
+  Skyfire-299 are listed separately at the same redshift (the paper treats them as distinct).
