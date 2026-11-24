@@ -1,8 +1,51 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "query": "(ti:\"little red dot\" OR ti:\"little red dots\" OR abs:\"little red dot\" OR abs:\"little red dots\" OR abs:LRDs) AND (cat:astro-ph.GA OR cat:astro-ph.CO OR cat:astro-ph.HE OR cat:astro-ph.SR)",
  "ads": true,
  "papers": [
+  {
+   "arxiv": "2611.29615",
+   "title": "Velocity-Window Dependence of the Broad H$α$ Width-Luminosity Relation in Little Red Dots",
+   "authors": [
+    "Haoyu Wang"
+   ],
+   "published": "2026-11-22",
+   "primary": "astro-ph.GA",
+   "journal_ref": null,
+   "sample_hint": true,
+   "abstract": "Broad Balmer emission lines probe black hole masses and nuclear kinematics in high-redshift active galactic nuclei (AGNs). In JWST \"little red dots\" (LRDs), integrated broad-H$α$ widths span a remarkably narrow range at fixed line luminosity, raising the question of whether this tightness persists once outer-wing emission is included. Holding each object and its broad-H$α$ luminosity fixed, we measure the finite-window line dispersion $σ(V)$, the flux-weighted second-moment width within $\\pm V$, from $V = 1500$ to $4500~\\mathrm{km\\,s^{-1}}$ in JWST/NIRSpec spectra and Sloan Digital Sky Survey (SDSS) Type-1 AGNs. Across 20 high signal-to-noise LRDs, the observed scatter in $\\log_{10}σ(V)$ at fixed $L_{\\mathrm{H}α}$ rises from 0.036 to 0.084 dex between $V = 2500$ and $4500~\\mathrm{km\\,s^{-1}}$, a paired increase of 0.048 dex with a 95% bootstrap interval of 0.026-0.064 dex, compared with 0.020 dex across 167 broader SDSS AGNs. Injecting synthetic profiles into the empirical noise of the same 20 spectra shows that single-Gaussian and core-plus-wing models both accommodate this rise, leaving intrinsic wing diversity, truncation, and wing noise unseparated. In the clearest dual-line spectrum, RUBIES-EGS-55604, H$β$ strengthens relative to H$α$ from line center to wing under two spectral decompositions of the same grating spectrum. Alongside integrated widths in JWST, SDSS, and 334 Euclid DR1 AGNs, these results show that the observed tightness of the H$α$ scaling depends on the v",
+   "first_seen": "2026-11-24",
+   "status": "todo"
+  },
+  {
+   "arxiv": "2611.28209",
+   "title": "Quasi-hostless LRDs with intrinsically red, faint UV continua",
+   "authors": [
+    "Callum Witten",
+    "Andrea Weibel",
+    "Pascal A. Oesch",
+    "Rohan P. Naidu",
+    "Jorryt Matthee",
+    "Alba Covelo-Paz",
+    "Romain A. Meyer",
+    "Albert Sneppen",
+    "Parker Fairfield",
+    "Anna de Graaff",
+    "Christina C. Williams",
+    "Zhiyuan Ji",
+    "Pratika Dayal",
+    "Yoshinobu Fudamoto",
+    "Garth Illingworth",
+    "Cristian Carvajal-Bohorquez"
+   ],
+   "published": "2026-11-20",
+   "primary": "astro-ph.GA",
+   "journal_ref": null,
+   "sample_hint": true,
+   "abstract": "High-redshift objects characterised by very weak UV relative to their strong, red rest-optical continua, with broad Balmer lines, appear to represent little red dots (LRDs) in their purest form: sources dominated by emission from their central engine (CE), sometimes dubbed black hole stars (BH*s). Previous work has selected BH*-dominated objects, where a BH* template dominates the rest-optical emission; this remains agnostic to the rest-UV. We therefore select low FUV-to-optical continuum ratio ($L_{\\rm 1500}/L_{5100}<0.03$) objects resembling MoM-BH* and The Cliff, from a spectroscopic sample of 132 LRDs at $2\\lesssim z\\lesssim9$. This identifies three LRDs that we newly classify as BH*-like objects, more than doubling the existing sample: two at $z>6$ and one at $z\\sim3$. The UV slope reddens as the NUV- ($L_{\\rm 3500}$) and FUV-to-optical ratios fall, with $β_{\\rm UV}$ rising from $-1.8$ at $L_{\\rm 1500}/L_{5100}\\sim 0.5$ to $-0.5$ at $L_{\\rm 1500}/L_{5100}<0.03$, beyond values typically seen at these redshifts. As the UV-to-optical ratio weakens, gas-enshrouded BH emission appears to dominate, leading to the quasi-hostless regime: a weak, red UV continuum emerges alongside extreme Balmer decrements and weak forbidden line emission. This reddening could be reproduced by a simple model of a blackbody and hydrogen nebular emission leaking through a high column density screen of neutral hydrogen in the $n=2$ level ($N_{\\rm H,\\,n=2}\\approx10^{17}\\,{\\rm cm^{-2}}$), combined wit",
+   "first_seen": "2026-11-24",
+   "status": "todo"
+  },
   {
    "arxiv": "2611.27856",
    "title": "Hotter than Little Red Dots: Two Quasars with $T\\sim10^4\\,\\mathrm{K}$ blackbody-like continua at $z\\sim4$",
